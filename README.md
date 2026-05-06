@@ -1,75 +1,136 @@
 <p align="center">
-  <img src="aetherfleet-logo.svg" width="160" />
+  <img src="assets/profile-banner.png" width="100%" alt="webkubor local-first AI tools banner" />
 </p>
 
-<h1 align="center">AetherFleet 指挥中心</h1>
+<h1 align="center">webkubor</h1>
 
 <p align="center">
-  <b>捕获 AI 美学精髓，构建本地优先的 Agent 基础设施。</b>
+  <b>我在做本地优先的 AI 工具、创意生成工作流，以及能被 agent 复用的技能资产。</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/职级-星舰长-EAB308?style=flat-square&logo=spacex&logoColor=white" />
-  <img src="https://img.shields.io/badge/系统-CortexOS_已启用-EAB308?style=flat-square" />
-  <img src="https://img.shields.io/badge/状态-在线-2ECC71?style=flat-square" />
+  <a href="https://webkubor.online">
+    <img src="https://img.shields.io/badge/Website-webkubor.online-EAB308?style=flat-square" alt="Website" />
+  </a>
+  <a href="mailto:hi@webkubor.online">
+    <img src="https://img.shields.io/badge/Email-hi%40webkubor.online-111827?style=flat-square" alt="Email" />
+  </a>
+  <img src="https://img.shields.io/badge/Focus-Local--first_AI-2563EB?style=flat-square" alt="Local-first AI" />
+  <img src="https://img.shields.io/badge/Build-Agent_Skills-16A34A?style=flat-square" alt="Agent Skills" />
 </p>
 
 ---
 
-### 🛰️ 核心舱位 (基础设施)
-<!-- 由 UI 设计师与视觉叙事者协作完成 -->
+## 现在的主线
+
+我更关心可以进入真实工作流的 AI 工具，而不是一次性的 demo。
+
+- **创意 AI 工具**：图像生成、视觉工作流、桌面创作应用。
+- **本地 AI 工作站**：语音合成、语音转文字、写作和素材处理工具。
+- **Agent 技能资产**：把踩过的坑沉淀成 Codex、CLI 和 agent 可以复用的 skill。
+
+---
+
+## 精选公开项目
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 Alpha 模块: CortexOS</h4>
-      <p><i>AI Agent 的记忆与控制平面。</i></p>
-      <p>建立大语言模型与本地上下文之间的突触连接。</p>
-      <code>TypeScript</code> <code>Agentic Memory</code> <code>MCP</code>
+      <h3><a href="https://github.com/webkubor/dreamfit">DreamFit</a></h3>
+      <p>AI 视觉创作桌面工作站，覆盖试穿、换脸、产品摄影、空间焕新和多图融合等创作场景。</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Tauri</code> <code>Gemini</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4>🎨 Beta 模块: Prompt Lab</h4>
-      <p><i>创意 AI 视觉工作流库。</i></p>
-      <p>在大规模环境下编排 Midjourney 与 Stable Diffusion。</p>
-      <code>Creative-AI</code> <code>Workflow</code> <code>Visuals</code>
+      <h3><a href="https://github.com/webkubor/image-agent-plus">image-agent-plus</a></h3>
+      <p>面向 Codex / Gemini CLI 的图片生成增强工具，把短句扩展、生成配置和 agent skill 封装成可复用命令。</p>
+      <p><code>TypeScript</code> <code>CLI</code> <code>Codex</code> <code>Gemini</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🌸 Gamma 模块: Typora Bloom</h4>
-      <p><i>极简主义写作美学。</i></p>
-      <p>消除噪音，专为深度专注的长篇写作而设计。</p>
-      <code>CSS</code> <code>Aesthetics</code> <code>Writing</code>
+      <h3><a href="https://github.com/webkubor/prompt-lab">Prompt Lab</a></h3>
+      <p>AI 视觉设计工作流知识库，按真实场景组织 Midjourney、Nano Banana、Stable Diffusion 的创作方法。</p>
+      <p><code>Creative AI</code> <code>Visual Workflow</code> <code>Knowledge Base</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4>🍌 Delta 模块: Nano Banana+</h4>
-      <p><i>Gemini CLI 的创意增强工具。</i></p>
-      <p>为命令行注入趣味性与更强大的处理能力。</p>
-      <code>Go</code> <code>CLI</code> <code>Gemini</code>
+      <h3><a href="https://github.com/webkubor/skills">skills</a></h3>
+      <p>面向 AI agent 的技能库，把开发规范、图像生成、前后端、测试和内容生产流程沉淀成可执行知识。</p>
+      <p><code>Python</code> <code>Agent Skills</code> <code>Knowledge System</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/snowvoice-studio">SnowVoice Studio</a></h3>
+      <p>本地中文 TTS 工作站，面向人类创作者和 agent 调用，支持命令行优先的语音生成流程。</p>
+      <p><code>Python</code> <code>TTS</code> <code>Local AI</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/snow-asr">snow-asr</a></h3>
+      <p>本地多模型语音转文字工作台，支持 Qwen3-ASR 与 Whisper 的安装、切换和转写流程。</p>
+      <p><code>ASR</code> <code>Whisper</code> <code>Qwen</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/typora-Bloom-theme">Typora Bloom Theme</a></h3>
+      <p>为长文写作和专注阅读设计的 Typora 主题，强调安静、克制和可长期使用的排版体验。</p>
+      <p><code>CSS</code> <code>Markdown</code> <code>Writing</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/codex-custom-pets">codex-custom-pets</a></h3>
+      <p>Codex Desktop 自定义宠物 skill 与示例资产，把 spritesheet 规格、校验和安装流程沉淀成可复用仓库。</p>
+      <p><code>Codex</code> <code>Spritesheet</code> <code>Agent UX</code></p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📡 系统遥测 (性能监控)
-<!-- 采用 Aureate Gold (金金色) 统一定制 -->
+## 项目卡片
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=webkubor&show_icons=true&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=EAB308&hide_border=false" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=webkubor&layout=compact&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=EAB308&hide_border=false" height="180" />
+  <a href="https://github.com/webkubor/image-agent-plus">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=image-agent-plus&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="image-agent-plus" />
+  </a>
+  <a href="https://github.com/webkubor/dreamfit">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=dreamfit&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="dreamfit" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/webkubor/prompt-lab">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=prompt-lab&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="prompt-lab" />
+  </a>
+  <a href="https://github.com/webkubor/typora-Bloom-theme">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=typora-Bloom-theme&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="typora-Bloom-theme" />
+  </a>
 </p>
 
 ---
 
-### 🛸 通讯上行
+## 最近的小实验
+
 <p align="center">
-  <a href="https://webkubor.online">
-    <img src="https://img.shields.io/badge/官方网站-webkubor.online-EAB308?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="mailto:hi@webkubor.online">
-    <img src="https://img.shields.io/badge/通讯信号-直接邮件-EAB308?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="https://github.com/webkubor/codex-custom-pets">
+    <img src="https://raw.githubusercontent.com/webkubor/codex-custom-pets/main/pets/golden-kitten/spritesheet.png" width="520" alt="Golden Kitten Codex custom pet spritesheet" />
   </a>
 </p>
 
 <p align="center">
-  <sub><i>"在噪音的世界中，构建清晰的秩序。" —— AetherFleet 协议 v1.4.2</i></sub>
+  <b>Golden Kitten</b>：一个可直接安装到 Codex Desktop 的自定义宠物，ID 是 <code>custom:golden-kitten</code>。
+</p>
+
+---
+
+## GitHub 统计
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=webkubor&show_icons=true&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937&hide_border=false" height="170" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=webkubor&layout=compact&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937&hide_border=false" height="170" alt="Top languages" />
+</p>
+
+---
+
+<p align="center">
+  <sub>把一次性的经验，变成下一次可复用的工具。</sub>
 </p>
