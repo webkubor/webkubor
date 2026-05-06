@@ -86,47 +86,10 @@
 
 ---
 
-## 项目卡片
-
-<p align="center">
-  <a href="https://github.com/webkubor/image-agent-plus">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=image-agent-plus&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="image-agent-plus" />
-  </a>
-  <a href="https://github.com/webkubor/dreamfit">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=dreamfit&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="dreamfit" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/webkubor/prompt-lab">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=prompt-lab&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="prompt-lab" />
-  </a>
-  <a href="https://github.com/webkubor/typora-Bloom-theme">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=webkubor&repo=typora-Bloom-theme&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937" alt="typora-Bloom-theme" />
-  </a>
-</p>
-
----
-
-## 最近的小实验
-
-<p align="center">
-  <a href="https://github.com/webkubor/codex-custom-pets">
-    <img src="https://raw.githubusercontent.com/webkubor/codex-custom-pets/main/pets/golden-kitten/spritesheet.png" width="520" alt="Golden Kitten Codex custom pet spritesheet" />
-  </a>
-</p>
-
-<p align="center">
-  <b>Golden Kitten</b>：一个可直接安装到 Codex Desktop 的自定义宠物，ID 是 <code>custom:golden-kitten</code>。
-</p>
-
----
-
 ## GitHub 统计
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=webkubor&show_icons=true&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937&hide_border=false" height="170" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=webkubor&layout=compact&theme=vue-dark&bg_color=0D1117&title_color=EAB308&icon_color=EAB308&text_color=FFFFFF&border_color=1F2937&hide_border=false" height="170" alt="Top languages" />
+  <img src="assets/github-stats.svg" width="100%" alt="GitHub public repository stats" />
 </p>
 
 ---
