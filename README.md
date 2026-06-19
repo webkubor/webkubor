@@ -65,9 +65,9 @@
       <p><code>Python</code> <code>TTS</code> <code>Local AI</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/snowvoice-tts">SnowVoice TTS</a></h3>
-      <p>OpenClaw TTS 技能，基于 Qwen3-TTS / SnowVoice Studio，让 AI Agent 开口说话。</p>
-      <p><code>TTS</code> <code>OpenClaw</code> <code>Qwen3</code></p>
+      <h3><a href="https://github.com/webkubor/omni-chatbot-sdk">Omni Chatbot SDK</a></h3>
+      <p>前端 AI 聊天 SDK，支持 React / Vue 融合自定义 LLM 后端，快速交付有品牌感的对话界面。</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Vue</code> <code>LLM</code></p>
     </td>
   </tr>
   <tr>
