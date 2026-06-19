@@ -65,9 +65,9 @@
       <p><code>Python</code> <code>TTS</code> <code>Local AI</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/browser-agent-lab">Browser Agent Lab</a></h3>
-      <p>下一代浏览器 Agent 实验室，WXT 驱动的高性能浏览器扩展框架，桥接 LLM 与真实 Web 工作流。</p>
-      <p><code>Browser Extension</code> <code>WXT</code> <code>LLM</code></p>
+      <h3><a href="https://github.com/webkubor/snowvoice-tts">SnowVoice TTS</a></h3>
+      <p>OpenClaw TTS 技能，基于 Qwen3-TTS / SnowVoice Studio，让 AI Agent 开口说话。</p>
+      <p><code>TTS</code> <code>OpenClaw</code> <code>Qwen3</code></p>
     </td>
   </tr>
   <tr>
