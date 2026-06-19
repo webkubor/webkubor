@@ -41,9 +41,9 @@
       <p><code>TypeScript</code> <code>React</code> <code>Tauri</code> <code>Gemini</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/image-agent-plus">image-agent-plus</a></h3>
-      <p>面向 Codex / Gemini CLI 的图片生成增强工具，把短句扩展、生成配置和 agent skill 封装成可复用命令。</p>
-      <p><code>TypeScript</code> <code>CLI</code> <code>Codex</code> <code>Gemini</code></p>
+      <h3><a href="https://github.com/webkubor/agent-secret-skills">agent-secret-skills</a></h3>
+      <p>让任何 AI Agent 安全读取加密密钥，AES-256-GCM 云端同步，告别 .env 泄露。</p>
+      <p><code>Security</code> <code>Agent Skills</code> <code>AES-256-GCM</code></p>
     </td>
   </tr>
   <tr>
@@ -53,9 +53,9 @@
       <p><code>Creative AI</code> <code>Visual Workflow</code> <code>Knowledge Base</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/skills">skills</a></h3>
-      <p>面向 AI agent 的技能库，把开发规范、图像生成、前后端、测试和内容生产流程沉淀成可执行知识。</p>
-      <p><code>Python</code> <code>Agent Skills</code> <code>Knowledge System</code></p>
+      <h3><a href="https://github.com/webkubor/smart-router-skills">smart-router-skills</a></h3>
+      <p>让任何 AI Agent 自动省钱 — 简单任务走免费模型，月省 70%+ Token 成本。</p>
+      <p><code>AI Routing</code> <code>Cost Saving</code> <code>OpenRouter</code></p>
     </td>
   </tr>
   <tr>
@@ -65,9 +65,9 @@
       <p><code>Python</code> <code>TTS</code> <code>Local AI</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/snow-asr">snow-asr</a></h3>
-      <p>本地多模型语音转文字工作台，支持 Qwen3-ASR 与 Whisper 的安装、切换和转写流程。</p>
-      <p><code>ASR</code> <code>Whisper</code> <code>Qwen</code></p>
+      <h3><a href="https://github.com/webkubor/browser-agent-lab">Browser Agent Lab</a></h3>
+      <p>下一代浏览器 Agent 实验室，WXT 驱动的高性能浏览器扩展框架，桥接 LLM 与真实 Web 工作流。</p>
+      <p><code>Browser Extension</code> <code>WXT</code> <code>LLM</code></p>
     </td>
   </tr>
   <tr>
@@ -77,9 +77,9 @@
       <p><code>CSS</code> <code>Markdown</code> <code>Writing</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/codex-custom-pets">codex-custom-pets</a></h3>
-      <p>Codex Desktop 自定义宠物 skill 与示例资产，把 spritesheet 规格、校验和安装流程沉淀成可复用仓库。</p>
-      <p><code>Codex</code> <code>Spritesheet</code> <code>Agent UX</code></p>
+      <h3><a href="https://github.com/webkubor/vite-plugin-agent-eyes">vite-plugin-agent-eyes</a></h3>
+      <p>给 AI agent 一双能看见运行时的眼睛 — Vite 自愈遥测插件，API/错误/代理 header 结构化日志。</p>
+      <p><code>Vite</code> <code>Telemetry</code> <code>DevTools</code></p>
     </td>
   </tr>
 </table>
