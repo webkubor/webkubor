@@ -36,21 +36,9 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/dreamfit">DreamFit</a></h3>
-      <p>AI 视觉创作桌面工作站，覆盖试穿、换脸、产品摄影、空间焕新和多图融合等创作场景。</p>
-      <p><code>TypeScript</code> <code>React</code> <code>Tauri</code> <code>Gemini</code></p>
-    </td>
-    <td width="50%" valign="top">
       <h3><a href="https://github.com/webkubor/agent-secret-skills">agent-secret-skills</a></h3>
       <p>让任何 AI Agent 安全读取加密密钥，AES-256-GCM 云端同步，告别 .env 泄露。</p>
       <p><code>Security</code> <code>Agent Skills</code> <code>AES-256-GCM</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/prompt-lab">Prompt Lab</a></h3>
-      <p>AI 视觉设计工作流知识库，按真实场景组织 Midjourney、Nano Banana、Stable Diffusion 的创作方法。</p>
-      <p><code>Creative AI</code> <code>Visual Workflow</code> <code>Knowledge Base</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/webkubor/smart-router-skills">smart-router-skills</a></h3>
