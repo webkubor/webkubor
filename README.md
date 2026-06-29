@@ -36,7 +36,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/agent-secret-skills">agent-secret-skills</a></h3>
+      <h3><a href="https://github.com/webkubor/keyring">keyring</a></h3>
       <p>让任何 AI Agent 安全读取加密密钥，AES-256-GCM 云端同步，告别 .env 泄露。</p>
       <p><code>Security</code> <code>Agent Skills</code> <code>AES-256-GCM</code></p>
     </td>
