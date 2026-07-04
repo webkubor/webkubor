@@ -51,8 +51,8 @@ I care about AI tools that fit into real workflows, not one-off demos.
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/snowvoice-studio">SnowVoice Studio</a> &nbsp;⭐3</h3>
-      <p>Open-source Chinese TTS workstation for humans, AI, and agents. CLI first, WebUI on the roadmap.</p>
+      <h3><a href="https://github.com/webkubor/voice-editor">声音编辑器</a> &nbsp;⭐3</h3>
+      <p>本地中文 TTS 工作台，面向人类、AI 与 agent。基于 Qwen3-TTS，支持声音克隆与多角色对话。</p>
       <p><code>Python</code> <code>TTS</code> <code>Local AI</code></p>
     </td>
     <td width="50%" valign="top">
