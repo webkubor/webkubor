@@ -23,6 +23,17 @@
   <img src="https://img.shields.io/badge/Build-Agent_Skills-16A34A?style=flat-square" alt="Agent Skills" />
 </p>
 
+<p align="center">
+  <a href="https://x.com/doctorDacker"><img src="https://img.shields.io/badge/X-@doctorDacker-000?style=flat-square&logo=x" alt="X" /></a>
+  <a href="https://weibo.com/u/5452906452"><img src="https://img.shields.io/badge/微博-@webkubor-E6162D?style=flat-square&logo=sinaweibo" alt="微博" /></a>
+  <a href="https://juejin.cn/user/2119514149631870"><img src="https://img.shields.io/badge/掘金-@webkubor-1E80FF?style=flat-square&logo=juejin" alt="掘金" /></a>
+  <a href="https://music.163.com/#/user/home?id=116974627"><img src="https://img.shields.io/badge/网易云-月栖洲-E60026?style=flat-square&logo=neteasecloudmusic" alt="网易云" /></a>
+  <a href="https://www.xiaohongshu.com/user/profile/webkubor"><img src="https://img.shields.io/badge/小红书-@webkubor-FF2442?style=flat-square" alt="小红书" /></a>
+  <a href="https://github.com/webkubor"><img src="https://img.shields.io/badge/GitHub-webkubor-181717?style=flat-square&logo=github" alt="GitHub" /></a>
+</p>
+
+> 公众号「苏梦城」/ 视频号「山鬼映画」— 微信内搜索关注。
+
 ---
 
 ## What I'm building / 我在造什么
