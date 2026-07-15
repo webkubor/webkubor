@@ -5,7 +5,8 @@
 <h1 align="center">webkubor</h1>
 
 <p align="center">
-  <b>Building local-first AI tools, creative workflows, and agent-reusable skills.</b>
+  <b>Building local-first AI tools, creative workflows, and agent-reusable skills.</b><br/>
+  <sub>造本地优先的 AI 工具、创作流程和可复用的 Agent 技能。</sub>
 </p>
 
 <p align="center">
@@ -24,61 +25,74 @@
 
 ---
 
-## What I'm building
+## What I'm building / 我在造什么
 
 AI tools that fit into real workflows, not one-off demos.
 
+做能用的 AI 工具，不做一次性 demo。
+
 - **Agent skills** — reusable building blocks that make AI agents safer, cheaper, and more capable.
+  - 可复用的 Agent 技能，让 AI 更安全、更省钱、更强大。
 - **Local AI workstations** — TTS, creative tools that run on your machine, not someone else's cloud.
+  - 本地 AI 工作站，TTS 和创作工具跑在你自己的电脑上。
 - **Developer aesthetics** — themes and writing tools for people who stare at screens all day.
+  - 给天天盯屏幕的人做的主题和写作工具。
 
 ---
 
-## Agent Skills
+## Agent Skills / Agent 技能
 
 The tools that power AI agents in production.
+
+生产级 AI Agent 的核心工具。
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/keyring">🔐 Keyring</a> &nbsp;⭐2</h3>
+      <h3><a href="https://github.com/webkubor/keyring">🔐 Keyring — 密钥管理</a> &nbsp;⭐2</h3>
       <p>Store secrets once, agents never see plaintext. AES-256-GCM cloud encryption, one-line decrypt.</p>
-      <p><code>Python</code> <code>Security</code> <code>AES-256-GCM</code> <code>Agent Skills</code></p>
+      <p><sub>存一次密钥，Agent 永远看不到明文。AES-256-GCM 云端加密，一行命令解密。</sub></p>
+      <p><code>Python</code> <code>Security</code> <code>AES-256-GCM</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes</a> &nbsp;⭐2</h3>
+      <h3><a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes — 前端监控</a> &nbsp;⭐2</h3>
       <p>Give AI agents runtime visibility — self-healing telemetry for Vite. API errors, proxy headers, cookie auto-fix.</p>
-      <p><code>TypeScript</code> <code>Vite</code> <code>Telemetry</code> <code>npm</code></p>
+      <p><sub>给 AI Agent 一双能看见运行时的眼睛。Vite 自愈遥测，API 报错自动诊断修复。</sub></p>
+      <p><code>TypeScript</code> <code>Vite</code> <code>Telemetry</code></p>
     </td>
   </tr>
 </table>
 
 ---
 
-## Core Products
+## Core Products / 核心产品
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Typora Bloom Theme</a> &nbsp;⭐85</h3>
       <p>A calm Typora theme for long-form writing, focused reading, and aesthetic markdown publishing.</p>
+      <p><sub>一个安静的 Typora 主题，为长文写作、沉浸阅读和美观排版而生。</sub></p>
       <p><code>CSS</code> <code>Markdown</code> <code>Writing</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/voice-editor">🎤 声音编辑器</a> &nbsp;⭐3</h3>
+      <h3><a href="https://github.com/webkubor/voice-editor">🎤 声音编辑器 — Voice Editor</a> &nbsp;⭐3</h3>
       <p>Local Chinese TTS workstation. Qwen3-TTS powered, supports voice cloning and multi-character dialogue.</p>
+      <p><sub>本地中文 TTS 工作台。基于 Qwen3-TTS，支持声音克隆和多角色对话。</sub></p>
       <p><code>Python</code> <code>TTS</code> <code>Local AI</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/cinematic-storyboard-pro">🎬 沸腾之雪</a> &nbsp;⭐1</h3>
+      <h3><a href="https://github.com/webkubor/cinematic-storyboard-pro">🎬 沸腾之雪 — Boiling Snow</a> &nbsp;⭐1</h3>
       <p>Cinematic AI video production system. Physics-based wuxia action with film-grade realism.</p>
+      <p><sub>电影级 AI 武侠视频制作系统。物理级动作风格，暴雨暴雪为境。</sub></p>
       <p><code>Python</code> <code>AI Video</code> <code>Wuxia</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/webkubor/wechat-chat-gen">💬 微信聊天截图生成器</a></h3>
       <p>High-fidelity WeChat chat screenshot generator for social media content.</p>
+      <p><sub>高仿真微信聊天截图，做社交媒体内容用。</sub></p>
       <p><code>Vue</code> <code>Screenshot</code> <code>Social Media</code></p>
     </td>
   </tr>
@@ -86,18 +100,20 @@ The tools that power AI agents in production.
 
 ---
 
-## For Beginners
+## For Beginners / 小白入门
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/xiaobai-kanban">🧭 小白看板</a> &nbsp;⭐1</h3>
+      <h3><a href="https://github.com/webkubor/xiaobai-kanban">🧭 小白看板 — 让 Agent 帮你写代码</a> &nbsp;⭐1</h3>
       <p>AI Agent driven beginner dev guide — you just talk, the agent handles GitLab/GitHub. Zero code required.</p>
+      <p><sub>你只说话，Agent 搞定 GitLab/GitHub。不需要懂代码。</sub></p>
       <p><code>Tutorial</code> <code>Agent</code> <code>Education</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://bloom.webkubor.online">🌸 Bloom Theme Site</a></h3>
+      <h3><a href="https://bloom.webkubor.online">🌸 Bloom Theme Site — 主题官网</a></h3>
       <p>Live demo and documentation for Typora Bloom Theme.</p>
+      <p><sub>Typora Bloom Theme 的在线演示和文档。</sub></p>
       <p><code>Website</code> <code>Typora</code></p>
     </td>
   </tr>
@@ -105,16 +121,17 @@ The tools that power AI agents in production.
 
 ---
 
-## More
+## More / 更多
 
-| Project | What it does |
+| Project / 项目 | What it does / 做什么 |
 |---------|-------------|
-| [picx-images-hosting](https://github.com/webkubor/picx-images-hosting) | GitHub + Cloudflare R2 unified image hosting |
-| [html-preview](https://github.com/webkubor/html-preview) | UI showcase — personal design portfolio |
-| [theme.typora.io](https://theme.typora.io) | Website for Typora themes |
+| [picx-images-hosting](https://github.com/webkubor/picx-images-hosting) | GitHub + Cloudflare R2 统一图床 |
+| [html-preview](https://github.com/webkubor/html-preview) | UI 作品展示页 — 个人设计作品集 |
+| [theme.typora.io](https://theme.typora.io) | Typora 主题官网 |
 
 ---
 
 <p align="center">
-  <sub>Turn one-off experience into reusable tools. Build in public.</sub>
+  <sub>Turn one-off experience into reusable tools. Build in public.</sub><br/>
+  <sub>把一次性经验变成可复用的工具。公开构建。</sub>
 </p>
