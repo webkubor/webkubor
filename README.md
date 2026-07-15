@@ -32,7 +32,7 @@
   <a href="https://github.com/webkubor"><img src="https://img.shields.io/badge/GitHub-webkubor-181717?style=flat-square&logo=github" alt="GitHub" /></a>
 </p>
 
-> 公众号「苏梦城」/ 视频号「山鬼映画」— 微信内搜索关注。
+> 公众号「[苏梦城](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwNTU1NjE4Mg==)」/ 视频号「山鬼映画」— 微信内搜索关注。
 
 ---
 
