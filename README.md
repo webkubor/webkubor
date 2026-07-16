@@ -1,3 +1,5 @@
+![logo](https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/blog/projects/webkubor/cs-token4ai-1784193959448203000.png)
+
 <p align="center">
   <img src="assets/profile-banner.png" width="100%" alt="webkubor local-first AI tools banner" />
 </p>
