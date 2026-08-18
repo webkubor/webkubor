@@ -2,12 +2,61 @@
   <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/webkubor/profile-banner.png" width="100%" alt="webkubor — 把审美做成可验证的工程" />
 </p>
 
-<h1 align="center">webkubor</h1>
+## Bloom — 主题系列 / Theme Series
 
-<p align="center">
-  <b>把审美做成可验证的工程</b><br/>
-  <sub>Design-minded engineer — turning taste into systems you can test.</sub>
-</p>
+同一套莫兰迪设计语言，跨两个宿主。不是「换个颜色」，是一整套可验证的色彩系统。
+
+*One Morandi design language, two hosts. Not a recolor — a color system you can test.*
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/webkubor/typora-Bloom-theme">
+        <img src="https://cdn.jsdelivr.net/gh/webkubor/typora-Bloom-theme@main/website/assets/screenshots/petal.png" alt="Bloom for Typora" />
+      </a>
+      <p>
+        <a href="https://github.com/webkubor/typora-Bloom-theme"><b>Bloom for Typora</b></a>
+        &nbsp;<img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" />
+      </p>
+      <p><sub>24 套主题矩阵（12 浅 × 12 深），为长文写作与沉浸阅读打磨<br/>24 themes for long-form writing</sub></p>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/webkubor/dsh-bloom-theme">
+        <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/dsh-bloom-theme/ui-mist-dark.png" alt="Bloom for DSH" />
+      </a>
+      <p>
+        <a href="https://github.com/webkubor/dsh-bloom-theme"><b>Bloom for DSH</b></a>
+        &nbsp;<img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat-square&label=&color=5fa8b2" alt="stars" />
+      </p>
+      <p><sub>移植到 DeepSeek Harness，4 套配色 × 明暗，顶栏一键切换<br/>Ported to DeepSeek Harness: 4 palettes, light &amp; dark</sub></p>
+    </td>
+  </tr>
+</table>
+
+> **设计上的一个发现：** 每套配色其实有两轨色。`--accent` 是为过对比度刻意加深的版本，
+> 用于文字与按钮；真正的莫兰迪色在 `--accent-rgb`，只用于大面积氛围渐变。
+> 移植时只搬前者，藕粉会变成荧光洋红 —— 色相是对的，气质没了。
+>
+> 8 组「主色 + 底色」全部按 WCAG AA 反推校准，CI 里有回归测试，改坏直接红。
+> <sub>Taste, made testable.</sub>
+
+---
+
+<div align="center">
+
+**装上就能用 / Get it running**
+
+</div>
+
+```bash
+# Typora：下载主题包，丢进 Typora 主题文件夹
+# https://github.com/webkubor/typora-Bloom-theme/releases/latest
+
+# DSH：一条命令
+dsh plugin --profile web add @kubor/dsh-bloom-theme
+```
+
+---
 
 <p align="center">
   <a href="https://github.com/webkubor/typora-Bloom-theme"><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=Bloom%20for%20Typora&color=A873C4" alt="Bloom for Typora" /></a>
@@ -29,44 +78,6 @@
 > 公众号「[苏梦城](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwNTU1NjE4Mg==)」/ 视频号「山鬼映画」— 微信内搜索关注。
 
 ---
-
-## Bloom — 主题系列 / Theme Series
-
-同一套莫兰迪设计语言，跨两个宿主。不是「换个颜色」，是一整套可验证的色彩系统。
-
-*One Morandi design language, two hosts. Not a recolor — a color system you can test.*
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <a href="https://github.com/webkubor/typora-Bloom-theme">
-          <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=for-the-badge&label=%F0%9F%8C%B8%20Bloom%20for%20Typora&color=A873C4" alt="Bloom for Typora" />
-        </a>
-        <p>24 套主题矩阵（12 浅 × 12 深），为长文写作与沉浸阅读打磨。</p>
-        <p><sub>24 themes for long-form writing and focused reading.</sub></p>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://github.com/webkubor/dsh-bloom-theme">
-          <img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=for-the-badge&label=%F0%9F%8C%8A%20Bloom%20for%20DSH&color=5fa8b2" alt="Bloom for DSH" />
-        </a>
-        <p>移植到 DeepSeek Harness：4 套配色 × 明暗，顶栏一键切换。</p>
-        <p><sub>Ported to DeepSeek Harness: 4 palettes, light & dark.</sub></p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/dsh-bloom-theme/bloom-banner.png" width="100%" alt="Bloom" />
-</p>
-
-> **设计上的一个发现：** 每套配色其实有两轨色。`--accent` 是为过对比度刻意加深的版本，
-> 用于文字与按钮；真正的莫兰迪色在 `--accent-rgb`，只用于大面积氛围渐变。
-> 移植时只搬前者，藕粉会变成荧光洋红 —— 色相是对的，气质没了。
->
-> 8 组「主色 + 底色」全部按 WCAG AA 反推校准，CI 里有回归测试，改坏直接红。
-> <sub>Taste, made testable.</sub>
 
 ---
 
