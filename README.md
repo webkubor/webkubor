@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/webkubor/agent-skills"><img src="https://img.shields.io/badge/agent--skills-26%20production--tested-6366f1?style=flat-square" alt="agent-skills" /></a>
-  <a href="https://github.com/webkubor/agent-skills/actions"><img src="https://img.shields.io/badge/check-passing-10b981?style=flat-square" alt="check" /></a>
+  <a href="https://github.com/webkubor/vite-plugin-agent-eyes"><img src="https://img.shields.io/badge/Agent%20Eyes-runtime%20observability%20for%20coding%20agents-6366f1?style=flat-square" alt="Agent Eyes" /></a>
+  <a href="https://github.com/webkubor/vite-plugin-agent-eyes/actions"><img src="https://img.shields.io/badge/check-passing-10b981?style=flat-square" alt="check" /></a>
 </p>
 
 <p align="center">
@@ -43,20 +43,20 @@ AI tools that fit into real workflows, not one-off demos.
 
 ---
 
-## Agent Skills / Agent 技能
+## Agent Eyes / Agent 可观测性
 
-Production-tested, tool-agnostic skills that make AI agents safer, cheaper, and more capable.
+Runtime observability for coding agents — see API errors, cookie state, and proxy headers before they ship.
 
-生产验证、工具中立的 Agent 技能库 —— 让 AI 更安全、更省钱、更强大。
+让写代码的 Agent 看见运行时 —— API 报错、Cookie 状态、代理头，再动手改。
 
 <div align="center">
   <table>
     <tr>
       <td width="90%" align="center">
-        <h3><a href="https://github.com/webkubor/agent-skills">🧩 agent-skills — 核心主线</a></h3>
-        <p>26 个 production-tested skills，Claude Code / Codex / Gemini CLI / Cursor 通用。</p>
-        <p><sub>26 production-tested skills, tool-agnostic. Each one is a procedure an agent can execute and a human can audit.</sub></p>
-        <p><code>Agent Skills</code> <code>Claude Code</code> <code>Codex</code> <code>Gemini CLI</code> <code>Cursor</code> <code>MIT</code></p>
+        <h3><a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes — 核心主线</a></h3>
+        <p>给 coding agent 一双"看运行时"的眼睛：API/错误/交互/代理 header 结构化遥测 + 登录态画像 + 提交前风险门禁。</p>
+        <p><sub>Runtime telemetry, interaction traces, auth profile hints, and a pre-commit guard for Vite dev.</sub></p>
+        <p><code>Agent Eyes</code> <code>Vite</code> <code>TypeScript</code> <code>Observability</code> <code>MIT</code></p>
       </td>
     </tr>
   </table>
@@ -67,16 +67,16 @@ Production-tested, tool-agnostic skills that make AI agents safer, cheaper, and 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/keyring">🔐 Keyring — 密钥管理</a></h3>
+      <h3><a href="https://github.com/webkubor/kyvault">🔐 Keyring — 密钥管理</a></h3>
       <p>Store secrets once, agents never see plaintext. AES-256-GCM cloud encryption, one-line decrypt.</p>
       <p><sub>存一次密钥，Agent 永远看不到明文。AES-256-GCM 云端加密，一行命令解密。</sub></p>
       <p><code>Python</code> <code>Security</code> <code>AES-256-GCM</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes — 前端监控</a></h3>
-      <p>Give AI agents runtime visibility — self-healing telemetry for Vite. API errors, proxy headers, cookie auto-fix.</p>
-      <p><sub>给 AI Agent 一双能看见运行时的眼睛。Vite 自愈遥测，API 报错自动诊断修复。</sub></p>
-      <p><code>TypeScript</code> <code>Vite</code> <code>Telemetry</code></p>
+      <h3><a href="https://github.com/webkubor/project-maturity-audit">📋 Project Maturity Audit — 仓库体检</a></h3>
+      <p>A Claude Code skill that audits a repo the way a seasoned maintainer would: would a stranger star, install, or trust this?</p>
+      <p><sub>一个 Claude Code 技能：以资深维护者视角给仓库做体检 —— 陌生人会 Star / 安装 / 信任它吗？</sub></p>
+      <p><code>Claude Code</code> <code>Skill</code> <code>Audit</code></p>
     </td>
   </tr>
 </table>
