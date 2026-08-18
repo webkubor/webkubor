@@ -14,20 +14,14 @@
       <a href="https://github.com/webkubor/typora-Bloom-theme">
         <img src="https://cdn.jsdelivr.net/gh/webkubor/typora-Bloom-theme@main/website/assets/screenshots/petal.png" alt="Bloom for Typora" />
       </a>
-      <p>
-        <a href="https://github.com/webkubor/typora-Bloom-theme"><b>Bloom for Typora</b></a>
-        &nbsp;<img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" />
-      </p>
+      <p><a href="https://github.com/webkubor/typora-Bloom-theme"><b>Bloom for Typora</b></a> <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" /></p>
       <p><sub>24 套主题矩阵（12 浅 × 12 深），为长文写作与沉浸阅读打磨<br/>24 themes for long-form writing</sub></p>
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/webkubor/dsh-bloom-theme">
-        <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/dsh-bloom-theme/ui-mist-dark.png" alt="Bloom for DSH" />
+        <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/dsh-bloom-theme/ui-mist-dark-43.png" alt="Bloom for DSH" />
       </a>
-      <p>
-        <a href="https://github.com/webkubor/dsh-bloom-theme"><b>Bloom for DSH</b></a>
-        &nbsp;<img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat-square&label=&color=5fa8b2" alt="stars" />
-      </p>
+      <p><a href="https://github.com/webkubor/dsh-bloom-theme"><b>Bloom for DSH</b></a> <img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat-square&label=&color=5fa8b2" alt="stars" /></p>
       <p><sub>移植到 DeepSeek Harness，4 套配色 × 明暗，顶栏一键切换<br/>Ported to DeepSeek Harness: 4 palettes, light &amp; dark</sub></p>
     </td>
   </tr>
