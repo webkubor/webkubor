@@ -5,13 +5,15 @@
 <h1 align="center">webkubor</h1>
 
 <p align="center">
-  <b>Agent Engineer — 让 AI 干活，让过程可审计</b><br/>
-  <sub>Building production-grade AI agent skills & local-first tools.</sub>
+  <b>把审美做成可验证的工程</b><br/>
+  <sub>Design-minded engineer — turning taste into systems you can test.</sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/webkubor/vite-plugin-agent-eyes"><img src="https://img.shields.io/badge/Agent%20Eyes-runtime%20observability%20for%20coding%20agents-6366f1?style=flat-square" alt="Agent Eyes" /></a>
-  <a href="https://github.com/webkubor/vite-plugin-agent-eyes/actions"><img src="https://img.shields.io/badge/check-passing-10b981?style=flat-square" alt="check" /></a>
+  <a href="https://github.com/webkubor/typora-Bloom-theme"><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=Bloom%20for%20Typora&color=A873C4" alt="Bloom for Typora" /></a>
+  <a href="https://github.com/webkubor/dsh-bloom-theme"><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat-square&label=Bloom%20for%20DSH&color=5fa8b2" alt="Bloom for DSH" /></a>
+  <img src="https://img.shields.io/badge/OKLCH-color%20system-92a8b3?style=flat-square" alt="OKLCH" />
+  <img src="https://img.shields.io/badge/WCAG-AA%20verified-6a9955?style=flat-square" alt="WCAG AA" />
 </p>
 
 <p align="center">
@@ -25,6 +27,46 @@
 </p>
 
 > 公众号「[苏梦城](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwNTU1NjE4Mg==)」/ 视频号「山鬼映画」— 微信内搜索关注。
+
+---
+
+## Bloom — 主题系列 / Theme Series
+
+同一套莫兰迪设计语言，跨两个宿主。不是「换个颜色」，是一整套可验证的色彩系统。
+
+*One Morandi design language, two hosts. Not a recolor — a color system you can test.*
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/webkubor/typora-Bloom-theme">
+          <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=for-the-badge&label=%F0%9F%8C%B8%20Bloom%20for%20Typora&color=A873C4" alt="Bloom for Typora" />
+        </a>
+        <p>24 套主题矩阵（12 浅 × 12 深），为长文写作与沉浸阅读打磨。</p>
+        <p><sub>24 themes for long-form writing and focused reading.</sub></p>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/webkubor/dsh-bloom-theme">
+          <img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=for-the-badge&label=%F0%9F%8C%8A%20Bloom%20for%20DSH&color=5fa8b2" alt="Bloom for DSH" />
+        </a>
+        <p>移植到 DeepSeek Harness：4 套配色 × 明暗，顶栏一键切换。</p>
+        <p><sub>Ported to DeepSeek Harness: 4 palettes, light & dark.</sub></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/dsh-bloom-theme/bloom-banner.png" width="100%" alt="Bloom" />
+</p>
+
+> **设计上的一个发现：** 每套配色其实有两轨色。`--accent` 是为过对比度刻意加深的版本，
+> 用于文字与按钮；真正的莫兰迪色在 `--accent-rgb`，只用于大面积氛围渐变。
+> 移植时只搬前者，藕粉会变成荧光洋红 —— 色相是对的，气质没了。
+>
+> 8 组「主色 + 底色」全部按 WCAG AA 反推校准，CI 里有回归测试，改坏直接红。
+> <sub>Taste, made testable.</sub>
 
 ---
 
@@ -112,7 +154,7 @@ Local-first creative tools that run on your machine, not someone else's cloud.
       <p><code>TypeScript</code> <code>Playwright</code> <code>PDF</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Typora Bloom Theme</a> &nbsp;⭐87</h3>
+      <h3><a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Typora Bloom Theme</a></h3>
       <p>A calm Typora theme for long-form writing, focused reading, and aesthetic markdown publishing.</p>
       <p><sub>一个安静的 Typora 主题，为长文写作、沉浸阅读和美观排版而生。</sub></p>
       <p><code>CSS</code> <code>Markdown</code> <code>Writing</code></p>
