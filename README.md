@@ -7,23 +7,9 @@
   <sub>Design-minded engineer — turning taste into systems you can test.</sub>
 </p>
 
-<table>
-  <tr>
-    <td width="33%" align="center"><a href="https://github.com/webkubor/typora-Bloom-theme"><b>🌸 Bloom · Typora</b></a></td>
-    <td width="33%" align="center"><a href="https://github.com/webkubor/kyvault"><b>🔐 Kyvault</b></a></td>
-    <td width="33%" align="center"><a href="https://github.com/webkubor/voxflow"><b>🎙 VoxFlow 声流</b></a></td>
-  </tr>
-  <tr>
-    <td width="33%" align="center"><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" /></td>
-    <td width="33%" align="center"><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat-square&label=&color=5fa8b2" alt="stars" /></td>
-    <td width="33%" align="center"><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" alt="stars" /></td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top" align="center"><sub>24 套主题矩阵<br/>12 浅 × 12 深<br/>配色按 WCAG AA 校准</sub></td>
-    <td width="33%" valign="top" align="center"><sub>存一次密钥<br/>AI 永远看不到明文<br/>纯本地加密，别名注入</sub></td>
-    <td width="33%" valign="top" align="center"><sub>AI 声音到 AI 音乐<br/>一套流程自动上架<br/>本地优先，不上别人的云</sub></td>
-  </tr>
-</table>
+- **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" align="center" /> — 24 套主题矩阵，12 浅 × 12 深。每组配色按 WCAG AA 反推校准，CI 里有回归测试，改坏直接红
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat-square&label=&color=5fa8b2" align="center" /> — 存一次密钥，AI 永远看不到明文。AES-256-GCM 纯本地加密，Agent 只拿到别名注入
+- **[🎙 VoxFlow 声流](https://github.com/webkubor/voxflow)** <img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" align="center" /> — AI 声音到 AI 音乐，一套工作流做到自动上架。本地优先，跑在你自己的电脑上
 
 做能用的 AI 工具，不做一次性 demo。
 
