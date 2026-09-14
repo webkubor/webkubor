@@ -25,9 +25,9 @@
     <td align="center"><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" alt="stars" /></td>
   </tr>
   <tr>
-    <td valign="top" align="center"><sub>24 套主题矩阵，12 浅 × 12 深<br/>每组配色按 WCAG AA 反推校准<br/>CI 里有回归测试，改坏直接红</sub></td>
-    <td valign="top" align="center"><sub>存一次密钥，AI 永远看不到明文<br/>AES-256-GCM 纯本地加密<br/>Agent 只拿到别名注入</sub></td>
-    <td valign="top" align="center"><sub>AI 声音到 AI 音乐<br/>一套工作流做到自动上架<br/>本地优先，跑在你自己的电脑上</sub></td>
+    <td valign="top" align="center"><sub>24 套主题，12 浅 × 12 深<br/>配色按 WCAG AA 反推校准<br/>CI 有回归测试，改坏直接红</sub></td>
+    <td valign="top" align="center"><sub>存一次密钥，AI 看不到明文<br/>AES-256-GCM 纯本地加密<br/>Agent 只拿到别名注入</sub></td>
+    <td valign="top" align="center"><sub>AI 声音到 AI 音乐<br/>一套工作流做到自动上架<br/>本地优先，跑在自己电脑上</sub></td>
   </tr>
 </table>
 
