@@ -9,34 +9,35 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/webkubor/typora-Bloom-theme"><b>🌸 Bloom for Typora</b></a>
-      <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" />
-      <p><sub>24 套主题矩阵，12 浅 × 12 深。<br/>每组配色按 WCAG AA 反推校准，<br/>CI 里有回归测试，改坏直接红。</sub></p>
     </td>
-    <td width="33%" valign="top" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/webkubor/kyvault"><b>🔐 Kyvault</b></a>
-      <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat-square&label=&color=5fa8b2" alt="stars" />
-      <p><sub>存一次密钥，AI 永远看不到明文。<br/>AES-256-GCM 纯本地加密，<br/>Agent 只拿到别名注入。</sub></p>
     </td>
-    <td width="33%" valign="top" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/webkubor/voxflow"><b>🎙 VoxFlow 声流</b></a>
-      <img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" alt="stars" />
-      <p><sub>AI 声音到 AI 音乐，<br/>一套工作流做到自动上架。<br/>本地优先，跑在你自己的电脑上。</sub></p>
     </td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" /></td>
+    <td align="center"><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat-square&label=&color=5fa8b2" alt="stars" /></td>
+    <td align="center"><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" alt="stars" /></td>
+  </tr>
+  <tr>
+    <td valign="top" align="center"><sub>24 套主题矩阵，12 浅 × 12 深<br/>每组配色按 WCAG AA 反推校准<br/>CI 里有回归测试，改坏直接红</sub></td>
+    <td valign="top" align="center"><sub>存一次密钥，AI 永远看不到明文<br/>AES-256-GCM 纯本地加密<br/>Agent 只拿到别名注入</sub></td>
+    <td valign="top" align="center"><sub>AI 声音到 AI 音乐<br/>一套工作流做到自动上架<br/>本地优先，跑在你自己的电脑上</sub></td>
   </tr>
 </table>
 
-AI tools that fit into real workflows, not one-off demos.
-
 做能用的 AI 工具，不做一次性 demo。
 
-- **Agent 基建** — keys, observability, and skills that make agents safer, more visible, more capable.
-  - 密钥安全、运行时可观测、技能包 —— 让 Agent 更安全、更看得见、更能干。
-- **Creative pipelines** — voice, video, image, and docs. Local-first, runs on your machine.
-  - 声音、短视频、出图、文档的创作流水线 —— 本地优先，跑在你自己的电脑上。
-- **Build in public** — every tool here comes from real production pain, shared with evidence.
-  - 公开构建 —— 每个工具都来自真实生产踩坑，用证据说话。
+- **Agent 基建** — 密钥安全、运行时可观测、技能包，让 Agent 更安全、更看得见、更能干
+- **创作流水线** — 声音、短视频、出图、文档，本地优先，跑在你自己的电脑上
+- **公开构建** — 每个工具都来自真实生产踩坑，用证据说话
+
+<sub>AI tools that fit into real workflows, not one-off demos. Agent infrastructure · creative pipelines · build in public.</sub>
 
 ---
 
