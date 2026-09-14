@@ -2,27 +2,34 @@
   <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/webkubor/profile-banner.png" width="100%" alt="webkubor — 把审美做成可验证的工程" />
 </p>
 
-## Bloom — 主题系列 / Theme Series
+## Bloom — 审美工程系列 / Aesthetics, Made Testable
 
-同一套莫兰迪设计语言，跨两个宿主。不是「换个颜色」，是一整套可验证的色彩系统。
+同一套莫兰迪设计语言，两个宿主，外加一把护栏。不是「换个颜色」，是一整套可验证的色彩系统。
 
-*One Morandi design language, two hosts. Not a recolor — a color system you can test.*
+*One Morandi design language, two hosts — plus the guardrail that keeps it honest. Not a recolor, a color system you can test.*
 
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/webkubor/typora-Bloom-theme">
         <img src="https://cdn.jsdelivr.net/gh/webkubor/typora-Bloom-theme@main/website/assets/screenshots/petal.png" alt="Bloom for Typora" />
       </a>
       <p><a href="https://github.com/webkubor/typora-Bloom-theme"><b>Bloom for Typora</b></a> <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" /></p>
       <p><sub>24 套主题矩阵（12 浅 × 12 深），为长文写作与沉浸阅读打磨<br/>24 themes for long-form writing</sub></p>
     </td>
-    <td width="50%" align="center">
+    <td width="33%" align="center">
       <a href="https://github.com/webkubor/dsh-bloom-theme">
         <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/dsh-bloom-theme/ui-mist-dark-43.png" alt="Bloom for DSH" />
       </a>
       <p><a href="https://github.com/webkubor/dsh-bloom-theme"><b>Bloom for DSH</b></a> <img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat-square&label=&color=5fa8b2" alt="stars" /></p>
-      <p><sub>移植到 DeepSeek Harness，4 套配色 × 明暗，顶栏一键切换<br/>Ported to DeepSeek Harness: 4 palettes, light &amp; dark</sub></p>
+      <p><sub>移植到 DeepSeek Harness，9 套莫兰迪变体，OKLCH 调色，顶栏一键切换<br/>Ported to DeepSeek Harness: 9 Morandi palettes, light &amp; dark</sub></p>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://github.com/webkubor/contrast-guard">
+        <img src="https://img.shields.io/badge/OKLCH-WCAG%20AA%20verified-6a9955?style=for-the-badge" alt="contrast-guard" />
+      </a>
+      <p><a href="https://github.com/webkubor/contrast-guard"><b>contrast-guard</b></a> <img src="https://img.shields.io/github/stars/webkubor/contrast-guard?style=flat-square&label=&color=6a9955" alt="stars" /></p>
+      <p><sub>配色护栏：对比度不达标时直接反推该改成多少，改坏直接红<br/>Contrast as a CI guardrail — it tells you the exact fix when you fail</sub></p>
     </td>
   </tr>
 </table>
@@ -34,8 +41,6 @@
 > 8 组「主色 + 底色」全部按 WCAG AA 反推校准，CI 里有回归测试，改坏直接红。
 > <sub>Taste, made testable.</sub>
 
----
-
 <div align="center">
 
 **装上就能用 / Get it running**
@@ -46,18 +51,173 @@
 # Typora：下载主题包，丢进 Typora 主题文件夹
 # https://github.com/webkubor/typora-Bloom-theme/releases/latest
 
-# DSH：一条命令
-dsh plugin --profile web add @kubor/dsh-bloom-theme
+# DSH：两条命令
+dsh plugin add @kubor/dsh-bloom-theme
+dsh plugin enable @kubor/dsh-bloom-theme
+
+# 对比度护栏：进任何前端项目
+npm i -D contrast-guard
+npx contrast-guard --init
 ```
 
 ---
 
-<p align="center">
-  <a href="https://github.com/webkubor/typora-Bloom-theme"><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=Bloom%20for%20Typora&color=A873C4" alt="Bloom for Typora" /></a>
-  <a href="https://github.com/webkubor/dsh-bloom-theme"><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat-square&label=Bloom%20for%20DSH&color=5fa8b2" alt="Bloom for DSH" /></a>
-  <img src="https://img.shields.io/badge/OKLCH-color%20system-92a8b3?style=flat-square" alt="OKLCH" />
-  <img src="https://img.shields.io/badge/WCAG-AA%20verified-6a9955?style=flat-square" alt="WCAG AA" />
-</p>
+## What I'm building / 我在造什么
+
+AI tools that fit into real workflows, not one-off demos.
+
+做能用的 AI 工具，不做一次性 demo。
+
+- **Agent 基建** — keys, observability, and skills that make agents safer, more visible, more capable.
+  - 密钥安全、运行时可观测、技能包 —— 让 Agent 更安全、更看得见、更能干。
+- **Creative pipelines** — voice, video, image, and docs. Local-first, runs on your machine.
+  - 声音、短视频、出图、文档的创作流水线 —— 本地优先，跑在你自己的电脑上。
+- **Build in public** — every tool here comes from real production pain, shared with evidence.
+  - 公开构建 —— 每个工具都来自真实生产踩坑，用证据说话。
+
+---
+
+## Agent 工具箱 / Agent Toolbox
+
+### 👀 Agent Eyes — 核心主线
+
+Runtime observability for coding agents — see API errors, cookie state, and proxy headers before they ship.
+
+让写代码的 Agent 看见运行时 —— API 报错、Cookie 状态、代理头，再动手改。
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="90%" align="center">
+        <h3><a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes — Vite 自愈遥测</a></h3>
+        <p>给 coding agent 一双"看运行时"的眼睛：API/错误/交互/代理 header 结构化遥测 + 登录态画像 + 提交前风险门禁。</p>
+        <p><sub>Runtime telemetry, interaction traces, auth profile hints, and a pre-commit guard for Vite dev.</sub></p>
+        <p><code>Agent Eyes</code> <code>Vite</code> <code>TypeScript</code> <code>Observability</code> <code>MIT</code></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**配套基建 / Infrastructure:**
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/webkubor/kyvault">🔐 Kyvault — 密钥台账</a></h3>
+      <p>Store secrets once, agents never see plaintext. AES-256-GCM, pure local vault, alias-only injection.</p>
+      <p><sub>存一次密钥，AI 永远看不到明文。AES-256-GCM 纯本地加密，Agent 只拿到别名注入。</sub></p>
+      <p><code>Rust</code> <code>Security</code> <code>AES-256-GCM</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/webkubor/ai-orb">🟠 ai-orb — 状态球</a></h3>
+      <p>A 4KB zero-dependency SVG orb that shows what your AI assistant is doing.</p>
+      <p><sub>一颗会表态的 AI 助手状态球：在想 / 在干活 / 等你回话 / 好了。零依赖 4KB，npm 一装就用。</sub></p>
+      <p><code>SVG</code> <code>4KB</code> <code>零依赖</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/webkubor/museav-mcp">🔌 museav-mcp — 创作中台入口</a></h3>
+      <p>One MCP service that hands museav-cli and satellite tools (music, reel, facet) to any agent.</p>
+      <p><sub>把 museav-cli 和卫星工具（音乐 / reel / facet）打包成一个 MCP 服务，Agent 直连创作能力。</sub></p>
+      <p><code>MCP</code> <code>Agent</code> <code>创作中台</code></p>
+    </td>
+  </tr>
+</table>
+
+**技能包 / Skills:**
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/webkubor/talk-skills">🗣 talk-skills — 把话说对</a></h3>
+      <p>A four-step expression spec shared by AI agents and humans.</p>
+      <p><sub>搭骨架（金字塔/SCQA/MECE）→ 定读者 → 调语气 → 当读者读一遍。给 Agent 和人共用的表达规范。</sub></p>
+      <p><code>Skill</code> <code>表达</code> <code>规范</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/webkubor/guofeng-portrait-skill">🎨 国风人像 Skill — 提示词库</a></h3>
+      <p>Guofeng portrait prompt library: style × dynasty, freely combinable.</p>
+      <p><sub>画法（3D 写实 / 水墨）× 朝代（唐 / 宋 / 魏晋）自由组合，生成角色立绘、头像、人物海报。</sub></p>
+      <p><code>Skill</code> <code>提示词</code> <code>出图</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/webkubor/wechat-sticker-submit">🐶 微信表情包流水线</a></h3>
+      <p>One IP portrait → a full submittable WeChat sticker pack, fully scripted.</p>
+      <p><sub>一张 IP 正面照 → 整套可提交的微信表情素材：出图、切图、机检、文案校验、提交清单全脚本化。</sub></p>
+      <p><code>Claude Code</code> <code>Skill</code> <code>表情包</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 创作工作流 / Creative Pipelines
+
+Local-first creative tools that run on your machine, not someone else's cloud.
+
+本地优先的创作流水线 —— 跑在你自己的电脑上，不依赖别人的云。
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/voxflow">🎙 VoxFlow 声流 — 声音到上架</a></h3>
+      <p>From AI voice to AI music — one pipeline all the way to publishing.</p>
+      <p><sub>AI 声音到 AI 音乐，一套工作流做到自动上架。</sub></p>
+      <p><code>Python</code> <code>AI Audio</code> <code>Workflow</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/reel-kit">🎬 reel-kit — 竖版短视频工作台</a></h3>
+      <p>Vertical short-video workbench: materials, line-by-line copy, TTS/BGM, HTML templates — UI + CLI.</p>
+      <p><sub>素材 + 逐句文案 + 配音/BGM，套 HTML 模板出片。Studio 工作台 + 20 套手绘风格模板，本地 TTS 零成本。</sub></p>
+      <p><code>UI + CLI</code> <code>TTS</code> <code>模板</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/museav-cli">🖌 museav-cli — 出图中台</a></h3>
+      <p>Image generation, reading, template conversion, asset upload — one apiKey away.</p>
+      <p><sub>出图、读图、图片转模板、素材上传。一个 apiKey 就有出图能力。</sub></p>
+      <p><code>CLI</code> <code>出图</code> <code>中台</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/facet">📄 facet — 一份 Markdown，多种形态</a></h3>
+      <p>One Markdown source, multiple facets: talk slides for presenting, PDF and long images for sharing.</p>
+      <p><sub>同一份 Markdown，讲稿 slides、分享 PDF、长图一次生成。</sub></p>
+      <p><code>TypeScript</code> <code>Markdown</code> <code>PDF</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/cn-chat-style-gen">💬 微信氛围图生成器</a></h3>
+      <p>High-fidelity WeChat-style chat images: chat / Moments / list / group-invite, corpus + batch export.</p>
+      <p><sub>对话 / 朋友圈 / 列表 / 拉人四模式，语料库与批量导出。在线体验：<a href="https://wechat.webkubor.online">wechat.webkubor.online</a></sub></p>
+      <p><code>前端</code> <code>截图</code> <code>语料库</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/webkubor/wallpaper-generator">🖼 氛围壁纸工坊</a></h3>
+      <p>Ambient Wallpaper Studio — browser-local, privacy-first, multi-device wallpapers.</p>
+      <p><sub>纯前端在线壁纸制作，适配 iPhone / iPad / Mac / 车载等多设备，浏览器本地处理、隐私优先。</sub></p>
+      <p><code>前端</code> <code>壁纸</code> <code>隐私</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 开发者工具 / Developer Tools
+
+| Project / 项目 | What it does / 做什么 |
+|---------|-------------|
+| [scorecard](https://github.com/webkubor/scorecard) | 开源项目九维度质检 — 粘一个 GitHub URL，拿雷达图 + 整改清单 + 可喂给 AI 的 Markdown 报告。免登录 → [scorecard.webkubor.online](https://scorecard.webkubor.online) |
+| [ai-sse-kit](https://github.com/webkubor/ai-sse-kit) | 渐进式 AI 流式对话工具包：SSE 传输、协议适配、消息不可变 patch，框架无关核心 + React / Vue 双绑定 |
+| [vite-plugin-refresh-guard](https://github.com/webkubor/vite-plugin-refresh-guard) | Vite 版本更新检测 + 刷新：静默 / 提示 / 弹窗三种策略，核心框架无关，附 Vue / React 适配层 |
+| [path-guard](https://github.com/webkubor/path-guard) | 查出你敲的命令实际跑的是哪一个副本、被谁遮蔽、以及更新到底生效没有 |
+| [claude-usage-statusline](https://github.com/webkubor/claude-usage-statusline) | Claude Code 状态栏：花费、上下文占用、5h/7d 限额，单文件 Python 零依赖零配置 |
+| [im-notify-kit](https://github.com/webkubor/im-notify-kit) | 飞书 / 企微群机器人通知的发送层：业务码校验、重试、超时、去重，零依赖跨 Node / Workers / Deno |
+| [picx-images-hosting](https://github.com/webkubor/picx-images-hosting) | GitHub + Cloudflare R2 统一图床 |
+| [mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit) | Mac 本地看图理解引擎 — Qwen3-VL（MLX），免费、离线、任何项目可调 |
+| [dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) | DSH 插件：模型发现 + DeepSeek 余额与可用性，补齐官方 LLM 适配器留白，零依赖 |
+
+---
 
 <p align="center">
   <a href="https://webkubor.online"><img src="https://img.shields.io/badge/Website-webkubor.online-EAB308?style=flat-square" alt="Website" /></a>
@@ -70,115 +230,6 @@ dsh plugin --profile web add @kubor/dsh-bloom-theme
 </p>
 
 > 公众号「[苏梦城](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwNTU1NjE4Mg==)」/ 视频号「山鬼映画」— 微信内搜索关注。
-
----
-
----
-
-## What I'm building / 我在造什么
-
-AI tools that fit into real workflows, not one-off demos.
-
-做能用的 AI 工具，不做一次性 demo。
-
-- **Agent skills** — reusable building blocks that make AI agents safer, cheaper, and more capable.
-  - 可复用的 Agent 技能，让 AI 更安全、更省钱、更强大。
-- **Local AI workstations** — TTS, video, and creative tools that run on your machine, not someone else's cloud.
-  - 本地 AI 工作站，TTS、视频和创作工具跑在你自己的电脑上。
-- **Build in public** — every tool here comes from real production pain, shared with evidence.
-  - 公开构建 —— 每个工具都来自真实生产踩坑，用证据说话。
-
----
-
-## Agent Eyes / Agent 可观测性
-
-Runtime observability for coding agents — see API errors, cookie state, and proxy headers before they ship.
-
-让写代码的 Agent 看见运行时 —— API 报错、Cookie 状态、代理头，再动手改。
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="90%" align="center">
-        <h3><a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes — 核心主线</a></h3>
-        <p>给 coding agent 一双"看运行时"的眼睛：API/错误/交互/代理 header 结构化遥测 + 登录态画像 + 提交前风险门禁。</p>
-        <p><sub>Runtime telemetry, interaction traces, auth profile hints, and a pre-commit guard for Vite dev.</sub></p>
-        <p><code>Agent Eyes</code> <code>Vite</code> <code>TypeScript</code> <code>Observability</code> <code>MIT</code></p>
-      </td>
-    </tr>
-  </table>
-</div>
-
-配套 Agent 工具 / Companion agent tools:
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/kyvault">🔐 Keyring — 密钥管理</a></h3>
-      <p>Store secrets once, agents never see plaintext. AES-256-GCM cloud encryption, one-line decrypt.</p>
-      <p><sub>存一次密钥，Agent 永远看不到明文。AES-256-GCM 云端加密，一行命令解密。</sub></p>
-      <p><code>Python</code> <code>Security</code> <code>AES-256-GCM</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/project-maturity-audit">📋 Project Maturity Audit — 仓库体检</a></h3>
-      <p>A Claude Code skill that audits a repo the way a seasoned maintainer would: would a stranger star, install, or trust this?</p>
-      <p><sub>一个 Claude Code 技能：以资深维护者视角给仓库做体检 —— 陌生人会 Star / 安装 / 信任它吗？</sub></p>
-      <p><code>Claude Code</code> <code>Skill</code> <code>Audit</code></p>
-    </td>
-  </tr>
-</table>
-
----
-
-## Local AI Tools / 本地 AI 工具
-
-Local-first creative tools that run on your machine, not someone else's cloud.
-
-本地优先的创作工具 —— 跑在你自己的电脑上，不依赖别人的云。
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/voice-editor">🎤 VoxCraft 声坊 — 本地 TTS 工作站</a></h3>
-      <p>Local Chinese TTS workstation. Qwen3-TTS powered, supports voice cloning and multi-character dialogue.</p>
-      <p><sub>本地中文 TTS 工作台。基于 Qwen3-TTS，支持声音克隆和多角色对话。</sub></p>
-      <p><code>Python</code> <code>TTS</code> <code>Local AI</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/story-to-video">🎬 Story to Video — 手绘动画</a></h3>
-      <p>Turn Chinese story copy or hand-drawn pages into vertical hand-drawn comic animation.</p>
-      <p><sub>把中文故事文案或手绘图片，转成 3:4 竖屏手绘日记漫画动画。</sub></p>
-      <p><code>Remotion</code> <code>Animation</code> <code>AI Video</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/knowledge-pdf-kit">📄 Knowledge PDF Kit — 知识文档</a></h3>
-      <p>Generate polished knowledge tutorial PDFs and shareable long images from Markdown.</p>
-      <p><sub>把 Markdown 知识教程生成漂亮、稳定、可分享的 PDF 和长图。</sub></p>
-      <p><code>TypeScript</code> <code>Playwright</code> <code>PDF</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Typora Bloom Theme</a></h3>
-      <p>A calm Typora theme for long-form writing, focused reading, and aesthetic markdown publishing.</p>
-      <p><sub>一个安静的 Typora 主题，为长文写作、沉浸阅读和美观排版而生。</sub></p>
-      <p><code>CSS</code> <code>Markdown</code> <code>Writing</code></p>
-    </td>
-  </tr>
-</table>
-
----
-
-## More / 更多
-
-| Project / 项目 | What it does / 做什么 |
-|---------|-------------|
-| [cinematic-storyboard-pro](https://github.com/webkubor/cinematic-storyboard-pro) | 《沸腾之雪》电影级 AI 武侠视频生产系统 |
-| [wechat-chat-gen](https://github.com/webkubor/wechat-chat-gen) | 高仿真微信聊天截图生成器 |
-| [picx-images-hosting](https://github.com/webkubor/picx-images-hosting) | GitHub + Cloudflare R2 统一图床 |
-| [html-preview](https://github.com/webkubor/html-preview) | UI 作品展示页 — 个人设计作品集 |
-| [xiaobai-kanban](https://github.com/webkubor/xiaobai-kanban) | AI Agent 驱动的小白开发入门 — 你只说话，Agent 搞定代码 |
-| [theme.typora.io](https://theme.typora.io) | Typora 主题官网 |
 
 ---
 
