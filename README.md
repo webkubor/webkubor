@@ -2,7 +2,48 @@
   <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/webkubor/profile-banner.png" width="100%" alt="webkubor — 把审美做成可验证的工程" />
 </p>
 
-## Bloom — 审美工程系列 / Aesthetics, Made Testable
+<p align="center">
+  <strong>把审美做成可验证的工程，把一次性经验做成可复用的 Agent 工具。</strong><br/>
+  <sub>Design-minded engineer — turning taste into systems you can test.</sub>
+</p>
+
+<table>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/webkubor/typora-Bloom-theme"><b>🌸 Bloom for Typora</b></a>
+      <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" />
+      <p><sub>24 套主题矩阵，12 浅 × 12 深。<br/>每组配色按 WCAG AA 反推校准，<br/>CI 里有回归测试，改坏直接红。</sub></p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/webkubor/kyvault"><b>🔐 Kyvault</b></a>
+      <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat-square&label=&color=5fa8b2" alt="stars" />
+      <p><sub>存一次密钥，AI 永远看不到明文。<br/>AES-256-GCM 纯本地加密，<br/>Agent 只拿到别名注入。</sub></p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <a href="https://github.com/webkubor/voxflow"><b>🎙 VoxFlow 声流</b></a>
+      <img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" alt="stars" />
+      <p><sub>AI 声音到 AI 音乐，<br/>一套工作流做到自动上架。<br/>本地优先，跑在你自己的电脑上。</sub></p>
+    </td>
+  </tr>
+</table>
+
+AI tools that fit into real workflows, not one-off demos.
+
+做能用的 AI 工具，不做一次性 demo。
+
+- **Agent 基建** — keys, observability, and skills that make agents safer, more visible, more capable.
+  - 密钥安全、运行时可观测、技能包 —— 让 Agent 更安全、更看得见、更能干。
+- **Creative pipelines** — voice, video, image, and docs. Local-first, runs on your machine.
+  - 声音、短视频、出图、文档的创作流水线 —— 本地优先，跑在你自己的电脑上。
+- **Build in public** — every tool here comes from real production pain, shared with evidence.
+  - 公开构建 —— 每个工具都来自真实生产踩坑，用证据说话。
+
+---
+
+<details>
+<summary><b>🌸 Bloom — 审美工程系列</b> &nbsp;·&nbsp; <sub>3 个项目 · 145★ · 同一套莫兰迪设计语言，两个宿主加一把护栏</sub></summary>
+
+<br/>
 
 同一套莫兰迪设计语言，两个宿主，外加一把护栏。不是「换个颜色」，是一整套可验证的色彩系统。
 
@@ -60,24 +101,12 @@ npm i -D contrast-guard
 npx contrast-guard --init
 ```
 
----
+</details>
 
-## What I'm building / 我在造什么
+<details>
+<summary><b>🧰 Agent 工具箱</b> &nbsp;·&nbsp; <sub>7 个项目 · 遥测 / 密钥 / MCP / 技能包</sub></summary>
 
-AI tools that fit into real workflows, not one-off demos.
-
-做能用的 AI 工具，不做一次性 demo。
-
-- **Agent 基建** — keys, observability, and skills that make agents safer, more visible, more capable.
-  - 密钥安全、运行时可观测、技能包 —— 让 Agent 更安全、更看得见、更能干。
-- **Creative pipelines** — voice, video, image, and docs. Local-first, runs on your machine.
-  - 声音、短视频、出图、文档的创作流水线 —— 本地优先，跑在你自己的电脑上。
-- **Build in public** — every tool here comes from real production pain, shared with evidence.
-  - 公开构建 —— 每个工具都来自真实生产踩坑，用证据说话。
-
----
-
-## Agent 工具箱 / Agent Toolbox
+<br/>
 
 ### 👀 Agent Eyes — 核心主线
 
@@ -148,9 +177,12 @@ Runtime observability for coding agents — see API errors, cookie state, and pr
   </tr>
 </table>
 
----
+</details>
 
-## 创作工作流 / Creative Pipelines
+<details>
+<summary><b>🎨 创作工作流</b> &nbsp;·&nbsp; <sub>6 个项目 · 声音、视频、出图、文档，本地优先</sub></summary>
+
+<br/>
 
 Local-first creative tools that run on your machine, not someone else's cloud.
 
@@ -201,9 +233,12 @@ Local-first creative tools that run on your machine, not someone else's cloud.
   </tr>
 </table>
 
----
+</details>
 
-## 开发者工具 / Developer Tools
+<details>
+<summary><b>🔧 开发者工具</b> &nbsp;·&nbsp; <sub>9 个项目 · 质检 / SSE / 图床 / 状态栏 / 通知</sub></summary>
+
+<br/>
 
 | Project / 项目 | What it does / 做什么 |
 |---------|-------------|
@@ -216,6 +251,8 @@ Local-first creative tools that run on your machine, not someone else's cloud.
 | [picx-images-hosting](https://github.com/webkubor/picx-images-hosting) | GitHub + Cloudflare R2 统一图床 |
 | [mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit) | Mac 本地看图理解引擎 — Qwen3-VL（MLX），免费、离线、任何项目可调 |
 | [dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) | DSH 插件：模型发现 + DeepSeek 余额与可用性，补齐官方 LLM 适配器留白，零依赖 |
+
+</details>
 
 ---
 
