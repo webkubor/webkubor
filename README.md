@@ -9,25 +9,19 @@
 
 <table>
   <tr>
-    <td width="33%" align="center">
-      <a href="https://github.com/webkubor/typora-Bloom-theme"><b>🌸 Bloom for Typora</b></a>
-    </td>
-    <td width="33%" align="center">
-      <a href="https://github.com/webkubor/kyvault"><b>🔐 Kyvault</b></a>
-    </td>
-    <td width="33%" align="center">
-      <a href="https://github.com/webkubor/voxflow"><b>🎙 VoxFlow 声流</b></a>
-    </td>
+    <td width="33%" align="center"><a href="https://github.com/webkubor/typora-Bloom-theme"><b>🌸 Bloom · Typora</b></a></td>
+    <td width="33%" align="center"><a href="https://github.com/webkubor/kyvault"><b>🔐 Kyvault</b></a></td>
+    <td width="33%" align="center"><a href="https://github.com/webkubor/voxflow"><b>🎙 VoxFlow 声流</b></a></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" /></td>
-    <td align="center"><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat-square&label=&color=5fa8b2" alt="stars" /></td>
-    <td align="center"><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" alt="stars" /></td>
+    <td width="33%" align="center"><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=&color=A873C4" alt="stars" /></td>
+    <td width="33%" align="center"><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat-square&label=&color=5fa8b2" alt="stars" /></td>
+    <td width="33%" align="center"><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat-square&label=&color=6a9955" alt="stars" /></td>
   </tr>
   <tr>
-    <td valign="top" align="center"><sub>24 套主题，12 浅 × 12 深<br/>配色按 WCAG AA 反推校准<br/>CI 有回归测试，改坏直接红</sub></td>
-    <td valign="top" align="center"><sub>存一次密钥，AI 看不到明文<br/>AES-256-GCM 纯本地加密<br/>Agent 只拿到别名注入</sub></td>
-    <td valign="top" align="center"><sub>AI 声音到 AI 音乐<br/>一套工作流做到自动上架<br/>本地优先，跑在自己电脑上</sub></td>
+    <td width="33%" valign="top" align="center"><sub>24 套主题矩阵<br/>12 浅 × 12 深<br/>配色按 WCAG AA 校准</sub></td>
+    <td width="33%" valign="top" align="center"><sub>存一次密钥<br/>AI 永远看不到明文<br/>纯本地加密，别名注入</sub></td>
+    <td width="33%" valign="top" align="center"><sub>AI 声音到 AI 音乐<br/>一套流程自动上架<br/>本地优先，不上别人的云</sub></td>
   </tr>
 </table>
 
