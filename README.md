@@ -145,8 +145,8 @@ Runtime observability for coding agents — see API errors, cookie state, and pr
     </td>
     <td width="33%" valign="top">
       <h3><a href="https://github.com/webkubor/guofeng-portrait-skill">🎨 国风人像 Skill — 提示词库</a></h3>
-      <p>Guofeng portrait prompt library: style × dynasty, freely combinable.</p>
-      <p><sub>画法（3D 写实 / 水墨）× 朝代（唐 / 宋 / 魏晋）自由组合，生成角色立绘、头像、人物海报。</sub></p>
+      <p>Guofeng portrait prompt library: 3 rendering styles × 3 dynasties, freely combinable.</p>
+      <p><sub>画法（3D 写实 / 水墨 / 氛围胶片）× 朝代（唐 / 宋 / 魏晋）自由组合，生成角色立绘、头像、人物海报。</sub></p>
       <p><code>Skill</code> <code>提示词</code> <code>出图</code></p>
     </td>
     <td width="33%" valign="top">
@@ -161,13 +161,23 @@ Runtime observability for coding agents — see API errors, cookie state, and pr
 </details>
 
 <details>
-<summary><b>🎨 创作工作流</b> &nbsp;·&nbsp; <sub>6 个项目 · 声音、视频、出图、文档，本地优先</sub></summary>
+<summary><b>🎨 创作工作流</b> &nbsp;·&nbsp; <sub>6 个项目 · 声音、视频、出图、人像、文档，本地优先</sub></summary>
 
 <br/>
 
 Local-first creative tools that run on your machine, not someone else's cloud.
 
 本地优先的创作流水线 —— 跑在你自己的电脑上，不依赖别人的云。
+
+<div align="center">
+  <a href="https://github.com/webkubor/guofeng-portrait-skill">
+    <img src="https://img.webkubor.online/refs/45d47835-cde2-4022-bd4d-5bc729ff8f1f/d851afe2-b72.jpg" alt="古风氛围胶片人像 · 风格总览九宫格" width="68%" />
+  </a>
+  <br/>
+  <sub><b>古风氛围胶片人像</b> · <a href="https://github.com/webkubor/guofeng-portrait-skill">guofeng-portrait-skill</a> —— 画法 × 朝代自由组合的古风人像提示词库</sub><br/>
+  <sub>花影柔光 · 雪落庭院 · 竹影清茶 · 灯下夜读 · 绿意回眸 · 湖畔逆光 · 江湖冷调 · 落英慵卧 · 提灯夜行</sub><br/>
+  <sub><i>同一套提示词体系下的九种气质 —— 低饱和青绿、侧逆光斑驳树影、胶片颗粒、真人抓拍感</i></sub>
+</div>
 
 <table>
   <tr>
