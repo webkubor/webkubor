@@ -249,11 +249,11 @@ Local-first creative tools that run on your machine, not someone else's cloud.
 
 <p align="center">
   <a href="https://webkubor.online"><img src="https://img.shields.io/badge/Website-webkubor.online-EAB308?style=flat-square" alt="Website" /></a>
-  <a href="https://x.com/doctorDacker"><img src="https://img.shields.io/badge/X-@doctorDacker-111827?style=flat-square&logo=x" alt="X / Twitter" /></a>
+  <a href="https://x.com/webkuborDev"><img src="https://img.shields.io/badge/X-@webkuborDev-111827?style=flat-square&logo=x" alt="X / Twitter" /></a>
   <a href="https://weibo.com/u/5452906452"><img src="https://img.shields.io/badge/微博-@webkubor-E6162D?style=flat-square&logo=sinaweibo" alt="微博" /></a>
   <a href="https://juejin.cn/user/2119514149631870"><img src="https://img.shields.io/badge/掘金-@webkubor-1E80FF?style=flat-square&logo=juejin" alt="掘金" /></a>
   <a href="https://music.163.com/#/user/home?id=116974627"><img src="https://img.shields.io/badge/网易云-月栖洲-E60026?style=flat-square&logo=neteasecloudmusic" alt="网易云" /></a>
-  <a href="https://www.xiaohongshu.com/user/profile/webkubor"><img src="https://img.shields.io/badge/小红书-@webkubor-FF2442?style=flat-square" alt="小红书" /></a>
+  <a href="https://www.xiaohongshu.com/user/profile/5c3c1581000000000501835d"><img src="https://img.shields.io/badge/小红书-山鬼映画-FF2442?style=flat-square" alt="小红书 · 山鬼映画" /></a>
   <a href="mailto:hi@webkubor.online"><img src="https://img.shields.io/badge/Email-hi%40webkubor.online-111827?style=flat-square" alt="Email" /></a>
 </p>
 
