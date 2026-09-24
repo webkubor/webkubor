@@ -150,7 +150,7 @@ Runtime observability for coding agents — see API errors, cookie state, and pr
       <p><code>Skill</code> <code>提示词</code> <code>出图</code></p>
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/webkubor/wechat-sticker-submit">🐶 微信表情包流水线</a></h3>
+      <h3><a href="https://github.com/webkubor/charmoji">🐶 微信表情包流水线</a></h3>
       <p>One IP portrait → a full submittable WeChat sticker pack, fully scripted.</p>
       <p><sub>一张 IP 正面照 → 整套可提交的微信表情素材：出图、切图、机检、文案校验、提交清单全脚本化。</sub></p>
       <p><code>Claude Code</code> <code>Skill</code> <code>表情包</code></p>
