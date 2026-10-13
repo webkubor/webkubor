@@ -125,7 +125,7 @@ Runtime observability for coding agents — see API errors, cookie state, and pr
       <p><code>SVG</code> <code>4KB</code> <code>零依赖</code></p>
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/webkubor/museav-mcp">🔌 museav-mcp — 创作中台入口</a></h3>
+      <h3><a href="https://github.com/webkubor/cs-mcp">🔌 cs-mcp — 工具链 MCP 入口</a></h3>
       <p>One MCP service that hands museav-cli and satellite tools (music, reel, facet) to any agent.</p>
       <p><sub>把 museav-cli 和卫星工具（音乐 / reel / facet）打包成一个 MCP 服务，Agent 直连创作能力。</sub></p>
       <p><code>MCP</code> <code>Agent</code> <code>创作中台</code></p>
