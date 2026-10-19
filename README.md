@@ -64,8 +64,16 @@
 - **[Scorecard](https://scorecard.webkubor.online)** — 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。免登录体验： [scorecard.webkubor.online](https://scorecard.webkubor.online)。[源码](https://github.com/webkubor/scorecard) · 24 ★
 - **[VoxFlow](https://github.com/webkubor/voxflow)** — Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。30 ★
 - **[dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — 为 DSH 补上模型网关探测、目录发现与余额信息。[npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub) · 42 ★
-- **[dsh-user-mirror](https://github.com/webkubor/dsh-mirror)** — 让 AI 跨会话记住人的判断依据，而不是堆积聊天记录。[npm](https://www.npmjs.com/package/@dsh-plugins/dsh-user-mirror) · 32 ★
+- **[dsh-mirror](https://github.com/webkubor/dsh-mirror)** — 让 AI 跨会话记住人的判断依据，而不是堆积聊天记录。[npm](https://www.npmjs.com/package/@dsh-plugins/dsh-user-mirror) · 32 ★
 - **[reel-kit](https://github.com/webkubor/reel-kit)** — 用素材、逐句文案、配音和模板在本地合成竖版短视频。22 ★
+
+## Skills：给 Agent 装上的表达规范
+
+写文档、提单、发帖之前先想「这话怎么说才对」的规范集合，一行命令接入 Claude Code / Codex / DSH / Antigravity：
+
+- **[talk-skills](https://github.com/webkubor/talk-skills)** — 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。16 ★ · 7 forks
+- **[tombstone-reaper-skill](https://github.com/webkubor/tombstone-reaper-skill)** — 让死代码与废弃 skill 真正入土为安，晒出减法战绩。50 ★ · 5 forks
+- **[charmoji](https://github.com/webkubor/charmoji)** — 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。23 ★ · 9 forks
 
 <details>
 <summary>更多工具</summary>
@@ -74,7 +82,6 @@
 - [facet](https://github.com/webkubor/facet) — 一份 Markdown 生成演讲页、PDF 与长图。
 - [ai-orb](https://github.com/webkubor/ai-orb) — 4KB 零依赖 SVG，表达 AI 助手当前状态。
 - [mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit) — Apple Silicon 本地离线图片理解。
-- [charmoji](https://github.com/webkubor/charmoji) — 从一张角色图到微信表情素材的自动化流程。
 
 </details>
 
