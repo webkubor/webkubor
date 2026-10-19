@@ -71,9 +71,9 @@
 
 写文档、提单、发帖之前先想「这话怎么说才对」的规范集合，一行命令接入 Claude Code / Codex / DSH / Antigravity：
 
-- **[talk-skills](https://github.com/webkubor/talk-skills)** — 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。16 ★ · 7 forks
-- **[tombstone-reaper-skill](https://github.com/webkubor/tombstone-reaper-skill)** — 让死代码与废弃 skill 真正入土为安，晒出减法战绩。50 ★ · 5 forks
-- **[charmoji](https://github.com/webkubor/charmoji)** — 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。23 ★ · 9 forks
+- **[writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** — 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。16 ★ · 7 forks
+- **[deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** — 让死代码与废弃 skill 真正入土为安，晒出减法战绩。50 ★ · 5 forks
+- **[charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** — 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。23 ★ · 9 forks
 
 <details>
 <summary>更多工具</summary>

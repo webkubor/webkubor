@@ -57,9 +57,9 @@ AI tools that fit into real workflows, not one-off demos.
 | [🤖 dsh-mirror](https://github.com/webkubor/dsh-mirror) | Make the AI remember *how* you think, not *what* you said | `★` |
 | [🤖 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) | Add model catalog, gateway health, balance cards to DSH | `★` |
 | [📊 scorecard](https://github.com/webkubor/scorecard) | 9-dimension quality check, GitHub URL → radar | `★` |
-| [💬 talk-skills](https://github.com/webkubor/talk-skills) | 6 expression skills + 5D atomic matrix, one-line install | `★` |
-| [🪦 tombstone-reaper-skill](https://github.com/webkubor/tombstone-reaper-skill) | Retire dead code and stale skills, publish the subtractive wins | `★` |
-| [😌 charmoji](https://github.com/webkubor/charmoji) | One character portrait → a submittable WeChat sticker set | `★` |
+| [💬 writing-standard-skills](https://github.com/webkubor/writing-standard-skills) | 6 expression skills + 5D atomic matrix, one-line install | `★` |
+| [🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) | Retire dead code and stale skills, publish the subtractive wins | `★` |
+| [😌 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill) | One character portrait → a submittable WeChat sticker set | `★` |
 
 (See [README.md](./README.md) for the full bilingual list with badges and grouped sections.)
 
