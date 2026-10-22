@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/webkubor/picx-images-hosting@master/projects/webkubor/profile-banner.png" width="100%" alt="webkubor" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner.jpg" />
+    <img src="./assets/profile-banner-light.jpg" width="100%" alt="webkubor — 把审美做成可验证的工程" />
+  </picture>
 </p>
 
 <p align="center">
