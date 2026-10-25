@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner.jpg" />
-    <img src="./assets/profile-banner-light.jpg" width="100%" alt="webkubor — 把审美做成可验证的工程" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
+    <img src="./assets/hero-light.svg" width="100%" alt="webkubor：把审美做成可验证的工程。六片莫兰迪花瓣在量环中展开，字标从原色沉成可读的墨色。" />
   </picture>
 </p>
 
@@ -13,12 +13,20 @@
 <p align="center">
   <a href="https://webkubor.online">个人站</a> ·
   <a href="https://github.com/webkubor?tab=repositories">全部项目</a> ·
-  <a href="https://x.com/webkuborDev">X</a>
+  <a href="https://x.com/webkuborDev">X</a> ·
+  <a href="./README.en.md">English</a>
 </p>
 
 ## 代表作
 
 ### Agent 工具：从“让 AI 写代码”到“让它看得见、守得住”
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-dark.svg" />
+    <img src="./assets/agent-light.svg" width="100%" alt="一次 401 的修复过程：Agent Eyes 收集脱敏证据，agent 按证据定位到本地 cookie 过期，自修复后用同一请求复验为 200。" />
+  </picture>
+</p>
 
 - **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — 给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。<br/><sub>MIT · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes) · <img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat-square&label=%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 
@@ -31,7 +39,10 @@
 ### Bloom：把视觉判断做成可检验的设计系统
 
 <p align="center">
-  <a href="https://github.com/webkubor/typora-Bloom-theme"><img src="https://cdn.jsdelivr.net/gh/webkubor/typora-Bloom-theme@main/website/assets/screenshots/petal.png" width="68%" alt="Bloom for Typora" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/bloom-dark.svg" />
+    <img src="./assets/bloom-light.svg" width="100%" alt="Bloom 六个莫兰迪原色直接当文字时对比度只有 2.3 到 3.3:1；保持色相与彩度，只解亮度到 4.5:1。" />
+  </picture>
 </p>
 
 - **[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 套主题，为长文写作和沉浸阅读设计；获 [Typora 官方主题库收录](https://theme.typora.io/theme/Bloom/)。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat-square&label=%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
@@ -40,7 +51,7 @@
 
 - **[contrast-guard](https://github.com/webkubor/contrast-guard)** — 在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/contrast-guard?style=flat-square&label=%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 
-**不是只把颜色做得好看**：用 WCAG 对比度约束校准主题，让设计选择能被自动检查。*Taste, made testable.*
+**不是只把颜色做得好看**：每套配色都有两条轨，莫兰迪原色只铺大面积气氛，文字和按钮用解过亮度的版本；用 WCAG 对比度约束校准，让设计选择能被自动检查。*Taste, made testable.*
 
 ## 其他在做的事
 

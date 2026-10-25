@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+<title id="t">Bloom 色板：同一色相，只解亮度</title>
+<desc id="d">六个 Bloom 莫兰迪原色在深色底上的对比度：Petal 5.7:1 直接可读，Sage 4.7:1 直接可读，Mist 5.9:1 直接可读，Spring 4.1:1 解为 4.5:1，Ripple 5.4:1 直接可读，Stone 5.9:1 直接可读。共 1 个需要调整亮度。</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}.h1{font-size:21px;font-weight:600;fill:#fef6f9}.sub{font-size:15px;fill:#dcccd3}.nm{font-size:15px;font-weight:600;fill:#fef6f9}.aa{font-size:34px;font-weight:600}.lb{font-size:14px;fill:#dcccd3}.hx{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace;font-size:13px;fill:#dcccd3}.raw{opacity:0}.cyc .raw{animation:out 10s ease-in-out infinite both}.cyc .fix{animation:in 10s ease-in-out infinite both}@keyframes out{0%,22%{opacity:1}30%,90%{opacity:0}97%,100%{opacity:1}}@keyframes in{0%,26%{opacity:0}34%,86%{opacity:1}94%,100%{opacity:0}}@keyframes s3{0%,22%{fill:#a073d7}96%,100%{fill:#a073d7}34%,86%{fill:#a779de}}@keyframes k3{0%,22%{transform:translateX(-7.1px);fill:#a073d7}96%,100%{transform:translateX(-7.1px);fill:#a073d7}34%,86%{transform:none;fill:#a779de}}.s3{animation:s3 10s ease-in-out infinite both}.k3{animation:k3 10s ease-in-out infinite both}.c3 .raw,.c3 .fix{animation-delay:0.9s}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="1200" height="400" rx="24" fill="#31252a"/>
+<rect x=".5" y=".5" width="1199" height="399" rx="23.5" fill="none" stroke="#514349"/>
+<text class="h1" x="56" y="58">原色铺气氛，文字只解亮度</text>
+<text class="sub" x="56" y="86">莫兰迪原色直接当文字先量一次；不到 4.5:1 的，色相和彩度不动，只把亮度解到刚好达标。</text>
+
+<g transform="translate(56 0)">
+  <rect y="116" width="168" height="72" rx="14" fill="#e8859b"/>
+  <text class="nm" y="216">Petal 花瓣</text>
+  <text class="aa" y="264" fill="#e8859b">Aa 文字</text>
+  <path d="M0 290h168" stroke="#514349" stroke-width="2" stroke-linecap="round"/>
+  <circle class="" cx="110.5" cy="290" r="6" fill="#e8859b" stroke="#31252a" stroke-width="2"/>
+  <g transform="translate(0 328)"><text class="lb" y="0">原色可读 5.7:1 <tspan fill="#8a9a5b">✓</tspan></text>
+<text class="hx" y="24">#e8859b</text></g>
+</g>
+<g transform="translate(240 0)">
+  <rect y="116" width="168" height="72" rx="14" fill="#8a9a5b"/>
+  <text class="nm" y="216">Sage 橄榄</text>
+  <text class="aa" y="264" fill="#8a9a5b">Aa 文字</text>
+  <path d="M0 290h168" stroke="#514349" stroke-width="2" stroke-linecap="round"/>
+  <circle class="" cx="86.8" cy="290" r="6" fill="#8a9a5b" stroke="#31252a" stroke-width="2"/>
+  <g transform="translate(0 328)"><text class="lb" y="0">原色可读 4.7:1 <tspan fill="#8a9a5b">✓</tspan></text>
+<text class="hx" y="24">#8a9a5b</text></g>
+</g>
+<g transform="translate(424 0)">
+  <rect y="116" width="168" height="72" rx="14" fill="#92a8b3"/>
+  <text class="nm" y="216">Mist 雾蓝</text>
+  <text class="aa" y="264" fill="#92a8b3">Aa 文字</text>
+  <path d="M0 290h168" stroke="#514349" stroke-width="2" stroke-linecap="round"/>
+  <circle class="" cx="106.9" cy="290" r="6" fill="#92a8b3" stroke="#31252a" stroke-width="2"/>
+  <g transform="translate(0 328)"><text class="lb" y="0">原色可读 5.9:1 <tspan fill="#8a9a5b">✓</tspan></text>
+<text class="hx" y="24">#92a8b3</text></g>
+</g>
+<g transform="translate(608 0)">
+  <rect y="116" width="168" height="72" rx="14" fill="#a073d7"/>
+  <text class="nm" y="216">Spring 薰衣草</text>
+  <text class="aa s3" y="264" fill="#a779de" style="animation-delay:0.9s">Aa 文字</text>
+  <path d="M0 290h168" stroke="#514349" stroke-width="2" stroke-linecap="round"/>
+  <circle class="k3" cx="88.5" cy="290" r="6" fill="#a779de" stroke="#31252a" stroke-width="2" style="animation-delay:0.9s"/>
+  <g transform="translate(0 328)" class="cyc c3"><text class="lb raw" y="0">原色当字 4.1:1</text>
+<text class="lb fix" y="0">解出 4.5:1 <tspan fill="#8a9a5b">✓</tspan></text>
+<text class="hx raw" y="24">#a073d7</text>
+<text class="hx fix" y="24">#a779de</text></g>
+</g>
+<g transform="translate(792 0)">
+  <rect y="116" width="168" height="72" rx="14" fill="#5fa8b2"/>
+  <text class="nm" y="216">Ripple 湖青</text>
+  <text class="aa" y="264" fill="#5fa8b2">Aa 文字</text>
+  <path d="M0 290h168" stroke="#514349" stroke-width="2" stroke-linecap="round"/>
+  <circle class="" cx="96.7" cy="290" r="6" fill="#5fa8b2" stroke="#31252a" stroke-width="2"/>
+  <g transform="translate(0 328)"><text class="lb" y="0">原色可读 5.4:1 <tspan fill="#8a9a5b">✓</tspan></text>
+<text class="hx" y="24">#5fa8b2</text></g>
+</g>
+<g transform="translate(976 0)">
+  <rect y="116" width="168" height="72" rx="14" fill="#b4a09b"/>
+  <text class="nm" y="216">Stone 岩灰</text>
+  <text class="aa" y="264" fill="#b4a09b">Aa 文字</text>
+  <path d="M0 290h168" stroke="#514349" stroke-width="2" stroke-linecap="round"/>
+  <circle class="" cx="108.1" cy="290" r="6" fill="#b4a09b" stroke="#31252a" stroke-width="2"/>
+  <g transform="translate(0 328)"><text class="lb" y="0">原色可读 5.9:1 <tspan fill="#8a9a5b">✓</tspan></text>
+<text class="hx" y="24">#b4a09b</text></g>
+</g>
+</svg>
