@@ -24,11 +24,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/35_projects-8b949e?style=flat-square" alt="项目数" height="20" />
   <img src="https://img.shields.io/badge/214_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/11_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/12_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard) <sub>10-26</sub> · [📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-26</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>10-26</sub></sub>
+  <sub>最近更新：[📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub> · [🛡️ contrast-guard](https://github.com/webkubor/contrast-guard) <sub>10-26</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-26</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>10-26</sub></sub>
 </p>
 
 ### Agent 工具
@@ -85,11 +85,10 @@
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
-- **[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard)** <sub>2026-10-26 · 0 ★</sub><br/>在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。
 - **[📋 Scorecard](https://github.com/webkubor/scorecard)** <sub>2026-10-26 · 1 ★</sub><br/>对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。
+- **[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard)** <sub>2026-10-26 · 0 ★</sub><br/>在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。
 - **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-10-26 · 4 ★</sub><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
 - **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-10-26 · 6 ★</sub><br/>6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-25 · 2 ★</sub><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
 
 </details>
 

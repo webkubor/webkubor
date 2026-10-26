@@ -24,11 +24,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/35_projects-8b949e?style=flat-square" alt="项目数" height="20" />
   <img src="https://img.shields.io/badge/214_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/11_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/12_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard) <sub>10-26</sub> · [📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-26</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>10-26</sub></sub>
+  <sub>Recently updated：[📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub> · [🛡️ contrast-guard](https://github.com/webkubor/contrast-guard) <sub>10-26</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-26</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>10-26</sub></sub>
 </p>
 
 ### Agent tools
@@ -85,11 +85,10 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard)** <sub>2026-10-26 · 0 ★</sub><br/>Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.
 - **[📋 Scorecard](https://github.com/webkubor/scorecard)** <sub>2026-10-26 · 1 ★</sub><br/>Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.
+- **[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard)** <sub>2026-10-26 · 0 ★</sub><br/>Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.
 - **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-10-26 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
 - **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-10-26 · 6 ★</sub><br/>6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-25 · 2 ★</sub><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
 
 </details>
 

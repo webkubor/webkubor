@@ -2,7 +2,7 @@
   "totals": {
     "publicRepos": 35,
     "stars": 214,
-    "commits30d": 11,
+    "commits30d": 12,
     "lastCommit": "2026-10-26"
   },
   "recent": [
@@ -11,6 +11,18 @@
       "stars": 2,
       "pushedAt": "2026-10-26",
       "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
+    {
+      "name": "im-notify-kit",
+      "stars": 2,
+      "pushedAt": "2026-10-26",
+      "description": "飞书/Lark 与企业微信通知库：校验业务响应，支持重试、超时和去重。Zero-dependency notification library for Lark and WeCom bots, with retries, timeouts and deduplication."
+    },
+    {
+      "name": "scorecard",
+      "stars": 1,
+      "pushedAt": "2026-10-26",
+      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
     },
     {
       "name": "cs-mcp",
@@ -23,12 +35,6 @@
       "stars": 0,
       "pushedAt": "2026-10-26",
       "description": "把配色对比度做成 CI 护栏：支持 OKLCH，不达标时直接反推出该改成多少，另有渲染后计量子命令。· A CI guardrail for color contrast that solves the exact lightness you need."
-    },
-    {
-      "name": "scorecard",
-      "stars": 1,
-      "pushedAt": "2026-10-26",
-      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
     },
     {
       "name": "kyvault",
@@ -47,19 +53,14 @@
       "stars": 1,
       "pushedAt": "2026-10-25",
       "description": "图床素材仓库：为个人项目保存历史图片，通过 GitHub raw 与 jsDelivr CDN 分发。Image assets repository for personal projects, serving existing images through GitHub raw and jsDelivr CDN."
-    },
-    {
-      "name": "dsh-llm-hub",
-      "stars": 2,
-      "pushedAt": "2026-10-25",
-      "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
     }
   ],
   "stars": {
     "webkubor": 2,
+    "im-notify-kit": 2,
+    "scorecard": 1,
     "cs-mcp": 0,
     "contrast-guard": 0,
-    "scorecard": 1,
     "kyvault": 4,
     "writing-standard-skills": 6,
     "picx-images-hosting": 1,
@@ -69,7 +70,6 @@
     "museav-cli": 3,
     "facet": 4,
     "chat-mood-gen": 3,
-    "im-notify-kit": 2,
     "ai-orb": 2,
     "vite-plugin-agent-eyes": 5,
     "dsh-museav-assets": 1,
