@@ -15,6 +15,8 @@ webkubor 的 GitHub 个人主页仓（profile README）：展示 AI agent 工具
 - `README.md` / `README.en.md`：**生成物**，由 `scripts/build-readme.mjs` 渲染，不要手改。
 - `assets/*-{light,dark}.svg`：头图、Agent 面板、Bloom 色板三张动效图，**由脚本生成，不要手改**。
 - `scripts/profile/`：生成器源码（色彩计算、设计令牌、三个面板）；令牌取自 typora-Bloom-theme 的 Petal 主题。
+- `assets/logowall-{light,dark}.png`：logo 墙是浏览器截图。原素材用 `<img>` 加载，禁止剥壳重组 logo SVG。修改 `scripts/profile/logowall-template.html` 后跑 `node scripts/build-logowall.mjs`。
+- Logo 收集后须逐个查看；发布后在 GitHub 真实页面截图，并由不同于编码模型的视觉模型核查，最终回复附结果图。
 
 ## 改内容（文案 / 项目清单）
 

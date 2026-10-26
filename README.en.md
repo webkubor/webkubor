@@ -33,8 +33,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.svg" />
-    <img src="./assets/logowall-light.svg" width="100%" alt="Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor." />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.png" />
+    <img src="./assets/logowall-light.png" width="100%" alt="Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor." />
   </picture>
 </p>
 <p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/webkubor/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [meridian](https://github.com/webkubor/meridian) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
@@ -68,7 +68,7 @@ Not just pretty colors: every palette runs on two rails, so design choices can b
 
 - **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 themes for long-form writing and immersive reading; included in the official Typora theme gallery.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
-- **[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard)** — Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
+- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.<br/><sub></sub>
 
 ### Skills: writing standards for agents
 

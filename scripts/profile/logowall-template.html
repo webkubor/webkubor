@@ -1,0 +1,70 @@
+<!doctype html>
+<!--
+  logo 墙的渲染页：把各仓库现成的 logo 按最终排版摆好，用浏览器截成 PNG。
+  为什么走截图而不是把 SVG 剥壳内嵌：
+  剥壳会丢根 svg 上的 presentation 属性（fill="none" 等被子元素继承），
+  描边型 logo 会直接糊成实心黑块；currentColor 也会失去继承环境。
+  原图直接渲染才是「logo 就是 logo」。
+-->
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<style>
+  :root {
+    --bg: #f7f2f3;
+    --surface: #ffffff;
+    --line: #e6dde0;
+    --text: #2a1e22;
+    --text-semi: #6b5a5f;
+  }
+  body.theme-dark {
+    --bg: #1c181a;
+    --surface: #262022;
+    --line: #3a2f33;
+    --text: #fef6f9;
+    --text-semi: #b3a3a8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px;
+    height: 380px;
+    background: var(--bg);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    padding: 32px 56px;
+    color: var(--text);
+  }
+  h1 { font-size: 30px; font-weight: 600; line-height: 1; }
+  .sub { font-size: 19px; color: var(--text-semi); margin-top: 10px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    row-gap: 22px;
+    margin-top: 30px;
+  }
+  .cell { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .cell img { width: 64px; height: 64px; object-fit: contain; }
+  body.theme-dark img.monochrome { filter: invert(1); }
+  .cell .nm { font-size: 18px; font-weight: 500; color: var(--text-semi); }
+</style>
+</head>
+<body>
+  <h1>开源项目的脸面</h1>
+  <div class="sub">只收各仓库现成的透明底 logo，共 <span id="cnt">6</span> 个；没有正式 logo 的项目不凑数</div>
+  <div class="grid" id="grid"></div>
+  <script>
+    const LOGOS = [
+      { file: 'typora-Bloom-theme.svg', label: 'Bloom' },
+      { file: 'scorecard.svg', label: 'Scorecard', monochrome: true },
+      { file: 'reel-kit.svg', label: 'reel-kit' },
+      { file: 'chat-mood-gen.svg', label: 'chat-mood-gen' },
+      { file: 'meridian-q.png', label: 'Meridian' },
+      { file: 'wallpaper-generator-q.png', label: '壁纸编辑器' },
+    ];
+    document.getElementById('cnt').textContent = LOGOS.length;
+    document.getElementById('grid').innerHTML = LOGOS.map(
+      (l) => `<div class="cell"><img class="${l.monochrome ? 'monochrome' : ''}" src="/assets/logos/${l.file}" alt="${l.label}" /><div class="nm">${l.label}</div></div>`,
+    ).join('');
+  </script>
+</body>
+</html>

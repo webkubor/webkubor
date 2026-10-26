@@ -54,10 +54,11 @@ function projectLine(name, lang, style) {
 }
 
 function picture(asset, alt) {
+  const extension = asset === 'logowall' ? 'png' : 'svg';
   return `<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/${asset}-dark.svg" />
-    <img src="./assets/${asset}-light.svg" width="100%" alt="${esc(alt)}" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/${asset}-dark.${extension}" />
+    <img src="./assets/${asset}-light.${extension}" width="100%" alt="${esc(alt)}" />
   </picture>
 </p>`;
 }

@@ -33,8 +33,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.svg" />
-    <img src="./assets/logowall-light.svg" width="100%" alt="6 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、Meridian、壁纸编辑器。" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.png" />
+    <img src="./assets/logowall-light.png" width="100%" alt="6 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、Meridian、壁纸编辑器。" />
   </picture>
 </p>
 <p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/webkubor/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [meridian](https://github.com/webkubor/meridian) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
@@ -68,7 +68,7 @@
 
 - **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 套主题，为长文写作和沉浸阅读设计；获 Typora 官方主题库收录。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — 把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
-- **[🛡️ contrast-guard](https://github.com/webkubor/contrast-guard)** — 在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
+- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — 在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。<br/><sub></sub>
 
 ### Skills：给 Agent 装上的表达规范
 

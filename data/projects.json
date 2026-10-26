@@ -21,7 +21,7 @@
       "asset": "bloom",
       "assetAlt": "Bloom 六个莫兰迪原色直接当文字时对比度只有 2.3 到 3.3:1；保持色相与彩度，只解亮度到 4.5:1。",
       "assetAltEn": "Six Bloom Morandi colors used directly as text only reach 2.3 to 3.3:1 contrast; keeping hue and chroma and solving only lightness brings each to 4.5:1.",
-      "projects": ["typora-Bloom-theme", "dsh-bloom-theme", "contrast-guard"]
+      "projects": ["typora-Bloom-theme", "dsh-bloom-theme", "frontend-contrast-guard"]
     }
   ],
   "featured": {
@@ -93,9 +93,9 @@
       "en": "The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.",
       "badges": []
     },
-    "contrast-guard": {
+    "frontend-contrast-guard": {
       "emoji": "🛡️",
-      "name": "contrast-guard",
+      "name": "frontend-contrast-guard",
       "zh": "在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。",
       "en": "Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.",
       "badges": []
