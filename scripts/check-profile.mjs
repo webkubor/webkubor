@@ -24,7 +24,8 @@ function checkSvg(file, rendered) {
   if (!/<title[^>]*>[^<]+<\/title>/.test(svg)) fail(`${file} 缺 <title>`);
   if (!svg.includes('prefers-reduced-motion:reduce')) fail(`${file} 缺减弱动效规则`);
   if (/<script|foreignObject|@import|@font-face|\bon[a-z]+=/i.test(svg)) fail(`${file} 含 GitHub 会剥掉或拦截的内容`);
-  if (/(href|src)="(?!#)/.test(svg)) fail(`${file} 引用了外部资源`);
+  // data: URI 是内嵌资源（logo 墙的 PNG 走这条路），不算外链；其余一律拦
+  if (/(href|src)="(?!#|data:)/.test(svg)) fail(`${file} 引用了外部资源`);
   if (Buffer.byteLength(svg) / 1024 > MAX_KB) fail(`${file} 超过 ${MAX_KB} KB`);
   const opens = (svg.match(/<(?!\/|\?|!)[a-zA-Z]+[^>]*[^/]>|<[a-zA-Z]+>/g) || []).length;
   const closes = (svg.match(/<\/[a-zA-Z]+>/g) || []).length;

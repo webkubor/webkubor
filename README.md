@@ -31,6 +31,14 @@
   <sub>最近更新：[📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub> · [🛡️ contrast-guard](https://github.com/webkubor/contrast-guard) <sub>10-26</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-26</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>10-26</sub></sub>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.svg" />
+    <img src="./assets/logowall-light.svg" width="100%" alt="6 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、Meridian、壁纸编辑器。" />
+  </picture>
+</p>
+<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/webkubor/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [meridian](https://github.com/webkubor/meridian) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
+
 ### Agent 工具
 
 <p align="center">

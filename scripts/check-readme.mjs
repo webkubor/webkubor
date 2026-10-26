@@ -74,7 +74,7 @@ if (!offline) {
 // 4. 长度预算：折叠之前的内容必须在预算内（防止主页再次变长）
 //    口径用「访客真正要滚过的量」：可见大图数 + 可见项目卡数。
 //    折叠块里的内容默认不计入 —— 它们点开才占版面。
-const MAX_VISIBLE_IMAGES = 3; // 首屏大图：hero + 两张代表作面板
+const MAX_VISIBLE_IMAGES = 4; // 首屏大图：hero + logo 墙 + 两张代表作面板
 const MAX_VISIBLE_CARDS = 12; // 折叠之前露出的项目卡
 const firstDetails = zh.indexOf('<details>');
 const aboveFold = firstDetails === -1 ? zh : zh.slice(0, firstDetails);

@@ -4,8 +4,9 @@ import { theme } from './tokens.mjs';
 import { hero } from './hero.mjs';
 import { palette } from './palette.mjs';
 import { agent } from './agent.mjs';
+import { logowall } from './logowall.mjs';
 
-const PANELS = { hero, bloom: palette, agent };
+const PANELS = { hero, logowall, bloom: palette, agent };
 
 /** @returns {Array<{ file: string, svg: string }>} */
 export function renderAll() {

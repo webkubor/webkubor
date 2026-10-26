@@ -31,6 +31,14 @@
   <sub>Recently updated：[📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub> · [🛡️ contrast-guard](https://github.com/webkubor/contrast-guard) <sub>10-26</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-26</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>10-26</sub></sub>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.svg" />
+    <img src="./assets/logowall-light.svg" width="100%" alt="Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor." />
+  </picture>
+</p>
+<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/webkubor/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [meridian](https://github.com/webkubor/meridian) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
+
 ### Agent tools
 
 <p align="center">

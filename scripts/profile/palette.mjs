@@ -9,7 +9,7 @@ import { contrast, ratioText, solveLightness, rgbToOklch, oklchToRgb, hex } from
 import { frame, keyframes, esc, r1 } from './svg.mjs';
 
 const W = 1200;
-const H = 448;
+const H = 420;
 const COL = { x: 56, w: 168, gap: 16 };
 const LOOP = 9;
 const EASE = 'cubic-bezier(.2,.8,.2,1)';
@@ -18,15 +18,18 @@ const DAMP = 'cubic-bezier(.45,.05,.55,.95)';
 // 列内竖向节奏
 // 字号下限受 GitHub 实际渲染宽度约束：README 内容区 846px / viewBox 1200 = 0.705 缩放，
 // 要让最小标签在真实页面上不小于 12px，viewBox 里至少要 17px。
-const CARD = { y: 116, h: 72, r: 14 };
-const RAW_TY = 208; // 「原色 / 当字 x:1」行
-const CHIP = { y: 222, h: 16, r: 8 };
-const CHIP_TY = 236; // 「解出 / x:1 ✓」行
-const NAME_Y = 268;
-const AA_Y = 306;
-const TRACK_Y = 330;
-const EP_Y = 352;
-const HEX_Y = 378;
+//
+// 密度纪律（真实 846px 宽度下实测）：一列只留 4 行信息 —— 色卡、对比度、解出色、名。
+// hex 值与亮度滑轨端点属于过程细节，6 列重复 8 行会让眼睛横向拉扯且没有焦点，
+// 已砍掉；核心结论（「原色当字多少 → 只解亮度后多少」）由色卡 + 两组数字讲清。
+//
+// 行距按本地视觉引擎在 846px 真实宽度下的实测结论定：
+// 副标题与色卡至少留 24px（viewBox）空档，色卡与下方两行数字之间也要能「喘气」。
+const CARD = { y: 196, h: 76, r: 14 };
+const RAW_TY = 300; // 「当字 x:1」行
+const CHIP = { y: 316, h: 18, r: 9 };
+const CHIP_TY = 332; // 「解出 x:1 ✓」行
+const NAME_Y = 372;
 
 const colX = (i) => COL.x + i * (COL.w + COL.gap);
 const knobX = (L) => r1(((Math.min(0.9, Math.max(0.4, L)) - 0.4) / 0.5) * COL.w);
@@ -62,54 +65,35 @@ function backdrop(t) {
 </g>`;
 }
 
-/** 标题块：竖棒 + 主标题 + WCAG 门槛标签 + 一行副标题 + 渐变细分隔线 */
+/**
+ * 标题块：整张图的焦点。
+ * 结论用大号数字讲清（「最差 2.3:1 → 全部 ≥ 4.5:1」），6 列色卡退为证据。
+ * 这样眼睛先落在结论上，再横向扫列，而不是一上来面对 6 个等重的信息块。
+ */
 function header(t, cols) {
   const light = t.mode === 'light';
   const raws = cols.map((c) => c.raw);
-  const span = `${ratioText(Math.min(...raws))}–${ratioText(Math.max(...raws))}`;
+  const worst = Math.min(...raws);
   const need = cols.filter((c) => c.changed).length;
   const sub = light
-    ? `莫兰迪原色直接当字只有 ${span}，色相与彩度不动，只把亮度解到刚好达标`
+    ? `莫兰迪原色直接当字最低只有 ${ratioText(worst)}；色相与彩度不动，只把亮度解到刚好达标`
     : `深色底上多数原色本就够读；不到 4.5:1 的，色相与彩度不动，只解亮度`;
-  const stat = `${light ? '浅色底' : '深色底'} ${need}/6 需解亮度`;
   return `
-<rect x="${COL.x}" y="24" width="4" height="34" rx="2" fill="url(#bg1)"/>
-<text class="h1" x="${COL.x + 16}" y="52">原色铺气氛，文字只解亮度</text>
-<rect x="392" y="28" width="212" height="26" rx="13" fill="${css(t.surface)}" stroke="${css(t.line)}"/>
-<text class="chip" x="404" y="46">WCAG 门槛：文字 4.5:1 / 图形 3:1</text>
-<text class="sub" x="${COL.x + 16}" y="84">${esc(sub)}</text>
-<text class="stat" x="${W - COL.x}" y="84" text-anchor="end">${esc(stat)}</text>
-<path d="M${COL.x} 104H${W - COL.x}" stroke="url(#rg)" stroke-width="1.5"/>`;
+<text class="h1" x="${COL.x}" y="58">原色当字最低 ${ratioText(worst)}</text>
+<text class="h1 b" x="${COL.x}" y="122">只解亮度 → 全部 ≥ 4.5:1</text>
+<text class="sub" x="${COL.x}" y="164">${esc(sub)}</text>
+<g class="pill">
+  <rect x="${W - COL.x - 300}" y="32" width="300" height="36" rx="18" fill="${css(t.surface)}" stroke="${css(t.line)}"/>
+  <text class="chip" x="${W - COL.x - 282}" y="56">WCAG 文字 4.5:1 · ${need}/6 需解亮度</text>
+</g>
+<path d="M${COL.x} 196H${W - COL.x}" stroke="url(#rg)" stroke-width="1.5"/>`;
 }
 
-/** 滑轨：刻度 + 两端亮度标注 + 原色空心标记 + 指针 */
-function rail(c, t) {
-  let ticks = '';
-  for (let x = 0; x <= COL.w; x += 21) {
-    ticks += `<path d="M${x} ${TRACK_Y}v${x % 42 === 0 ? 8 : 4}"/>`;
-  }
-  const rawMark = c.changed
-    ? `<circle cx="${knobX(c.rawL)}" cy="${TRACK_Y}" r="5" fill="${css(t.bg)}" stroke="${css(t.textSemi)}" stroke-width="1.5"/>`
-    : '';
-  return `
-<path class="tk" d="M0 ${TRACK_Y}h${COL.w}"/>
-<g class="tk" stroke-width="1.2">${ticks}</g>
-<text class="ep" x="0" y="${EP_Y}">0.40</text>
-<text class="ep" x="${COL.w}" y="${EP_Y}" text-anchor="end">0.90</text>
-${rawMark}`;
-}
-
-/** 一列：原色卡（原色）→ 解出小条（解出）→ 名字 → Aa 文字 → 滑轨 → 色值 */
+/** 一列：色卡（原色）→ 原色当字对比度 → 解出后对比度 → 颜色名 */
 function column(c, i, t) {
   const x = colX(i);
   const delay = (i * 0.3).toFixed(1);
-  const kx = knobX(c.solvedL);
-  const dx = r1(knobX(c.rawL) - kx);
   const changed = c.changed;
-  // 色值分两行：解出的才需要「原色→解出色」对照，一行在 168px 列宽里放不下 18px 的 13 个字符
-  const hexLines = changed
-    ? `<text class="hx" x="0" y="${HEX_Y}">${esc(hex(c.rgb))}</text><text class="hx" x="0" y="${HEX_Y + 21}">→ ${esc(hex(c.solved))}</text>`
-    : `<text class="hx" x="0" y="${HEX_Y}">${esc(hex(c.rgb))}</text>`;
   return `
 <g transform="translate(${x} 0)">
   <g filter="url(#sd)">
@@ -117,30 +101,19 @@ function column(c, i, t) {
     <rect x="0" y="${CARD.y}" width="${COL.w}" height="${CARD.h}" rx="${CARD.r}" fill="url(#hl)"/>
   </g>
   <g clip-path="url(#cc${i})"><g class="sw" style="animation-delay:${delay}s"><rect x="-96" y="${CARD.y}" width="96" height="${CARD.h}" fill="url(#swg)"/></g></g>
-  <text class="lb" x="0" y="${RAW_TY}">原色</text>
-  <text class="lb" x="${COL.w}" y="${RAW_TY}" text-anchor="end">当字 ${ratioText(c.raw)}</text>
-  <g class="kf c${i}" fill="${css(c.solved)}" style="animation-delay:${delay}s">
-    <rect x="0" y="${CHIP.y}" width="44" height="${CHIP.h}" rx="${CHIP.r}"/>
-    <rect x="0" y="${CHIP.y}" width="44" height="${CHIP.h}" rx="${CHIP.r}" fill="url(#shi)"/>
-    <text class="lb" x="52" y="${CHIP_TY}" fill="${css(t.textSemi)}">${changed ? '解出' : '已达标'}</text>
+  <text class="rr raw" x="0" y="${RAW_TY}" fill="${css(t.textSemi)}">当字 ${ratioText(c.raw)}</text>
+  <g class="kf k${i} c${i}" fill="${css(c.solved)}" style="animation-delay:${delay}s">
+    <rect x="0" y="${CHIP.y}" width="40" height="${CHIP.h}" rx="${CHIP.r}"/>
+    <rect x="0" y="${CHIP.y}" width="40" height="${CHIP.h}" rx="${CHIP.r}" fill="url(#shi)"/>
+    <text class="lb" x="50" y="${CHIP_TY}" fill="${css(t.textSemi)}">${changed ? '解出' : '已达标'}</text>
     <text class="rr" x="${COL.w}" y="${CHIP_TY}" text-anchor="end" fill="${css(t.text)}">${ratioText(c.fixed)}<tspan fill="${css(t.ok)}"> ✓</tspan></text>
   </g>
-  <text class="aa" x="0" y="${AA_Y}" fill="${css(c.solved)}">Aa 文字</text>
-  <g class="kg k${i}" style="transform-origin:${kx}px ${TRACK_Y}px">
-    <circle cx="${kx}" cy="${TRACK_Y}" r="7" fill="${css(c.solved)}" stroke="${css(t.bg)}" stroke-width="2.5"/>
-  </g>
-  <text class="nm" x="0" y="${NAME_Y}">${esc(c.name)} ${esc(c.zh)}</text>
-  ${rail(c, t)}
-  ${hexLines}
+  <text class="nm" x="0" y="${NAME_Y}">${esc(c.name)} <tspan fill="${css(t.textSemi)}">${esc(c.zh)}</tspan></text>
 </g>`;
 }
 
-/** 每列的关键帧：填充（解出色）与指针位移一一对齐，解出瞬间到位并轻微过冲回弹 */
+/** 每列的关键帧：解出色的色条从原色过渡到解出色；已达标列原地轻点一下表示确认 */
 function perColumn(c, i) {
-  const dx = r1(knobX(c.rawL) - knobX(c.solvedL));
-  const dir = -Math.sign(dx) || 1;
-  const over = r1(dir * 5);
-  const back = r1(dir * 1.8);
   const fill = c.changed
     ? {
         '0%,14%': `fill:${css(c.rgb)}`,
@@ -154,15 +127,15 @@ function perColumn(c, i) {
       };
   const move = c.changed
     ? {
-        '0%,14%': `transform:translateX(${dx}px)`,
-        '30%': `transform:translateX(${over}px)`,
-        '38%': `transform:translateX(${back}px)`,
+        '0%,14%': 'transform:translateX(0px)',
+        '30%': 'transform:translateX(4px)',
+        '38%': 'transform:translateX(-1px)',
         '44%,88%': 'transform:translateX(0px)',
-        '100%': `transform:translateX(${dx}px)`,
+        '100%': 'transform:translateX(0px)',
       }
     : {
         '0%,26%': 'transform:translateX(0px) scale(1)',
-        '30%': 'transform:translateX(0px) scale(1.22)',
+        '30%': 'transform:translateX(0px) scale(1.14)',
         '38%,88%': 'transform:translateX(0px) scale(1)',
         '100%': 'transform:translateX(0px) scale(1)',
       };
@@ -208,18 +181,14 @@ function defs(t, cols) {
 function style(t, cols) {
   return `
 text{font-family:${FONT_SANS}}
-.h1{font-size:26px;font-weight:600;fill:${css(t.text)}}
+.h1{font-size:38px;font-weight:600;fill:${css(t.text)}}
+.h1.b{fill:${css(t.accent)}}
 .chip{font-size:18px;fill:${css(t.textSemi)}}
 .sub{font-size:19px;fill:${css(t.textSemi)}}
-.stat{font-size:18px;fill:${css(t.textSemi)}}
 .nm{font-size:19px;font-weight:600;fill:${css(t.text)}}
-.aa{font-size:34px;font-weight:600}
 .lb{font-size:18px;fill:${css(t.textSemi)}}
-.rr{font-size:19px;font-weight:600}
-.hx{font-family:${FONT_MONO};font-size:18px;fill:${css(t.textSemi)}}
-.tk{stroke:${css(t.line)};fill:none}
-.ep{font-family:${FONT_MONO};font-size:18px;fill:${css(t.textSemi)}}
-.ep.mid{font-family:${FONT_SANS};opacity:.75}
+.rr{font-size:20px;font-weight:600}
+.rr.raw{font-weight:500}
 .sw{opacity:0}
 .g1{animation:drift 26s ${DAMP} infinite}
 .g2{animation:drift2 32s ${DAMP} infinite}

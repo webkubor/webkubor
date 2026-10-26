@@ -110,6 +110,20 @@ export function buildReadme(lang) {
     'webkubor: taste, made testable. Six Morandi petals unfold inside a measuring ring while the wordmark settles from raw color into readable ink.',
   );
 
+  const logowallAlt = T(
+    '6 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、Meridian、壁纸编辑器。',
+    'Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor.',
+  );
+
+  // logo 墙：只收透明底纯图形 logo（带底色方块的不进墙），没有正式 logo 的项目不凑数
+  const wallNames = [
+    'typora-Bloom-theme', 'scorecard', 'reel-kit',
+    'chat-mood-gen', 'meridian', 'wallpaper-generator',
+  ];
+  const wallStrip = `<p align="center"><sub>${wallNames
+    .map((n) => `[${esc(data.projects[n]?.name || n)}](${repoUrl(n)})`)
+    .join(' · ')}</sub></p>`;
+
   const groups = data.groups
     .map((g) => {
       const title = T(g.title, g.titleEn);
@@ -179,6 +193,9 @@ ${lines}`;
 
 ${statRow}
 ${recentStrip}
+
+${picture('logowall', logowallAlt)}
+${wallStrip}
 
 ${groups}
 
