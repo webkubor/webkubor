@@ -2,7 +2,7 @@
   "totals": {
     "publicRepos": 35,
     "stars": 214,
-    "commits30d": 12,
+    "commits30d": 13,
     "lastCommit": "2026-10-26"
   },
   "recent": [
@@ -13,10 +13,10 @@
       "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
     },
     {
-      "name": "im-notify-kit",
+      "name": "supercli",
       "stars": 2,
       "pushedAt": "2026-10-26",
-      "description": "飞书/Lark 与企业微信通知库：校验业务响应，支持重试、超时和去重。Zero-dependency notification library for Lark and WeCom bots, with retries, timeouts and deduplication."
+      "description": "CLI 工具目录与发现站：按用途搜索、厂商筛选和 GitHub Stars 快照排名，社区通过 PR 贡献。 / Community CLI directory with category search, vendor filters, and transparent GitHub star rankings."
     },
     {
       "name": "scorecard",
@@ -31,42 +31,46 @@
       "description": "把个人开源工具链接进 AI Agent 的 MCP 服务：按能力分组，装了哪个 CLI 就长出哪组工具。· An MCP server that strings a personal open-source toolchain into AI agents, per capability group."
     },
     {
-      "name": "contrast-guard",
+      "name": "xiaobai-kanban",
       "stars": 0,
       "pushedAt": "2026-10-26",
-      "description": "把配色对比度做成 CI 护栏：支持 OKLCH，不达标时直接反推出该改成多少，另有渲染后计量子命令。· A CI guardrail for color contrast that solves the exact lightness you need."
+      "description": "中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流，提供 AGENTS.md 协作指南。 / Chinese beginner guide to coding agents, requirements, CLI setup, and Git workflows."
     },
     {
-      "name": "kyvault",
-      "stars": 4,
+      "name": "im-notify-kit",
+      "stars": 2,
       "pushedAt": "2026-10-26",
-      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
+      "description": "飞书/Lark 与企业微信通知库：校验业务响应，支持重试、超时和去重。Zero-dependency notification library for Lark and WeCom bots, with retries, timeouts and deduplication."
     },
     {
-      "name": "writing-standard-skills",
-      "stars": 6,
+      "name": "claude-usage-statusline",
+      "stars": 0,
       "pushedAt": "2026-10-26",
-      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
+      "description": "Claude Code 状态栏：会话花费、上下文占用、5h / 7d 限额预警，区分订阅制与按量付费。单文件 Python，零依赖。· A Claude Code statusline for session cost, context usage and limit warnings."
     },
     {
-      "name": "picx-images-hosting",
+      "name": "mlx-vlm-kit",
       "stars": 1,
-      "pushedAt": "2026-10-25",
-      "description": "图床素材仓库：为个人项目保存历史图片，通过 GitHub raw 与 jsDelivr CDN 分发。Image assets repository for personal projects, serving existing images through GitHub raw and jsDelivr CDN."
+      "pushedAt": "2026-10-26",
+      "description": "Apple Silicon 本地视觉语言模型 CLI：用 MLX/Qwen3-VL 描述图片、图像问答与提示词反推。Offline vision-language CLI for image understanding, visual Q&A and reverse prompting on Apple Silicon."
     }
   ],
   "stars": {
     "webkubor": 2,
-    "im-notify-kit": 2,
+    "supercli": 2,
     "scorecard": 1,
     "cs-mcp": 0,
+    "xiaobai-kanban": 0,
+    "im-notify-kit": 2,
+    "claude-usage-statusline": 0,
+    "mlx-vlm-kit": 1,
+    "path-guard": 1,
     "contrast-guard": 0,
     "kyvault": 4,
     "writing-standard-skills": 6,
     "picx-images-hosting": 1,
     "dsh-llm-hub": 2,
     "dsh-env-inspector": 3,
-    "xiaobai-kanban": 0,
     "museav-cli": 3,
     "facet": 4,
     "chat-mood-gen": 3,
@@ -75,8 +79,6 @@
     "dsh-museav-assets": 1,
     "wallpaper-generator": 1,
     "charmoji-sticker-skill": 5,
-    "path-guard": 1,
-    "mlx-vlm-kit": 1,
     "meridian": 0,
     "deadcode-reaper-skill": 2,
     "release-sync-skill": 0,
@@ -85,11 +87,9 @@
     "ai-sse-kit": 2,
     "dsh-bloom-theme": 43,
     "typora-Bloom-theme": 101,
-    "supercli": 2,
     "device-passport": 1,
     "lite-browser": 0,
     "reel-kit": 6,
-    "suno-publisher": 0,
-    "claude-usage-statusline": 0
+    "suno-publisher": 0
   }
 }
