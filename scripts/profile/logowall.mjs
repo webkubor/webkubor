@@ -34,14 +34,17 @@ const LOGOS = [
   { name: 'wallpaper-generator', file: 'wallpaper-generator-q.png', kind: 'png', label: '壁纸编辑器' },
 ];
 
-/** 剥掉外层 svg 壳，只留内部内容与 viewBox，便于按格缩放 */
-function inlineSvg(file) {
+/** 剥掉外层 svg 壳，只留内部内容与 viewBox，便于按格缩放。
+ *  currentColor 必须在此换成实际颜色：内嵌后没有文本环境可继承，
+ *  浏览器会把它当黑色——scorecard 的评分环就是这么糊成黑圆的。 */
+function inlineSvg(file, ink) {
   const raw = readFileSync(join(here, '../../assets/logos', file), 'utf8');
   const vb = raw.match(/viewBox="([^"]+)"/)?.[1] || '0 0 64 64';
   const body = raw
     .replace(/<\?xml[^>]*\?>/g, '')
     .replace(/<!--[\s\S]*?-->/g, '')
     .replace(/<\/?svg[^>]*>/g, '')
+    .replaceAll('currentColor', ink)
     .trim();
   return { vb, body };
 }
@@ -63,7 +66,7 @@ function cell(logo, i, t) {
   const art =
     logo.kind === 'svg'
       ? (() => {
-          const { vb, body } = inlineSvg(logo.file);
+          const { vb, body } = inlineSvg(logo.file, css(t.text));
           const [vx, vy, vw, vh] = vb.split(/\s+/).map(Number);
           // 横版 logo 按宽度撑满，正方形按大边缩放
           const wide = vw / vh > 2;

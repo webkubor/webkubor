@@ -25,11 +25,11 @@
 </g><g class="cell" style="animation-delay:0.09s">
   <svg x="568" y="110" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path
     d="M 39.52 11.33 A 22 22 0 1 0 52.67 24.48"
-    stroke="currentColor"
+    stroke="#2a1e22"
     stroke-width="8"
     stroke-linecap="round"
   />
-  <circle cx="47.56" cy="16.44" r="5" fill="currentColor" /></svg>
+  <circle cx="47.56" cy="16.44" r="5" fill="#2a1e22" /></svg>
   <text class="nm" x="600" y="206" text-anchor="middle">Scorecard</text>
 </g><g class="cell" style="animation-delay:0.18s">
   <svg x="927.4666666666667" y="130.36363636363637" width="102.4" height="23.272727272727273" viewBox="0 0 220 50" xmlns="http://www.w3.org/2000/svg"><title>reel-kit</title>
