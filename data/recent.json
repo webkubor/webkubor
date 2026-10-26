@@ -1,23 +1,35 @@
 {
-  "syncedAt": "2026-10-26T07:43:20.566Z",
+  "syncedAt": "2026-10-26T08:22:31.784Z",
   "totals": {
     "publicRepos": 35,
     "stars": 214,
-    "commits30d": 9,
-    "lastCommit": "2026-10-25"
+    "commits30d": 10,
+    "lastCommit": "2026-10-26"
   },
   "recent": [
     {
-      "name": "scorecard",
-      "stars": 1,
+      "name": "webkubor",
+      "stars": 2,
       "pushedAt": "2026-10-26",
-      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
     },
     {
       "name": "cs-mcp",
       "stars": 0,
       "pushedAt": "2026-10-26",
       "description": "把个人开源工具链接进 AI Agent 的 MCP 服务：按能力分组，装了哪个 CLI 就长出哪组工具。· An MCP server that strings a personal open-source toolchain into AI agents, per capability group."
+    },
+    {
+      "name": "contrast-guard",
+      "stars": 0,
+      "pushedAt": "2026-10-26",
+      "description": "把配色对比度做成 CI 护栏：支持 OKLCH，不达标时直接反推出该改成多少，另有渲染后计量子命令。· A CI guardrail for color contrast that solves the exact lightness you need."
+    },
+    {
+      "name": "scorecard",
+      "stars": 1,
+      "pushedAt": "2026-10-26",
+      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
     },
     {
       "name": "kyvault",
@@ -38,31 +50,20 @@
       "description": "图床素材仓库：为个人项目保存历史图片，通过 GitHub raw 与 jsDelivr CDN 分发。Image assets repository for personal projects, serving existing images through GitHub raw and jsDelivr CDN."
     },
     {
-      "name": "webkubor",
-      "stars": 2,
-      "pushedAt": "2026-10-25",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
-    },
-    {
       "name": "dsh-llm-hub",
       "stars": 2,
       "pushedAt": "2026-10-25",
       "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
-    },
-    {
-      "name": "dsh-env-inspector",
-      "stars": 3,
-      "pushedAt": "2026-10-25",
-      "description": "DSH 环境自检与端口运维插件：看清电脑装了什么，一键释放残留占用开发端口的进程。· A DSH plugin that inspects your local toolchain and releases leftover processes holding dev ports."
     }
   ],
   "stars": {
-    "scorecard": 1,
+    "webkubor": 2,
     "cs-mcp": 0,
+    "contrast-guard": 0,
+    "scorecard": 1,
     "kyvault": 4,
     "writing-standard-skills": 6,
     "picx-images-hosting": 1,
-    "webkubor": 2,
     "dsh-llm-hub": 2,
     "dsh-env-inspector": 3,
     "xiaobai-kanban": 0,
@@ -79,7 +80,6 @@
     "mlx-vlm-kit": 1,
     "meridian": 0,
     "deadcode-reaper-skill": 2,
-    "contrast-guard": 0,
     "release-sync-skill": 0,
     "vite-plugin-refresh-guard": 2,
     "voxflow": 8,
