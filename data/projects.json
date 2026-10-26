@@ -1,0 +1,196 @@
+{
+  "updatedAt": "2026-10-26",
+  "groups": [
+    {
+      "id": "agent",
+      "title": "Agent 工具",
+      "titleEn": "Agent tools",
+      "lede": "从「让 AI 写代码」到「让它看得见、守得住」。",
+      "ledeEn": "From \"let AI write code\" to \"let it see and stay safe\".",
+      "asset": "agent",
+      "assetAlt": "一次 401 的修复过程：Agent Eyes 收集脱敏证据，agent 按证据定位到本地 cookie 过期，自修复后用同一请求复验为 200。",
+      "assetAltEn": "A 401 being fixed: Agent Eyes collects redacted evidence, the agent traces it to an expired local cookie, self-repairs it and re-verifies the same request returns 200.",
+      "projects": ["vite-plugin-agent-eyes", "kyvault", "dsh-env-inspector", "vite-plugin-refresh-guard"]
+    },
+    {
+      "id": "bloom",
+      "title": "Bloom：把视觉判断做成可检验的设计系统",
+      "titleEn": "Bloom: a design system where visual judgment can be tested",
+      "lede": "不是只把颜色做得好看——每套配色都有两条轨，让设计选择能被自动检查。",
+      "ledeEn": "Not just pretty colors: every palette runs on two rails, so design choices can be checked automatically.",
+      "asset": "bloom",
+      "assetAlt": "Bloom 六个莫兰迪原色直接当文字时对比度只有 2.3 到 3.3:1；保持色相与彩度，只解亮度到 4.5:1。",
+      "assetAltEn": "Six Bloom Morandi colors used directly as text only reach 2.3 to 3.3:1 contrast; keeping hue and chroma and solving only lightness brings each to 4.5:1.",
+      "projects": ["typora-Bloom-theme", "dsh-bloom-theme", "contrast-guard"]
+    }
+  ],
+  "featured": {
+    "title": "还在做",
+    "titleEn": "Also in progress",
+    "projects": ["scorecard", "voxflow", "dsh-llm-hub", "reel-kit", "chat-mood-gen", "museav-cli"]
+  },
+  "skills": {
+    "title": "Skills：给 Agent 装上的表达规范",
+    "titleEn": "Skills: writing standards for agents",
+    "lede": "写文档、提单、发帖之前先想「这话怎么说才对」的规范集合，一行命令接入 Claude Code / Codex / DSH / Antigravity。",
+    "ledeEn": "Standards for thinking \"how should this be said\" before writing docs, tickets or posts. One command to install into Claude Code / Codex / DSH / Antigravity.",
+    "projects": ["writing-standard-skills", "deadcode-reaper-skill", "charmoji-sticker-skill"]
+  },
+  "projects": {
+    "vite-plugin-agent-eyes": {
+      "emoji": "👀",
+      "name": "Agent Eyes",
+      "zh": "给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。",
+      "en": "A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.",
+      "badges": [
+        { "label": "MIT", "text": true },
+        { "label": "npm", "href": "https://www.npmjs.com/package/vite-plugin-agent-eyes" }
+      ]
+    },
+    "kyvault": {
+      "emoji": "🔐",
+      "name": "Kyvault",
+      "zh": "为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。",
+      "en": "A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.",
+      "badges": [
+        { "label": "Rust", "text": true },
+        { "label": "MIT", "text": true },
+        { "label": "crates.io", "href": "https://crates.io/crates/kyvault" }
+      ]
+    },
+    "dsh-env-inspector": {
+      "emoji": "🖥️",
+      "name": "DSH Env Inspector",
+      "zh": "检查开发环境、CLI、插件与端口状态；在不暴露密钥明文的前提下，让环境问题可见、可处理。",
+      "en": "Checks your dev environment, CLIs, plugins and ports, making environment problems visible and fixable without exposing secret values.",
+      "badges": [
+        { "label": "npm", "href": "https://www.npmjs.com/package/@dsh-plugins/dsh-env-inspector" }
+      ]
+    },
+    "vite-plugin-refresh-guard": {
+      "emoji": "🔄",
+      "name": "Vite Refresh Guard",
+      "zh": "解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。",
+      "en": "Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.",
+      "badges": [
+        { "label": "MIT", "text": true },
+        { "label": "npm", "href": "https://www.npmjs.com/package/vite-plugin-refresh-guard" }
+      ]
+    },
+    "typora-Bloom-theme": {
+      "emoji": "🌸",
+      "name": "Bloom for Typora",
+      "zh": "24 套主题，为长文写作和沉浸阅读设计；获 Typora 官方主题库收录。",
+      "en": "24 themes for long-form writing and immersive reading; included in the official Typora theme gallery.",
+      "badges": [
+        { "label": "Typora 官方收录", "href": "https://theme.typora.io/theme/Bloom/" }
+      ]
+    },
+    "dsh-bloom-theme": {
+      "emoji": "🎛️",
+      "name": "Bloom for DSH",
+      "zh": "把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。",
+      "en": "The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.",
+      "badges": []
+    },
+    "contrast-guard": {
+      "emoji": "🛡️",
+      "name": "contrast-guard",
+      "zh": "在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。",
+      "en": "Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.",
+      "badges": []
+    },
+    "scorecard": {
+      "emoji": "📋",
+      "name": "Scorecard",
+      "zh": "对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。",
+      "en": "Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.",
+      "badges": [
+        { "label": "在线体验", "href": "https://scorecard.webkubor.online" },
+        { "label": "源码", "href": "https://github.com/webkubor/scorecard" }
+      ]
+    },
+    "voxflow": {
+      "emoji": "🎙️",
+      "name": "VoxFlow",
+      "zh": "Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。",
+      "en": "A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.",
+      "badges": []
+    },
+    "dsh-llm-hub": {
+      "emoji": "🧭",
+      "name": "dsh-llm-hub",
+      "zh": "为 DSH 补上模型网关探测、目录发现与余额信息。",
+      "en": "Adds model gateway probing, catalog discovery and balance info to DSH.",
+      "badges": [
+        { "label": "npm", "href": "https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub" }
+      ]
+    },
+    "reel-kit": {
+      "emoji": "🎞️",
+      "name": "reel-kit",
+      "zh": "用素材、逐句文案、配音和模板在本地合成竖版短视频。",
+      "en": "Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.",
+      "badges": []
+    },
+    "chat-mood-gen": {
+      "emoji": "💬",
+      "name": "chat-mood-gen",
+      "zh": "仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式。",
+      "en": "A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes.",
+      "badges": []
+    },
+    "museav-cli": {
+      "emoji": "🎨",
+      "name": "museav-cli",
+      "zh": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。",
+      "en": "MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.",
+      "badges": []
+    },
+    "writing-standard-skills": {
+      "emoji": "✍️",
+      "name": "writing-standard-skills",
+      "zh": "6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。",
+      "en": "6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.",
+      "badges": []
+    },
+    "deadcode-reaper-skill": {
+      "emoji": "🪦",
+      "name": "deadcode-reaper-skill",
+      "zh": "让死代码与废弃 skill 真正入土为安，晒出减法战绩。",
+      "en": "Retires dead code and stale skills for good, and shows off the subtraction.",
+      "badges": []
+    },
+    "charmoji-sticker-skill": {
+      "emoji": "🩹",
+      "name": "charmoji-sticker-skill",
+      "zh": "一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。",
+      "en": "One front-facing character portrait becomes a complete, submittable WeChat sticker set, fully scripted.",
+      "badges": []
+    }
+  },
+  "extras": {
+    "title": "更多工具",
+    "titleEn": "More tools",
+    "projects": [
+      { "repo": "ai-sse-kit", "zh": "框架无关的 AI 流式对话工具包，带 React / Vue 绑定。", "en": "A framework-agnostic toolkit for streaming AI chat, with React / Vue bindings." },
+      { "repo": "facet", "zh": "一份 Markdown 生成演讲页、PDF 与长图。", "en": "One Markdown file becomes slides, a PDF and a long image." },
+      { "repo": "ai-orb", "zh": "4KB 零依赖 SVG，表达 AI 助手当前状态。", "en": "A 4KB zero-dependency SVG that shows what an AI assistant is doing." },
+      { "repo": "mlx-vlm-kit", "zh": "Apple Silicon 本地离线图片理解。", "en": "Local, offline image understanding on Apple Silicon." },
+      { "repo": "im-notify-kit", "zh": "飞书 / 企业微信通知库，带重试与去重。", "en": "A Lark / WeCom notification library with retries and deduplication." },
+      { "repo": "path-guard", "zh": "PATH 命令诊断 CLI：定位实际执行的副本与版本漂移。", "en": "PATH diagnostics CLI: find the copy that actually runs and detect version drift." },
+      { "repo": "supercli", "zh": "CLI 工具目录与发现站，按用途与 Stars 快照排名。", "en": "A CLI directory and discovery site ranked by purpose and a Stars snapshot." },
+      { "repo": "meridian", "zh": "一个安静的 macOS Git 客户端。Tauri 2 + Vue 3 + git2。", "en": "A calm macOS Git client. Tauri 2 + Vue 3 + git2." },
+      { "repo": "wallpaper-generator", "zh": "浏览器壁纸编辑器：多设备预设、水印与导出 PNG。", "en": "A browser wallpaper editor: device presets, watermarks and PNG export." },
+      { "repo": "xiaobai-kanban", "zh": "中文 AI 编程助手入门教程，含 AGENTS.md 协作指南。", "en": "A Chinese beginner guide to coding agents, requirements and Git workflows." },
+      { "repo": "cs-mcp", "zh": "把个人开源工具链接进 AI Agent 的 MCP 服务，按能力分组。", "en": "An MCP server that strings a personal open-source toolchain into AI agents, per capability group." },
+      { "repo": "lite-browser", "zh": "AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。", "en": "Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs." },
+      { "repo": "device-passport", "zh": "确定性的浏览器 / 设备画像，用于自动化与测试。", "en": "Deterministic, self-consistent browser/device personas for automation and testing." },
+      { "repo": "picx-images-hosting", "zh": "图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。", "en": "Image assets for personal projects, served over GitHub raw and jsDelivr." },
+      { "repo": "dsh-museav-assets", "zh": "DSH 素材浏览插件：按工作区查看出图记录与素材直链。", "en": "A DSH plugin that browses generated assets and image libraries by workspace." },
+      { "repo": "release-sync-skill", "zh": "发版时自动把版本号同步到台账与 SKILL.md。", "en": "Syncs release versions into the ledger and SKILL.md at publish time." },
+      { "repo": "suno-publisher", "zh": "音乐发行管理工作台：上架台账与填表辅助。", "en": "A music release management dashboard: release ledger and form-filling help." },
+      { "repo": "claude-usage-statusline", "zh": "Claude Code 状态栏：会话花费与额度预警。", "en": "A Claude Code status line: session cost and quota warnings." }
+    ]
+  }
+}

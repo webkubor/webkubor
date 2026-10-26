@@ -1,0 +1,96 @@
+{
+  "syncedAt": "2026-10-26T07:43:20.566Z",
+  "totals": {
+    "publicRepos": 35,
+    "stars": 214,
+    "commits30d": 9,
+    "lastCommit": "2026-10-25"
+  },
+  "recent": [
+    {
+      "name": "scorecard",
+      "stars": 1,
+      "pushedAt": "2026-10-26",
+      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
+    },
+    {
+      "name": "cs-mcp",
+      "stars": 0,
+      "pushedAt": "2026-10-26",
+      "description": "把个人开源工具链接进 AI Agent 的 MCP 服务：按能力分组，装了哪个 CLI 就长出哪组工具。· An MCP server that strings a personal open-source toolchain into AI agents, per capability group."
+    },
+    {
+      "name": "kyvault",
+      "stars": 4,
+      "pushedAt": "2026-10-26",
+      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
+    },
+    {
+      "name": "writing-standard-skills",
+      "stars": 6,
+      "pushedAt": "2026-10-26",
+      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
+    },
+    {
+      "name": "picx-images-hosting",
+      "stars": 1,
+      "pushedAt": "2026-10-25",
+      "description": "图床素材仓库：为个人项目保存历史图片，通过 GitHub raw 与 jsDelivr CDN 分发。Image assets repository for personal projects, serving existing images through GitHub raw and jsDelivr CDN."
+    },
+    {
+      "name": "webkubor",
+      "stars": 2,
+      "pushedAt": "2026-10-25",
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
+    {
+      "name": "dsh-llm-hub",
+      "stars": 2,
+      "pushedAt": "2026-10-25",
+      "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
+    },
+    {
+      "name": "dsh-env-inspector",
+      "stars": 3,
+      "pushedAt": "2026-10-25",
+      "description": "DSH 环境自检与端口运维插件：看清电脑装了什么，一键释放残留占用开发端口的进程。· A DSH plugin that inspects your local toolchain and releases leftover processes holding dev ports."
+    }
+  ],
+  "stars": {
+    "scorecard": 1,
+    "cs-mcp": 0,
+    "kyvault": 4,
+    "writing-standard-skills": 6,
+    "picx-images-hosting": 1,
+    "webkubor": 2,
+    "dsh-llm-hub": 2,
+    "dsh-env-inspector": 3,
+    "xiaobai-kanban": 0,
+    "museav-cli": 3,
+    "facet": 4,
+    "chat-mood-gen": 3,
+    "im-notify-kit": 2,
+    "ai-orb": 2,
+    "vite-plugin-agent-eyes": 5,
+    "dsh-museav-assets": 1,
+    "wallpaper-generator": 1,
+    "charmoji-sticker-skill": 5,
+    "path-guard": 1,
+    "mlx-vlm-kit": 1,
+    "meridian": 0,
+    "deadcode-reaper-skill": 2,
+    "contrast-guard": 0,
+    "release-sync-skill": 0,
+    "vite-plugin-refresh-guard": 2,
+    "voxflow": 8,
+    "ai-sse-kit": 2,
+    "dsh-bloom-theme": 43,
+    "typora-Bloom-theme": 101,
+    "supercli": 2,
+    "device-passport": 1,
+    "lite-browser": 0,
+    "reel-kit": 6,
+    "suno-publisher": 0,
+    "claude-usage-statusline": 0
+  }
+}

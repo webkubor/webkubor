@@ -1,76 +1,205 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
 <title id="t">Bloom 色板：同一色相，只解亮度</title>
 <desc id="d">六个 Bloom 莫兰迪原色在浅色底上的对比度：Petal 2.3:1 解为 4.5:1，Sage 2.8:1 解为 4.5:1，Mist 2.3:1 解为 4.5:1，Spring 3.3:1 解为 4.5:1，Ripple 2.5:1 解为 4.5:1，Stone 2.3:1 解为 4.5:1。共 6 个需要调整亮度。</desc>
-<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}.h1{font-size:21px;font-weight:600;fill:#2a1e22}.sub{font-size:15px;fill:#5f5156}.nm{font-size:15px;font-weight:600;fill:#2a1e22}.aa{font-size:34px;font-weight:600}.lb{font-size:14px;fill:#5f5156}.hx{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace;font-size:13px;fill:#5f5156}.raw{opacity:0}.cyc .raw{animation:out 10s ease-in-out infinite both}.cyc .fix{animation:in 10s ease-in-out infinite both}@keyframes out{0%,22%{opacity:1}30%,90%{opacity:0}97%,100%{opacity:1}}@keyframes in{0%,26%{opacity:0}34%,86%{opacity:1}94%,100%{opacity:0}}@keyframes s0{0%,22%{fill:#e8859b}96%,100%{fill:#e8859b}34%,86%{fill:#b2546b}}@keyframes k0{0%,22%{transform:translateX(53.8px);fill:#e8859b}96%,100%{transform:translateX(53.8px);fill:#e8859b}34%,86%{transform:none;fill:#b2546b}}.s0{animation:s0 10s ease-in-out infinite both}.k0{animation:k0 10s ease-in-out infinite both}.c0 .raw,.c0 .fix{animation-delay:0.0s}@keyframes s1{0%,22%{fill:#8a9a5b}96%,100%{fill:#8a9a5b}34%,86%{fill:#6a783a}}@keyframes k1{0%,22%{transform:translateX(37.3px);fill:#8a9a5b}96%,100%{transform:translateX(37.3px);fill:#8a9a5b}34%,86%{transform:none;fill:#6a783a}}.s1{animation:s1 10s ease-in-out infinite both}.k1{animation:k1 10s ease-in-out infinite both}.c1 .raw,.c1 .fix{animation-delay:0.3s}@keyframes s2{0%,22%{fill:#92a8b3}96%,100%{fill:#92a8b3}34%,86%{fill:#617580}}@keyframes k2{0%,22%{transform:translateX(56.2px);fill:#92a8b3}96%,100%{transform:translateX(56.2px);fill:#92a8b3}34%,86%{transform:none;fill:#617580}}.s2{animation:s2 10s ease-in-out infinite both}.k2{animation:k2 10s ease-in-out infinite both}.c2 .raw,.c2 .fix{animation-delay:0.6s}@keyframes s3{0%,22%{fill:#a073d7}96%,100%{fill:#a073d7}34%,86%{fill:#8a5dbe}}@keyframes k3{0%,22%{transform:translateX(24.8px);fill:#a073d7}96%,100%{transform:translateX(24.8px);fill:#a073d7}34%,86%{transform:none;fill:#8a5dbe}}.s3{animation:s3 10s ease-in-out infinite both}.k3{animation:k3 10s ease-in-out infinite both}.c3 .raw,.c3 .fix{animation-delay:0.9s}@keyframes s4{0%,22%{fill:#5fa8b2}96%,100%{fill:#5fa8b2}34%,86%{fill:#317c86}}@keyframes k4{0%,22%{transform:translateX(47.8px);fill:#5fa8b2}96%,100%{transform:translateX(47.8px);fill:#5fa8b2}34%,86%{transform:none;fill:#317c86}}.s4{animation:s4 10s ease-in-out infinite both}.k4{animation:k4 10s ease-in-out infinite both}.c4 .raw,.c4 .fix{animation-delay:1.2s}@keyframes s5{0%,22%{fill:#b4a09b}96%,100%{fill:#b4a09b}34%,86%{fill:#816e6a}}@keyframes k5{0%,22%{transform:translateX(55.6px);fill:#b4a09b}96%,100%{transform:translateX(55.6px);fill:#b4a09b}34%,86%{transform:none;fill:#816e6a}}.s5{animation:s5 10s ease-in-out infinite both}.k5{animation:k5 10s ease-in-out infinite both}.c5 .raw,.c5 .fix{animation-delay:1.5s}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}.h1{font-size:24px;font-weight:600;fill:#2a1e22}.chip{font-size:13px;fill:#5f5156}.sub{font-size:15px;fill:#5f5156}.stat{font-size:13px;fill:#5f5156}.nm{font-size:15px;font-weight:600;fill:#2a1e22}.aa{font-size:30px;font-weight:600}.lb{font-size:13px;fill:#5f5156}.rr{font-size:14px;font-weight:600}.hx{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace;font-size:13px;fill:#5f5156}.tk{stroke:#e9d9e0;fill:none}.ep{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'PingFang SC','Microsoft YaHei',monospace;font-size:11px;fill:#5f5156}.ep.mid{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif;opacity:.75}.sw{opacity:0}.g1{animation:drift 26s cubic-bezier(.45,.05,.55,.95) infinite}.g2{animation:drift2 32s cubic-bezier(.45,.05,.55,.95) infinite}@keyframes drift{0%,100%{transform:translate(0px,0px)}50%{transform:translate(30px,-16px)}}@keyframes drift2{0%,100%{transform:translate(0px,0px)}50%{transform:translate(-26px,12px)}}@keyframes sw{0%,11%{opacity:0;transform:translateX(0px)}13%{opacity:.5;transform:translateX(0px)}28%{opacity:.5;transform:translateX(300px)}31%,100%{opacity:0;transform:translateX(300px)}}@keyframes c0{0%,14%{fill:#e8859b}30%,88%{fill:#b2546b}100%{fill:#e8859b}}@keyframes k0{0%,14%{transform:translateX(53.8px)}30%{transform:translateX(-5px)}38%{transform:translateX(-1.8px)}44%,88%{transform:translateX(0px)}100%{transform:translateX(53.8px)}}.c0{animation:c0 9s cubic-bezier(.2,.8,.2,1) infinite both}.k0{animation:k0 9s cubic-bezier(.2,.8,.2,1) infinite both}@keyframes c1{0%,14%{fill:#8a9a5b}30%,88%{fill:#6a783a}100%{fill:#8a9a5b}}@keyframes k1{0%,14%{transform:translateX(37.3px)}30%{transform:translateX(-5px)}38%{transform:translateX(-1.8px)}44%,88%{transform:translateX(0px)}100%{transform:translateX(37.3px)}}.c1{animation:c1 9s cubic-bezier(.2,.8,.2,1) infinite both}.k1{animation:k1 9s cubic-bezier(.2,.8,.2,1) infinite both}@keyframes c2{0%,14%{fill:#92a8b3}30%,88%{fill:#617580}100%{fill:#92a8b3}}@keyframes k2{0%,14%{transform:translateX(56.2px)}30%{transform:translateX(-5px)}38%{transform:translateX(-1.8px)}44%,88%{transform:translateX(0px)}100%{transform:translateX(56.2px)}}.c2{animation:c2 9s cubic-bezier(.2,.8,.2,1) infinite both}.k2{animation:k2 9s cubic-bezier(.2,.8,.2,1) infinite both}@keyframes c3{0%,14%{fill:#a073d7}30%,88%{fill:#8a5dbe}100%{fill:#a073d7}}@keyframes k3{0%,14%{transform:translateX(24.8px)}30%{transform:translateX(-5px)}38%{transform:translateX(-1.8px)}44%,88%{transform:translateX(0px)}100%{transform:translateX(24.8px)}}.c3{animation:c3 9s cubic-bezier(.2,.8,.2,1) infinite both}.k3{animation:k3 9s cubic-bezier(.2,.8,.2,1) infinite both}@keyframes c4{0%,14%{fill:#5fa8b2}30%,88%{fill:#317c86}100%{fill:#5fa8b2}}@keyframes k4{0%,14%{transform:translateX(47.8px)}30%{transform:translateX(-5px)}38%{transform:translateX(-1.8px)}44%,88%{transform:translateX(0px)}100%{transform:translateX(47.8px)}}.c4{animation:c4 9s cubic-bezier(.2,.8,.2,1) infinite both}.k4{animation:k4 9s cubic-bezier(.2,.8,.2,1) infinite both}@keyframes c5{0%,14%{fill:#b4a09b}30%,88%{fill:#816e6a}100%{fill:#b4a09b}}@keyframes k5{0%,14%{transform:translateX(55.6px)}30%{transform:translateX(-5px)}38%{transform:translateX(-1.8px)}44%,88%{transform:translateX(0px)}100%{transform:translateX(55.6px)}}.c5{animation:c5 9s cubic-bezier(.2,.8,.2,1) infinite both}.k5{animation:k5 9s cubic-bezier(.2,.8,.2,1) infinite both}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
 <rect width="1200" height="400" rx="24" fill="#fef6f9"/>
+
+<defs>
+  <clipPath id="pc"><rect width="1200" height="400" rx="24"/></clipPath>
+  <clipPath id="cc0"><rect x="0" y="116" width="168" height="72" rx="14"/></clipPath><clipPath id="cc1"><rect x="0" y="116" width="168" height="72" rx="14"/></clipPath><clipPath id="cc2"><rect x="0" y="116" width="168" height="72" rx="14"/></clipPath><clipPath id="cc3"><rect x="0" y="116" width="168" height="72" rx="14"/></clipPath><clipPath id="cc4"><rect x="0" y="116" width="168" height="72" rx="14"/></clipPath><clipPath id="cc5"><rect x="0" y="116" width="168" height="72" rx="14"/></clipPath>
+  <linearGradient id="cg0" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ffa8bb"/><stop offset="1" stop-color="#d57188"/></linearGradient><linearGradient id="cg1" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#a9b97e"/><stop offset="1" stop-color="#788847"/></linearGradient><linearGradient id="cg2" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#b3c7d2"/><stop offset="1" stop-color="#7f96a1"/></linearGradient><linearGradient id="cg3" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#be95f3"/><stop offset="1" stop-color="#8e60c5"/></linearGradient><linearGradient id="cg4" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#84c7d0"/><stop offset="1" stop-color="#4996a0"/></linearGradient><linearGradient id="cg5" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#d3c0bb"/><stop offset="1" stop-color="#a28e89"/></linearGradient>
+  <radialGradient id="hl" cx="24%" cy="14%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity="0.2"/><stop offset=".5" stop-color="#fff" stop-opacity="0.05"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="shi" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.3"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <linearGradient id="swg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".6" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <radialGradient id="gh0" cx="76%" cy="2%" r="60%"><stop offset="0" stop-color="rgba(232,133,155,0.2)"/><stop offset="1" stop-color="rgba(232,133,155,0)"/></radialGradient>
+  <radialGradient id="gh1" cx="12%" cy="100%" r="58%"><stop offset="0" stop-color="rgba(45,120,130,0.12)"/><stop offset="1" stop-color="rgba(45,120,130,0)"/></radialGradient>
+  <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="rgba(208,38,140,0.95)"/><stop offset="1" stop-color="rgba(208,38,140,0.15)"/></linearGradient>
+  <linearGradient id="rg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="rgba(208,38,140,0.6)"/><stop offset=".45" stop-color="#e9d9e0"/><stop offset="1" stop-color="rgba(233,217,224,0)"/></linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.3" cy="1.3" r="1.1" fill="rgba(95,81,86,0.17)"/></pattern>
+  <filter id="sd" x="-20%" y="-40%" width="140%" height="200%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.1"/></filter>
+</defs>
+
+<g clip-path="url(#pc)">
+  <g class="g1"><rect x="-160" y="-160" width="1520" height="720" fill="url(#gh0)"/></g>
+  <g class="g2"><rect x="-160" y="-160" width="1520" height="720" fill="url(#gh1)"/></g>
+  <rect width="1200" height="400" fill="url(#dots)"/>
+</g>
 <rect x=".5" y=".5" width="1199" height="399" rx="23.5" fill="none" stroke="#e9d9e0"/>
-<text class="h1" x="56" y="58">原色铺气氛，文字只解亮度</text>
-<text class="sub" x="56" y="86">莫兰迪原色直接当文字先量一次；不到 4.5:1 的，色相和彩度不动，只把亮度解到刚好达标。</text>
+
+<rect x="56" y="24" width="4" height="34" rx="2" fill="url(#bg1)"/>
+<text class="h1" x="72" y="52">原色铺气氛，文字只解亮度</text>
+<rect x="392" y="28" width="212" height="26" rx="13" fill="#faeef3" stroke="#e9d9e0"/>
+<text class="chip" x="404" y="46">WCAG 门槛：文字 4.5:1 / 图形 3:1</text>
+<text class="sub" x="72" y="84">莫兰迪原色直接当字只有 2.3:1–3.3:1，色相与彩度不动，只把亮度解到刚好达标</text>
+<text class="stat" x="1144" y="84" text-anchor="end">浅色底 6/6 需解亮度</text>
+<path d="M56 104H1144" stroke="url(#rg)" stroke-width="1.5"/>
 
 <g transform="translate(56 0)">
-  <rect y="116" width="168" height="72" rx="14" fill="#e8859b"/>
-  <text class="nm" y="216">Petal 花瓣</text>
-  <text class="aa s0" y="264" fill="#b2546b" style="animation-delay:0.0s">Aa 文字</text>
-  <path d="M0 290h168" stroke="#e9d9e0" stroke-width="2" stroke-linecap="round"/>
-  <circle class="k0" cx="56.7" cy="290" r="6" fill="#b2546b" stroke="#fef6f9" stroke-width="2" style="animation-delay:0.0s"/>
-  <g transform="translate(0 328)" class="cyc c0"><text class="lb raw" y="0">原色当字 2.3:1</text>
-<text class="lb fix" y="0">解出 4.5:1 <tspan fill="#667436">✓</tspan></text>
-<text class="hx raw" y="24">#e8859b</text>
-<text class="hx fix" y="24">#b2546b</text></g>
+  <g filter="url(#sd)">
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#cg0)"/>
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#hl)"/>
+  </g>
+  <g clip-path="url(#cc0)"><g class="sw" style="animation-delay:0.0s"><rect x="-96" y="116" width="96" height="72" fill="url(#swg)"/></g></g>
+  <text class="lb" x="0" y="204">原色</text>
+  <text class="lb" x="168" y="204" text-anchor="end">当字 2.3:1</text>
+  <g class="kf c0" fill="#b2546b" style="animation-delay:0.0s">
+    <rect x="0" y="214" width="38" height="14" rx="7"/>
+    <rect x="0" y="214" width="38" height="14" rx="7" fill="url(#shi)"/>
+    <text class="lb" x="46" y="225" fill="#5f5156">解出</text>
+    <text class="rr" x="168" y="225" text-anchor="end" fill="#2a1e22">4.5:1 <tspan fill="#667436">✓</tspan></text>
+  </g>
+  <text class="aa" x="0" y="296" fill="#b2546b">Aa 文字</text>
+  <g class="kg k0" style="transform-origin:56.7px 322px">
+    <circle cx="56.7" cy="322" r="7" fill="#b2546b" stroke="#fef6f9" stroke-width="2.5"/>
+  </g>
+  <text class="nm" x="0" y="258">Petal 花瓣</text>
+  
+<path class="tk" d="M0 322h168"/>
+<g class="tk" stroke-width="1.2"><path d="M0 322v8"/><path d="M21 322v4"/><path d="M42 322v8"/><path d="M63 322v4"/><path d="M84 322v8"/><path d="M105 322v4"/><path d="M126 322v8"/><path d="M147 322v4"/><path d="M168 322v8"/></g>
+<text class="ep" x="0" y="340">L 0.40</text>
+<text class="ep" x="168" y="340" text-anchor="end">L 0.90</text>
+<text class="ep mid" x="84" y="340" text-anchor="middle">亮度</text>
+<circle cx="110.5" cy="322" r="5" fill="#fef6f9" stroke="#5f5156" stroke-width="1.5"/>
+  <text class="hx" x="0" y="364">#e8859b → #b2546b</text>
 </g>
 <g transform="translate(240 0)">
-  <rect y="116" width="168" height="72" rx="14" fill="#8a9a5b"/>
-  <text class="nm" y="216">Sage 橄榄</text>
-  <text class="aa s1" y="264" fill="#6a783a" style="animation-delay:0.3s">Aa 文字</text>
-  <path d="M0 290h168" stroke="#e9d9e0" stroke-width="2" stroke-linecap="round"/>
-  <circle class="k1" cx="49.5" cy="290" r="6" fill="#6a783a" stroke="#fef6f9" stroke-width="2" style="animation-delay:0.3s"/>
-  <g transform="translate(0 328)" class="cyc c1"><text class="lb raw" y="0">原色当字 2.8:1</text>
-<text class="lb fix" y="0">解出 4.5:1 <tspan fill="#667436">✓</tspan></text>
-<text class="hx raw" y="24">#8a9a5b</text>
-<text class="hx fix" y="24">#6a783a</text></g>
+  <g filter="url(#sd)">
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#cg1)"/>
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#hl)"/>
+  </g>
+  <g clip-path="url(#cc1)"><g class="sw" style="animation-delay:0.3s"><rect x="-96" y="116" width="96" height="72" fill="url(#swg)"/></g></g>
+  <text class="lb" x="0" y="204">原色</text>
+  <text class="lb" x="168" y="204" text-anchor="end">当字 2.8:1</text>
+  <g class="kf c1" fill="#6a783a" style="animation-delay:0.3s">
+    <rect x="0" y="214" width="38" height="14" rx="7"/>
+    <rect x="0" y="214" width="38" height="14" rx="7" fill="url(#shi)"/>
+    <text class="lb" x="46" y="225" fill="#5f5156">解出</text>
+    <text class="rr" x="168" y="225" text-anchor="end" fill="#2a1e22">4.5:1 <tspan fill="#667436">✓</tspan></text>
+  </g>
+  <text class="aa" x="0" y="296" fill="#6a783a">Aa 文字</text>
+  <g class="kg k1" style="transform-origin:49.5px 322px">
+    <circle cx="49.5" cy="322" r="7" fill="#6a783a" stroke="#fef6f9" stroke-width="2.5"/>
+  </g>
+  <text class="nm" x="0" y="258">Sage 橄榄</text>
+  
+<path class="tk" d="M0 322h168"/>
+<g class="tk" stroke-width="1.2"><path d="M0 322v8"/><path d="M21 322v4"/><path d="M42 322v8"/><path d="M63 322v4"/><path d="M84 322v8"/><path d="M105 322v4"/><path d="M126 322v8"/><path d="M147 322v4"/><path d="M168 322v8"/></g>
+<text class="ep" x="0" y="340">L 0.40</text>
+<text class="ep" x="168" y="340" text-anchor="end">L 0.90</text>
+<text class="ep mid" x="84" y="340" text-anchor="middle">亮度</text>
+<circle cx="86.8" cy="322" r="5" fill="#fef6f9" stroke="#5f5156" stroke-width="1.5"/>
+  <text class="hx" x="0" y="364">#8a9a5b → #6a783a</text>
 </g>
 <g transform="translate(424 0)">
-  <rect y="116" width="168" height="72" rx="14" fill="#92a8b3"/>
-  <text class="nm" y="216">Mist 雾蓝</text>
-  <text class="aa s2" y="264" fill="#617580" style="animation-delay:0.6s">Aa 文字</text>
-  <path d="M0 290h168" stroke="#e9d9e0" stroke-width="2" stroke-linecap="round"/>
-  <circle class="k2" cx="50.7" cy="290" r="6" fill="#617580" stroke="#fef6f9" stroke-width="2" style="animation-delay:0.6s"/>
-  <g transform="translate(0 328)" class="cyc c2"><text class="lb raw" y="0">原色当字 2.3:1</text>
-<text class="lb fix" y="0">解出 4.5:1 <tspan fill="#667436">✓</tspan></text>
-<text class="hx raw" y="24">#92a8b3</text>
-<text class="hx fix" y="24">#617580</text></g>
+  <g filter="url(#sd)">
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#cg2)"/>
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#hl)"/>
+  </g>
+  <g clip-path="url(#cc2)"><g class="sw" style="animation-delay:0.6s"><rect x="-96" y="116" width="96" height="72" fill="url(#swg)"/></g></g>
+  <text class="lb" x="0" y="204">原色</text>
+  <text class="lb" x="168" y="204" text-anchor="end">当字 2.3:1</text>
+  <g class="kf c2" fill="#617580" style="animation-delay:0.6s">
+    <rect x="0" y="214" width="38" height="14" rx="7"/>
+    <rect x="0" y="214" width="38" height="14" rx="7" fill="url(#shi)"/>
+    <text class="lb" x="46" y="225" fill="#5f5156">解出</text>
+    <text class="rr" x="168" y="225" text-anchor="end" fill="#2a1e22">4.5:1 <tspan fill="#667436">✓</tspan></text>
+  </g>
+  <text class="aa" x="0" y="296" fill="#617580">Aa 文字</text>
+  <g class="kg k2" style="transform-origin:50.7px 322px">
+    <circle cx="50.7" cy="322" r="7" fill="#617580" stroke="#fef6f9" stroke-width="2.5"/>
+  </g>
+  <text class="nm" x="0" y="258">Mist 雾蓝</text>
+  
+<path class="tk" d="M0 322h168"/>
+<g class="tk" stroke-width="1.2"><path d="M0 322v8"/><path d="M21 322v4"/><path d="M42 322v8"/><path d="M63 322v4"/><path d="M84 322v8"/><path d="M105 322v4"/><path d="M126 322v8"/><path d="M147 322v4"/><path d="M168 322v8"/></g>
+<text class="ep" x="0" y="340">L 0.40</text>
+<text class="ep" x="168" y="340" text-anchor="end">L 0.90</text>
+<text class="ep mid" x="84" y="340" text-anchor="middle">亮度</text>
+<circle cx="106.9" cy="322" r="5" fill="#fef6f9" stroke="#5f5156" stroke-width="1.5"/>
+  <text class="hx" x="0" y="364">#92a8b3 → #617580</text>
 </g>
 <g transform="translate(608 0)">
-  <rect y="116" width="168" height="72" rx="14" fill="#a073d7"/>
-  <text class="nm" y="216">Spring 薰衣草</text>
-  <text class="aa s3" y="264" fill="#8a5dbe" style="animation-delay:0.9s">Aa 文字</text>
-  <path d="M0 290h168" stroke="#e9d9e0" stroke-width="2" stroke-linecap="round"/>
-  <circle class="k3" cx="56.6" cy="290" r="6" fill="#8a5dbe" stroke="#fef6f9" stroke-width="2" style="animation-delay:0.9s"/>
-  <g transform="translate(0 328)" class="cyc c3"><text class="lb raw" y="0">原色当字 3.3:1</text>
-<text class="lb fix" y="0">解出 4.5:1 <tspan fill="#667436">✓</tspan></text>
-<text class="hx raw" y="24">#a073d7</text>
-<text class="hx fix" y="24">#8a5dbe</text></g>
+  <g filter="url(#sd)">
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#cg3)"/>
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#hl)"/>
+  </g>
+  <g clip-path="url(#cc3)"><g class="sw" style="animation-delay:0.9s"><rect x="-96" y="116" width="96" height="72" fill="url(#swg)"/></g></g>
+  <text class="lb" x="0" y="204">原色</text>
+  <text class="lb" x="168" y="204" text-anchor="end">当字 3.3:1</text>
+  <g class="kf c3" fill="#8a5dbe" style="animation-delay:0.9s">
+    <rect x="0" y="214" width="38" height="14" rx="7"/>
+    <rect x="0" y="214" width="38" height="14" rx="7" fill="url(#shi)"/>
+    <text class="lb" x="46" y="225" fill="#5f5156">解出</text>
+    <text class="rr" x="168" y="225" text-anchor="end" fill="#2a1e22">4.5:1 <tspan fill="#667436">✓</tspan></text>
+  </g>
+  <text class="aa" x="0" y="296" fill="#8a5dbe">Aa 文字</text>
+  <g class="kg k3" style="transform-origin:56.6px 322px">
+    <circle cx="56.6" cy="322" r="7" fill="#8a5dbe" stroke="#fef6f9" stroke-width="2.5"/>
+  </g>
+  <text class="nm" x="0" y="258">Spring 薰衣草</text>
+  
+<path class="tk" d="M0 322h168"/>
+<g class="tk" stroke-width="1.2"><path d="M0 322v8"/><path d="M21 322v4"/><path d="M42 322v8"/><path d="M63 322v4"/><path d="M84 322v8"/><path d="M105 322v4"/><path d="M126 322v8"/><path d="M147 322v4"/><path d="M168 322v8"/></g>
+<text class="ep" x="0" y="340">L 0.40</text>
+<text class="ep" x="168" y="340" text-anchor="end">L 0.90</text>
+<text class="ep mid" x="84" y="340" text-anchor="middle">亮度</text>
+<circle cx="81.4" cy="322" r="5" fill="#fef6f9" stroke="#5f5156" stroke-width="1.5"/>
+  <text class="hx" x="0" y="364">#a073d7 → #8a5dbe</text>
 </g>
 <g transform="translate(792 0)">
-  <rect y="116" width="168" height="72" rx="14" fill="#5fa8b2"/>
-  <text class="nm" y="216">Ripple 湖青</text>
-  <text class="aa s4" y="264" fill="#317c86" style="animation-delay:1.2s">Aa 文字</text>
-  <path d="M0 290h168" stroke="#e9d9e0" stroke-width="2" stroke-linecap="round"/>
-  <circle class="k4" cx="48.9" cy="290" r="6" fill="#317c86" stroke="#fef6f9" stroke-width="2" style="animation-delay:1.2s"/>
-  <g transform="translate(0 328)" class="cyc c4"><text class="lb raw" y="0">原色当字 2.5:1</text>
-<text class="lb fix" y="0">解出 4.5:1 <tspan fill="#667436">✓</tspan></text>
-<text class="hx raw" y="24">#5fa8b2</text>
-<text class="hx fix" y="24">#317c86</text></g>
+  <g filter="url(#sd)">
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#cg4)"/>
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#hl)"/>
+  </g>
+  <g clip-path="url(#cc4)"><g class="sw" style="animation-delay:1.2s"><rect x="-96" y="116" width="96" height="72" fill="url(#swg)"/></g></g>
+  <text class="lb" x="0" y="204">原色</text>
+  <text class="lb" x="168" y="204" text-anchor="end">当字 2.5:1</text>
+  <g class="kf c4" fill="#317c86" style="animation-delay:1.2s">
+    <rect x="0" y="214" width="38" height="14" rx="7"/>
+    <rect x="0" y="214" width="38" height="14" rx="7" fill="url(#shi)"/>
+    <text class="lb" x="46" y="225" fill="#5f5156">解出</text>
+    <text class="rr" x="168" y="225" text-anchor="end" fill="#2a1e22">4.5:1 <tspan fill="#667436">✓</tspan></text>
+  </g>
+  <text class="aa" x="0" y="296" fill="#317c86">Aa 文字</text>
+  <g class="kg k4" style="transform-origin:48.9px 322px">
+    <circle cx="48.9" cy="322" r="7" fill="#317c86" stroke="#fef6f9" stroke-width="2.5"/>
+  </g>
+  <text class="nm" x="0" y="258">Ripple 湖青</text>
+  
+<path class="tk" d="M0 322h168"/>
+<g class="tk" stroke-width="1.2"><path d="M0 322v8"/><path d="M21 322v4"/><path d="M42 322v8"/><path d="M63 322v4"/><path d="M84 322v8"/><path d="M105 322v4"/><path d="M126 322v8"/><path d="M147 322v4"/><path d="M168 322v8"/></g>
+<text class="ep" x="0" y="340">L 0.40</text>
+<text class="ep" x="168" y="340" text-anchor="end">L 0.90</text>
+<text class="ep mid" x="84" y="340" text-anchor="middle">亮度</text>
+<circle cx="96.7" cy="322" r="5" fill="#fef6f9" stroke="#5f5156" stroke-width="1.5"/>
+  <text class="hx" x="0" y="364">#5fa8b2 → #317c86</text>
 </g>
 <g transform="translate(976 0)">
-  <rect y="116" width="168" height="72" rx="14" fill="#b4a09b"/>
-  <text class="nm" y="216">Stone 岩灰</text>
-  <text class="aa s5" y="264" fill="#816e6a" style="animation-delay:1.5s">Aa 文字</text>
-  <path d="M0 290h168" stroke="#e9d9e0" stroke-width="2" stroke-linecap="round"/>
-  <circle class="k5" cx="52.5" cy="290" r="6" fill="#816e6a" stroke="#fef6f9" stroke-width="2" style="animation-delay:1.5s"/>
-  <g transform="translate(0 328)" class="cyc c5"><text class="lb raw" y="0">原色当字 2.3:1</text>
-<text class="lb fix" y="0">解出 4.5:1 <tspan fill="#667436">✓</tspan></text>
-<text class="hx raw" y="24">#b4a09b</text>
-<text class="hx fix" y="24">#816e6a</text></g>
+  <g filter="url(#sd)">
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#cg5)"/>
+    <rect x="0" y="116" width="168" height="72" rx="14" fill="url(#hl)"/>
+  </g>
+  <g clip-path="url(#cc5)"><g class="sw" style="animation-delay:1.5s"><rect x="-96" y="116" width="96" height="72" fill="url(#swg)"/></g></g>
+  <text class="lb" x="0" y="204">原色</text>
+  <text class="lb" x="168" y="204" text-anchor="end">当字 2.3:1</text>
+  <g class="kf c5" fill="#816e6a" style="animation-delay:1.5s">
+    <rect x="0" y="214" width="38" height="14" rx="7"/>
+    <rect x="0" y="214" width="38" height="14" rx="7" fill="url(#shi)"/>
+    <text class="lb" x="46" y="225" fill="#5f5156">解出</text>
+    <text class="rr" x="168" y="225" text-anchor="end" fill="#2a1e22">4.5:1 <tspan fill="#667436">✓</tspan></text>
+  </g>
+  <text class="aa" x="0" y="296" fill="#816e6a">Aa 文字</text>
+  <g class="kg k5" style="transform-origin:52.5px 322px">
+    <circle cx="52.5" cy="322" r="7" fill="#816e6a" stroke="#fef6f9" stroke-width="2.5"/>
+  </g>
+  <text class="nm" x="0" y="258">Stone 岩灰</text>
+  
+<path class="tk" d="M0 322h168"/>
+<g class="tk" stroke-width="1.2"><path d="M0 322v8"/><path d="M21 322v4"/><path d="M42 322v8"/><path d="M63 322v4"/><path d="M84 322v8"/><path d="M105 322v4"/><path d="M126 322v8"/><path d="M147 322v4"/><path d="M168 322v8"/></g>
+<text class="ep" x="0" y="340">L 0.40</text>
+<text class="ep" x="168" y="340" text-anchor="end">L 0.90</text>
+<text class="ep mid" x="84" y="340" text-anchor="middle">亮度</text>
+<circle cx="108.1" cy="322" r="5" fill="#fef6f9" stroke="#5f5156" stroke-width="1.5"/>
+  <text class="hx" x="0" y="364">#b4a09b → #816e6a</text>
 </g>
 </svg>
