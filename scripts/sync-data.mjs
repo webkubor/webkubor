@@ -63,7 +63,7 @@ function main() {
   const lastCommit = gh(['api', `repos/${OWNER}/${PROFILE_REPO}/commits?per_page=1`])[0];
 
   const payload = {
-    syncedAt: new Date().toISOString(),
+    // syncedAt 只用于本地排查，不写进产物：它每次都变，会让 CI 推完又触发自己，无限循环
     totals: {
       publicRepos: live.length,
       stars: live.reduce((s, r) => s + r.stargazerCount, 0),

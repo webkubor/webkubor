@@ -10,8 +10,10 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    # 只在源文件变化时重跑：生成物（data/recent.json、README*）被 workflow 自己推上去时不再触发，
+    # 否则会出现「推 A 触发同步、同步又推 A」的无限循环。
     paths:
-      - 'data/**'
+      - 'data/projects.json'
       - 'scripts/**'
       - '.github/workflows/sync-profile.yml'
 
@@ -61,4 +63,6 @@ jobs:
           git commit -m 'chore(profile): 同步项目数据与双语主页
 
           Agent: github-actions[bot]'
+          # 先 rebase 到远端最新，避免与别人（或上一次定时跑）并发 push 撞车
+          git pull --rebase --autostash origin main
           git push
