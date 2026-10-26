@@ -24,11 +24,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/35_projects-8b949e?style=flat-square" alt="项目数" height="20" />
   <img src="https://img.shields.io/badge/214_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/14_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/15_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub></sub>
+  <sub>最近更新：[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard) <sub>10-26</sub> · [📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub></sub>
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@
 
 - **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 套主题，为长文写作和沉浸阅读设计；获 Typora 官方主题库收录。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — 把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
-- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — 在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。<br/><sub></sub>
+- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — 在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/frontend-contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
 ### Skills：给 Agent 装上的表达规范
 
@@ -93,6 +93,7 @@
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
+- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-26 · 0 ★</sub><br/>在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。
 - **[📋 Scorecard](https://github.com/webkubor/scorecard)** <sub>2026-10-26 · 1 ★</sub><br/>对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。
 
 </details>

@@ -2,7 +2,7 @@
   "totals": {
     "publicRepos": 35,
     "stars": 214,
-    "commits30d": 14,
+    "commits30d": 15,
     "lastCommit": "2026-10-26"
   },
   "recent": [
@@ -13,16 +13,22 @@
       "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
     },
     {
-      "name": "supercli",
-      "stars": 2,
+      "name": "frontend-contrast-guard",
+      "stars": 0,
       "pushedAt": "2026-10-26",
-      "description": "CLI 工具目录与发现站：按用途搜索、厂商筛选和 GitHub Stars 快照排名，社区通过 PR 贡献。 / Community CLI directory with category search, vendor filters, and transparent GitHub star rankings."
+      "description": "把配色对比度做成 CI 护栏：支持 OKLCH，不达标时直接反推出该改成多少，另有渲染后计量子命令。· A CI guardrail for color contrast that solves the exact lightness you need."
     },
     {
       "name": "scorecard",
       "stars": 1,
       "pushedAt": "2026-10-26",
       "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
+    },
+    {
+      "name": "supercli",
+      "stars": 2,
+      "pushedAt": "2026-10-26",
+      "description": "CLI 工具目录与发现站：按用途搜索、厂商筛选和 GitHub Stars 快照排名，社区通过 PR 贡献。 / Community CLI directory with category search, vendor filters, and transparent GitHub star rankings."
     },
     {
       "name": "cs-mcp",
@@ -47,25 +53,19 @@
       "stars": 0,
       "pushedAt": "2026-10-26",
       "description": "Claude Code 状态栏：会话花费、上下文占用、5h / 7d 限额预警，区分订阅制与按量付费。单文件 Python，零依赖。· A Claude Code statusline for session cost, context usage and limit warnings."
-    },
-    {
-      "name": "mlx-vlm-kit",
-      "stars": 1,
-      "pushedAt": "2026-10-26",
-      "description": "Apple Silicon 本地视觉语言模型 CLI：用 MLX/Qwen3-VL 描述图片、图像问答与提示词反推。Offline vision-language CLI for image understanding, visual Q&A and reverse prompting on Apple Silicon."
     }
   ],
   "stars": {
     "webkubor": 2,
-    "supercli": 2,
+    "frontend-contrast-guard": 0,
     "scorecard": 1,
+    "supercli": 2,
     "cs-mcp": 0,
     "xiaobai-kanban": 0,
     "im-notify-kit": 2,
     "claude-usage-statusline": 0,
     "mlx-vlm-kit": 1,
     "path-guard": 1,
-    "contrast-guard": 0,
     "kyvault": 4,
     "writing-standard-skills": 6,
     "picx-images-hosting": 1,

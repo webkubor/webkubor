@@ -24,11 +24,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/35_projects-8b949e?style=flat-square" alt="项目数" height="20" />
   <img src="https://img.shields.io/badge/214_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/14_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/15_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub></sub>
+  <sub>Recently updated：[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard) <sub>10-26</sub> · [📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub></sub>
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ Not just pretty colors: every palette runs on two rails, so design choices can b
 
 - **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 themes for long-form writing and immersive reading; included in the official Typora theme gallery.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
-- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.<br/><sub></sub>
+- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/frontend-contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
 ### Skills: writing standards for agents
 
@@ -93,6 +93,7 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Recently shipped (by push time)</summary>
 
+- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-26 · 0 ★</sub><br/>Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.
 - **[📋 Scorecard](https://github.com/webkubor/scorecard)** <sub>2026-10-26 · 1 ★</sub><br/>Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.
 
 </details>
