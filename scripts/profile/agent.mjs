@@ -60,9 +60,9 @@ function terminal(t) {
 </defs>
 <rect x="${TERM.x}" y="${TERM.y}" width="${TERM.w}" height="${TERM.h}" rx="16" fill="${css(t.surface)}" stroke="${css(t.line)}" filter="url(#tshadow)"/>
 ${dots}
-<text class="mono" x="${TERM.x + TERM.w / 2}" y="${TERM.y + 29}" text-anchor="middle" fill="${css(t.textSemi)}" font-size="13">localhost:5173  vite + agent-eyes</text>
+<text class="mono" x="${TERM.x + TERM.w / 2}" y="${TERM.y + 29}" text-anchor="middle" fill="${css(t.textSemi)}" font-size="18">localhost:5173  vite + agent-eyes</text>
 <path d="M${TERM.x} ${TERM.y + 48}h${TERM.w}" stroke="${css(t.line)}"/>
-<g class="mono" font-size="16" fill="${css(t.text)}">${rows}</g>`;
+<g class="mono" font-size="18" fill="${css(t.text)}">${rows}</g>`;
 }
 
 /** 证据链时间轴：四段推进 + 一个跑动的指针，把「在看→在想→在修→验证通过」显性化 */
@@ -70,7 +70,7 @@ function timeline(t) {
   const seg = TRACK.w / PHASES.length;
   const segs = PHASES.map(([label], i) => {
     const x = TRACK.x + i * seg;
-    return `<g class="seg"><rect x="${r1(x + 3)}" y="${TRACK.y}" width="${r1(seg - 6)}" height="4" rx="2" fill="${css(t.textSemi, 0.22)}"/><text x="${r1(x + seg / 2)}" y="${TRACK.y + 20}" text-anchor="middle" font-size="11" fill="${css(t.textSemi)}">${label}</text></g>`;
+    return `<g class="seg"><rect x="${r1(x + 3)}" y="${TRACK.y}" width="${r1(seg - 6)}" height="4" rx="2" fill="${css(t.textSemi, 0.22)}"/><text x="${r1(x + seg / 2)}" y="${TRACK.y + 20}" text-anchor="middle" font-size="18" fill="${css(t.textSemi)}">${label}</text></g>`;
   }).join('');
   return `
 <g class="tl">
@@ -83,7 +83,7 @@ function timeline(t) {
 function orb(t) {
   const eye = t.mode === 'light' ? t.text : t.bg;
   const state = PHASES.map(
-    ([label], i) => `<text class="st p${i}" x="${ORB.x}" y="${ORB.y + 128}" text-anchor="middle">${label}</text>`,
+    ([label], i) => `<text class="st p${i}" x="${ORB.x}" y="${ORB.y + 126}" text-anchor="middle">${label}</text>`,
   ).join('');
   return `
 <defs>
@@ -106,7 +106,7 @@ function orb(t) {
 </g>
 <g class="badge"><circle cx="${ORB.x + 50}" cy="${ORB.y - 48}" r="15" fill="${css(t.ok)}"/><path d="M${ORB.x + 43} ${ORB.y - 48}l5 5 9-10" fill="none" stroke="${css(t.bg)}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
 ${state}
-<text x="${ORB.x}" y="${ORB.y + 156}" text-anchor="middle" font-size="13" fill="${css(t.textSemi)}">状态球来自 ai-orb</text>`;
+<text x="${ORB.x}" y="${ORB.y + 170}" text-anchor="middle" font-size="18" fill="${css(t.textSemi)}">状态球来自 ai-orb</text>`;
 }
 
 function style(t) {
@@ -115,7 +115,8 @@ function style(t) {
   return `
 text{font-family:${FONT_SANS}}
 .mono,.mono text{font-family:${FONT_MONO}}
-.st{font-size:20px;font-weight:600;fill:${css(t.text)};opacity:1}
+.st{font-size:20px;font-weight:600;fill:${css(t.text)}}
+.p0,.p1,.p2{opacity:0}
 .p3{opacity:1}
 .ring{transform-origin:${ORB.x}px ${ORB.y}px;animation:spin 6s linear infinite,work ${LOOP}s linear infinite both}
 .bob{animation:bob 3.2s ease-in-out infinite}

@@ -33,8 +33,9 @@ node scripts/check-readme.mjs    # 验收：与生成器一致、双语对称、
 ## 改效图
 
 ```bash
-node scripts/build-profile.mjs   # 重新生成 assets/*.svg
-node scripts/check-profile.mjs   # 验收：产物与源码一致、无脚本/外链、带减弱动效、文字对比度 ≥ 4.5:1、双语引用一致、减弱动效终态不丢信息
+node scripts/build-profile.mjs    # 重新生成 assets/*.svg
+node scripts/check-profile.mjs    # 渲染边界：产物与源码一致、无脚本/外链、带减弱动效、对比度 ≥ 4.5:1、终态不丢信息
+node scripts/check-award-gate.mjs # 获奖级门禁：缓动不用 linear、减弱动效必须停掉无限动画、动画属性白名单、渲染后字号 ≥ 12px
 ```
 
 - 动画只能写在 **.svg 文件内部的 `<style>`** 里，并用 `<picture>`/`<img>` 引用；直接写进 README 的 `<svg>` 会被 GitHub 整段删掉。
@@ -45,6 +46,11 @@ node scripts/check-profile.mjs   # 验收：产物与源码一致、无脚本/�
   否则减弱动效下信息直接消失（`check-profile.mjs` 会拦）。
 - 图里出现的对比度数字都由 `scripts/profile/color.mjs` 现算，不手填。
 - 明暗两版的动效密度要对齐：不要因为「深色底上某色本来就达标」就让那一列完全静止。
+- **字号必须按 GitHub 实际渲染宽度折算**：README 内容区约 846px，SVG viewBox 1200 → 缩放 0.705。
+  viewBox 里写 13px，访客实际看到的是 9.2px。所有文字 ≥ 18px（折算后 12.7px）才达可读下限。
+  `check-award-gate.mjs` 会同时检查 CSS 声明与元素属性两种写法——只查 CSS 会漏掉一半。
+- 动画属性限 `transform`/`opacity`/`fill`/`stroke`/`stroke-dashoffset`/`stroke-width`：
+  SVG 里这些不触发 layout reflow。一次性动画用自然阻尼，`linear` 只允许出现在匀速循环上（自转、扫描）。
 - **背景矩形 `<rect width=… height=… rx=24 fill=bg>` 不能漏**——浅色底看不出来，
   漏了深色版就是透明底 + 白字，GitHub 深色模式下完全不可读。
 

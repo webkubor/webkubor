@@ -49,6 +49,7 @@ jobs:
         run: |
           node scripts/build-profile.mjs
           node scripts/check-profile.mjs
+          node scripts/check-award-gate.mjs
           node scripts/check-readme.mjs
 
       - name: Commit changes

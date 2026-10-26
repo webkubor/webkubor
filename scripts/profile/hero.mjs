@@ -98,7 +98,7 @@ function ruler(t, raw, ink) {
 <g class="scan"><path d="M${RULER.x} ${RULER.y - 34}v46" stroke="${css(t.accent)}" stroke-width="1.5" opacity="0"/></g>
 <g transform="translate(${atRatio(ink)} ${RULER.y})"><g class="mark">
   <path d="M-6-14h12l-6 9z" fill="${css(t.accent)}"/>
-  <text class="small lb-raw" y="-42" text-anchor="middle">原色当字 ${ratioText(raw)}</text>
+  <text class="small lb-raw" y="-48" text-anchor="middle">原色当字 ${ratioText(raw)}</text>
   <text class="small lb-ink" y="-22" text-anchor="middle">落墨 ${ratioText(ink)}</text></g></g>`;
 }
 
@@ -107,7 +107,7 @@ function style(t, raw, ink) {
   const from = `transform:translateX(${r1(atRatio(raw) - atRatio(ink))}px)`;
   return `
 text{font-family:${FONT_SANS}}
-.small{font-size:13px;fill:${css(t.textSemi)}}
+.small{font-size:18px;fill:${css(t.textSemi)}}
 .word{font-size:88px;font-weight:600;letter-spacing:-2px;fill:${css(t.text)}}
 .ink{animation:ink 1.4s ease-out both}
 .pt{opacity:.8;mix-blend-mode:${t.blend};transform-box:fill-box;transform-origin:50% 100%;animation:unfurl 1.3s ${ease} both}
@@ -119,7 +119,7 @@ text{font-family:${FONT_SANS}}
 .ticks{animation:fade .6s ease-out 1.8s both}
 .mark{animation:slide 1.5s ${ease} 2.1s both}
 .scan{animation:scan 9s ${ease} 3.6s infinite}
-.lb-raw{opacity:1;animation:rawFinal 2.4s linear 1.5s both}
+.lb-raw{opacity:1;animation:rawFinal 2.4s ${ease} 1.5s both}
 .lb-ink{opacity:1;animation:fade .5s ease-out 3.5s both}.tag{animation:fade .9s ease-out 2.6s both}
 .tag2{animation:fade .9s ease-out 3s both}
 .sig{animation:fade .9s ease-out 3.4s both}
@@ -147,7 +147,7 @@ ${wordmark(t)}
 ${ruler(t, raw, ink)}
 <text class="tag" x="${RULER.x}" y="270" font-size="26" font-weight="500" fill="${css(t.text)}">把审美做成可验证的工程</text>
 <text class="tag2" x="${RULER.x}" y="304" font-size="18" fill="${css(t.textSemi)}">Taste, made testable.</text>
-<text class="sig" x="${RULER.x + RULER.w}" y="304" font-size="13" fill="${css(t.textSemi)}" text-anchor="end">webkubor.online</text>`;
+<text class="sig" x="${RULER.x + RULER.w}" y="304" font-size="18" fill="${css(t.textSemi)}" text-anchor="end">webkubor.online</text>`;
   return frame({
     width: W,
     height: H,
