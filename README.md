@@ -114,7 +114,7 @@
 - **[cs-mcp](https://github.com/webkubor/cs-mcp)** — 把个人开源工具链接进 AI Agent 的 MCP 服务，按能力分组。
 - **[lite-browser](https://github.com/webkubor/lite-browser)** — AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。
 - **[device-passport](https://github.com/webkubor/device-passport)** — 确定性的浏览器 / 设备画像，用于自动化与测试。
-- **[picx-images-hosting](https://github.com/webkubor/picx-images-hosting)** — 图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。
+- **[free-imgbed](https://github.com/webkubor/free-imgbed)** — 图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。
 - **[dsh-museav-assets](https://github.com/webkubor/dsh-museav-assets)** — DSH 素材浏览插件：按工作区查看出图记录与素材直链。
 - **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** — 发版时自动把版本号同步到台账与 SKILL.md。
 - **[suno-publisher](https://github.com/webkubor/suno-publisher)** — 音乐发行管理工作台：上架台账与填表辅助。

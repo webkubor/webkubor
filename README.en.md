@@ -114,7 +114,7 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 - **[cs-mcp](https://github.com/webkubor/cs-mcp)** — An MCP server that strings a personal open-source toolchain into AI agents, per capability group.
 - **[lite-browser](https://github.com/webkubor/lite-browser)** — Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs.
 - **[device-passport](https://github.com/webkubor/device-passport)** — Deterministic, self-consistent browser/device personas for automation and testing.
-- **[picx-images-hosting](https://github.com/webkubor/picx-images-hosting)** — Image assets for personal projects, served over GitHub raw and jsDelivr.
+- **[free-imgbed](https://github.com/webkubor/free-imgbed)** — Image assets for personal projects, served over GitHub raw and jsDelivr.
 - **[dsh-museav-assets](https://github.com/webkubor/dsh-museav-assets)** — A DSH plugin that browses generated assets and image libraries by workspace.
 - **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** — Syncs release versions into the ledger and SKILL.md at publish time.
 - **[suno-publisher](https://github.com/webkubor/suno-publisher)** — A music release management dashboard: release ledger and form-filling help.
