@@ -4,8 +4,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-    <img src="./assets/hero-light.svg" width="100%" alt="webkubor: taste, made testable. Six Morandi petals unfold inside a measuring ring while the wordmark settles from raw color into readable ink." />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/hero-dark.svg" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/hero-light.svg" width="100%" alt="webkubor: taste, made testable. Six Morandi petals unfold inside a measuring ring while the wordmark settles from raw color into readable ink." />
   </picture>
 </p>
 
@@ -33,8 +33,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.png" />
-    <img src="./assets/logowall-light.png" width="100%" alt="Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor." />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/logowall-dark.png" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/logowall-light.png" width="100%" alt="Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor." />
   </picture>
 </p>
 <p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/webkubor/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [meridian](https://github.com/webkubor/meridian) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
@@ -43,8 +43,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-dark.svg" />
-    <img src="./assets/agent-light.svg" width="100%" alt="A 401 being fixed: Agent Eyes collects redacted evidence, the agent traces it to an expired local cookie, self-repairs it and re-verifies the same request returns 200." />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/agent-dark.svg" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/agent-light.svg" width="100%" alt="A 401 being fixed: Agent Eyes collects redacted evidence, the agent traces it to an expired local cookie, self-repairs it and re-verifies the same request returns 200." />
   </picture>
 </p>
 
@@ -59,8 +59,8 @@ From "let AI write code" to "let it see and stay safe".
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/bloom-dark.svg" />
-    <img src="./assets/bloom-light.svg" width="100%" alt="Six Bloom Morandi colors used directly as text only reach 2.3 to 3.3:1 contrast; keeping hue and chroma and solving only lightness brings each to 4.5:1." />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/bloom-dark.svg" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/bloom-light.svg" width="100%" alt="Six Bloom Morandi colors used directly as text only reach 2.3 to 3.3:1 contrast; keeping hue and chroma and solving only lightness brings each to 4.5:1." />
   </picture>
 </p>
 

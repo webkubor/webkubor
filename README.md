@@ -4,8 +4,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-    <img src="./assets/hero-light.svg" width="100%" alt="webkubor：把审美做成可验证的工程。六片莫兰迪花瓣在量环中展开，字标从原色沉成可读的墨色。" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/hero-dark.svg" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/hero-light.svg" width="100%" alt="webkubor：把审美做成可验证的工程。六片莫兰迪花瓣在量环中展开，字标从原色沉成可读的墨色。" />
   </picture>
 </p>
 
@@ -33,8 +33,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.png" />
-    <img src="./assets/logowall-light.png" width="100%" alt="6 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、Meridian、壁纸编辑器。" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/logowall-dark.png" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/logowall-light.png" width="100%" alt="6 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、Meridian、壁纸编辑器。" />
   </picture>
 </p>
 <p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/webkubor/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [meridian](https://github.com/webkubor/meridian) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
@@ -43,8 +43,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-dark.svg" />
-    <img src="./assets/agent-light.svg" width="100%" alt="一次 401 的修复过程：Agent Eyes 收集脱敏证据，agent 按证据定位到本地 cookie 过期，自修复后用同一请求复验为 200。" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/agent-dark.svg" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/agent-light.svg" width="100%" alt="一次 401 的修复过程：Agent Eyes 收集脱敏证据，agent 按证据定位到本地 cookie 过期，自修复后用同一请求复验为 200。" />
   </picture>
 </p>
 
@@ -59,8 +59,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/bloom-dark.svg" />
-    <img src="./assets/bloom-light.svg" width="100%" alt="Bloom 六个莫兰迪原色直接当文字时对比度只有 2.3 到 3.3:1；保持色相与彩度，只解亮度到 4.5:1。" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/bloom-dark.svg" />
+    <img src="https://cdn.jsdelivr.net/gh/webkubor/free-imgbed@main/webkubor/bloom-light.svg" width="100%" alt="Bloom 六个莫兰迪原色直接当文字时对比度只有 2.3 到 3.3:1；保持色相与彩度，只解亮度到 4.5:1。" />
   </picture>
 </p>
 
