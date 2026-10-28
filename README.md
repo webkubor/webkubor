@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/35_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/214_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/15_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/217_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/17_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard) <sub>10-26</sub> · [📋 Scorecard](https://github.com/webkubor/scorecard) <sub>10-26</sub></sub>
+  <sub>最近更新：[🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-28</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>10-28</sub> · [🎨 museav-cli](https://github.com/webkubor/museav-cli) <sub>10-28</sub> · [💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen) <sub>10-28</sub></sub>
 </p>
 
 <p align="center">
@@ -93,8 +93,12 @@
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
-- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-26 · 0 ★</sub><br/>在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。
-- **[📋 Scorecard](https://github.com/webkubor/scorecard)** <sub>2026-10-26 · 1 ★</sub><br/>对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-10-28 · 4 ★</sub><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
+- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-28 · 5 ★</sub><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
+- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-10-28 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
+- **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** <sub>2026-10-28 · 3 ★</sub><br/>仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式。
+- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-28 · 2 ★</sub><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
+- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-10-28 · 9 ★</sub><br/>Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。
 
 </details>
 
