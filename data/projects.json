@@ -186,7 +186,7 @@
       { "repo": "cs-mcp", "zh": "把个人开源工具链接进 AI Agent 的 MCP 服务，按能力分组。", "en": "An MCP server that strings a personal open-source toolchain into AI agents, per capability group." },
       { "repo": "lite-browser", "zh": "AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。", "en": "Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs." },
       { "repo": "device-passport", "zh": "确定性的浏览器 / 设备画像，用于自动化与测试。", "en": "Deterministic, self-consistent browser/device personas for automation and testing." },
-      { "repo": "picx-images-hosting", "zh": "图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。", "en": "Image assets for personal projects, served over GitHub raw and jsDelivr." },
+      { "repo": "free-imgbed", "zh": "图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。", "en": "Image assets for personal projects, served over GitHub raw and jsDelivr." },
       { "repo": "dsh-museav-assets", "zh": "DSH 素材浏览插件：按工作区查看出图记录与素材直链。", "en": "A DSH plugin that browses generated assets and image libraries by workspace." },
       { "repo": "release-sync-skill", "zh": "发版时自动把版本号同步到台账与 SKILL.md。", "en": "Syncs release versions into the ledger and SKILL.md at publish time." },
       { "repo": "suno-publisher", "zh": "音乐发行管理工作台：上架台账与填表辅助。", "en": "A music release management dashboard: release ledger and form-filling help." },

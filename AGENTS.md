@@ -71,4 +71,4 @@ node scripts/sync-data.mjs   # 拉 GitHub 实时状态 → data/recent.json
 - 主页的每个项目卡片必须与对应仓库现状一致（star 量级、定位一句话）—— 项目改名 / 归档时同步更新。
 - 仓库改名或归档后，主页链接必须跟着改；`check-readme.mjs` 会用 404 判定拦住。
 - 双语 README 同步维护，且由同一份数据派生（不允许两边各写一遍文案）。
-- 图片走 assets/ 或 picx-images-hosting CDN，不外链不可控图床。
+- 图片走 assets/ 或 free-imgbed CDN，不外链不可控图床。

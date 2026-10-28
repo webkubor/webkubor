@@ -68,7 +68,6 @@
     "path-guard": 1,
     "kyvault": 4,
     "writing-standard-skills": 6,
-    "picx-images-hosting": 1,
     "dsh-llm-hub": 2,
     "dsh-env-inspector": 3,
     "museav-cli": 3,
@@ -90,6 +89,7 @@
     "device-passport": 1,
     "lite-browser": 0,
     "reel-kit": 6,
-    "suno-publisher": 0
+    "suno-publisher": 0,
+    "free-imgbed": 1
   }
 }
