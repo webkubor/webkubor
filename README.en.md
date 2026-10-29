@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/217_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/216_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/17_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-28</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>10-28</sub> · [🎨 museav-cli](https://github.com/webkubor/museav-cli) <sub>10-28</sub> · [💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen) <sub>10-28</sub></sub>
+  <sub>Recently updated：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>10-29</sub> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <sub>10-29</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-28</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>10-28</sub></sub>
 </p>
 
 <p align="center">
@@ -93,12 +93,11 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Recently shipped (by push time)</summary>
 
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-29 · 43 ★</sub><br/>The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.
+- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-29 · 2 ★</sub><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
 - **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-10-28 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
 - **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-28 · 5 ★</sub><br/>A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.
 - **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-10-28 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
-- **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** <sub>2026-10-28 · 3 ★</sub><br/>A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes.
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-28 · 2 ★</sub><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
-- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-10-28 · 9 ★</sub><br/>A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.
 
 </details>
 

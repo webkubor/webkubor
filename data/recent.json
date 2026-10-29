@@ -1,11 +1,35 @@
 {
   "totals": {
-    "publicRepos": 36,
-    "stars": 217,
+    "publicRepos": 37,
+    "stars": 216,
     "commits30d": 17,
     "lastCommit": "2026-10-28"
   },
   "recent": [
+    {
+      "name": "free-imgbed",
+      "stars": 1,
+      "pushedAt": "2026-10-29",
+      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
+    },
+    {
+      "name": "dsh-bloom-theme",
+      "stars": 43,
+      "pushedAt": "2026-10-29",
+      "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
+    },
+    {
+      "name": "dsh-llm-hub",
+      "stars": 2,
+      "pushedAt": "2026-10-29",
+      "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
+    },
+    {
+      "name": "pr-contributor-skill",
+      "stars": 0,
+      "pushedAt": "2026-10-29",
+      "description": "给任意开源项目提一个维护者愿意合的 PR：读懂上游规矩 → 挖真实信号 → 最小改动 → 跑上游检查 → 开 PR → 跟 CI 与 review"
+    },
     {
       "name": "webkubor",
       "stars": 2,
@@ -25,48 +49,25 @@
       "description": "Vite 运行时遥测插件：为 AI agent 提供结构化日志、错误快照、本地 Cookie 修复与提交前检查。 / Vite telemetry plugin for AI agents with structured logs, error snapshots, local cookie repair, and pre-commit checks."
     },
     {
-      "name": "free-imgbed",
-      "stars": 1,
-      "pushedAt": "2026-10-28",
-      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
-    },
-    {
       "name": "museav-cli",
       "stars": 3,
       "pushedAt": "2026-10-28",
       "description": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。MUSE AV CLI for image/video generation, reusable templates, asset uploads and local image tools."
-    },
-    {
-      "name": "chat-mood-gen",
-      "stars": 3,
-      "pushedAt": "2026-10-28",
-      "description": "仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式，语料库管理与批量导出。· Vue app for WeChat and Xiaohongshu mood screenshots — five modes, corpus library, batch PNG export."
-    },
-    {
-      "name": "dsh-llm-hub",
-      "stars": 2,
-      "pushedAt": "2026-10-28",
-      "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
-    },
-    {
-      "name": "voxflow",
-      "stars": 9,
-      "pushedAt": "2026-10-28",
-      "description": "AI 音频工作台：Apple Silicon 本地 TTS、语音克隆与音色设计，另支持 Suno 音乐生成。 / AI audio workbench with local Apple Silicon TTS, voice cloning, voice design, and Suno music generation."
     }
   ],
   "stars": {
+    "free-imgbed": 1,
+    "dsh-bloom-theme": 43,
+    "dsh-llm-hub": 2,
+    "pr-contributor-skill": 0,
     "webkubor": 2,
     "kyvault": 4,
     "vite-plugin-agent-eyes": 5,
-    "free-imgbed": 1,
     "museav-cli": 3,
     "chat-mood-gen": 3,
-    "dsh-llm-hub": 2,
     "voxflow": 9,
     "vite-plugin-refresh-guard": 2,
     "dsh-museav-assets": 1,
-    "dsh-bloom-theme": 44,
     "cs-mcp": 0,
     "logo-brand-designer": 0,
     "wallpaper-generator": 1,
