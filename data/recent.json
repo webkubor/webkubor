@@ -1,73 +1,76 @@
 {
   "totals": {
     "publicRepos": 37,
-    "stars": 216,
+    "stars": 218,
     "commits30d": 17,
-    "lastCommit": "2026-10-28"
+    "lastCommit": "2026-10-29"
   },
   "recent": [
     {
-      "name": "free-imgbed",
-      "stars": 1,
-      "pushedAt": "2026-10-29",
-      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
+      "name": "xiaobai-kanban",
+      "stars": 0,
+      "pushedAt": "2026-10-30",
+      "description": "中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流，提供 AGENTS.md 协作指南。 / Chinese beginner guide to coding agents, requirements, CLI setup, and Git workflows."
     },
     {
       "name": "dsh-bloom-theme",
       "stars": 43,
-      "pushedAt": "2026-10-29",
+      "pushedAt": "2026-10-30",
       "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
+    },
+    {
+      "name": "meridian",
+      "stars": 0,
+      "pushedAt": "2026-10-30",
+      "description": "Meridian — a calm macOS Git client. Tauri 2 + Vue 3 + git2."
     },
     {
       "name": "dsh-llm-hub",
       "stars": 2,
-      "pushedAt": "2026-10-29",
+      "pushedAt": "2026-10-30",
       "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
-    },
-    {
-      "name": "pr-contributor-skill",
-      "stars": 0,
-      "pushedAt": "2026-10-29",
-      "description": "给任意开源项目提一个维护者愿意合的 PR：读懂上游规矩 → 挖真实信号 → 最小改动 → 跑上游检查 → 开 PR → 跟 CI 与 review"
-    },
-    {
-      "name": "webkubor",
-      "stars": 2,
-      "pushedAt": "2026-10-28",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
-    },
-    {
-      "name": "kyvault",
-      "stars": 4,
-      "pushedAt": "2026-10-28",
-      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
     },
     {
       "name": "vite-plugin-agent-eyes",
       "stars": 5,
-      "pushedAt": "2026-10-28",
+      "pushedAt": "2026-10-30",
       "description": "Vite 运行时遥测插件：为 AI agent 提供结构化日志、错误快照、本地 Cookie 修复与提交前检查。 / Vite telemetry plugin for AI agents with structured logs, error snapshots, local cookie repair, and pre-commit checks."
+    },
+    {
+      "name": "frontend-contrast-guard",
+      "stars": 0,
+      "pushedAt": "2026-10-30",
+      "description": "前端工程视觉与色彩全栈守卫：静态配色校验、渲染后视觉计量、证据驱动的 UI 评审闭环与规则演进治理。A full-lifecycle frontend visual guard: static contrast checks, post-render metrics, evidence-based UI review."
     },
     {
       "name": "museav-cli",
       "stars": 3,
-      "pushedAt": "2026-10-28",
+      "pushedAt": "2026-10-30",
       "description": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。MUSE AV CLI for image/video generation, reusable templates, asset uploads and local image tools."
+    },
+    {
+      "name": "free-imgbed",
+      "stars": 1,
+      "pushedAt": "2026-10-30",
+      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
     }
   ],
   "stars": {
-    "free-imgbed": 1,
+    "xiaobai-kanban": 0,
     "dsh-bloom-theme": 43,
+    "meridian": 0,
     "dsh-llm-hub": 2,
-    "pr-contributor-skill": 0,
-    "webkubor": 2,
-    "kyvault": 4,
     "vite-plugin-agent-eyes": 5,
+    "frontend-contrast-guard": 0,
     "museav-cli": 3,
+    "free-imgbed": 1,
+    "dsh-museav-assets": 1,
+    "webkubor": 2,
+    "pr-contributor-skill": 0,
+    "kyvault": 4,
     "chat-mood-gen": 3,
     "voxflow": 9,
     "vite-plugin-refresh-guard": 2,
-    "dsh-museav-assets": 1,
     "cs-mcp": 0,
     "logo-brand-designer": 0,
     "wallpaper-generator": 1,
@@ -76,19 +79,16 @@
     "scorecard": 1,
     "facet": 4,
     "supercli": 2,
-    "frontend-contrast-guard": 0,
     "ai-orb": 2,
     "device-passport": 1,
-    "typora-Bloom-theme": 101,
+    "typora-Bloom-theme": 103,
     "dsh-env-inspector": 3,
     "deadcode-reaper-skill": 2,
-    "xiaobai-kanban": 0,
     "im-notify-kit": 2,
     "mlx-vlm-kit": 1,
     "path-guard": 1,
     "writing-standard-skills": 6,
     "charmoji-sticker-skill": 5,
-    "meridian": 0,
     "release-sync-skill": 0,
     "ai-sse-kit": 2,
     "lite-browser": 0,

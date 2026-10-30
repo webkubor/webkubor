@@ -23,12 +23,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/216_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/218_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/17_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>10-29</sub> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <sub>10-29</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>10-28</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>10-28</sub></sub>
+  <sub>最近更新：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>10-30</sub> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <sub>10-30</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>10-30</sub> · [🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard) <sub>10-30</sub></sub>
 </p>
 
 <p align="center">
@@ -93,11 +93,11 @@
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-29 · 43 ★</sub><br/>把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-29 · 2 ★</sub><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-10-28 · 4 ★</sub><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-28 · 5 ★</sub><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
-- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-10-28 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-30 · 43 ★</sub><br/>把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。
+- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-30 · 2 ★</sub><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
+- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-30 · 5 ★</sub><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
+- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-30 · 0 ★</sub><br/>在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。
+- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-10-30 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
 
 </details>
 
