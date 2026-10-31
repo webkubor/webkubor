@@ -1,11 +1,23 @@
 {
   "totals": {
     "publicRepos": 37,
-    "stars": 218,
+    "stars": 219,
     "commits30d": 17,
-    "lastCommit": "2026-10-29"
+    "lastCommit": "2026-10-30"
   },
   "recent": [
+    {
+      "name": "device-passport",
+      "stars": 1,
+      "pushedAt": "2026-10-31",
+      "description": "Deterministic, self-consistent browser/device personas for automation and testing: sticky hardware seed, RFC 8942/8941 Client-Hints, native fetch ↔ Playwright/Puppeteer bridge."
+    },
+    {
+      "name": "webkubor",
+      "stars": 2,
+      "pushedAt": "2026-10-30",
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
     {
       "name": "xiaobai-kanban",
       "stars": 0,
@@ -41,21 +53,11 @@
       "stars": 0,
       "pushedAt": "2026-10-30",
       "description": "前端工程视觉与色彩全栈守卫：静态配色校验、渲染后视觉计量、证据驱动的 UI 评审闭环与规则演进治理。A full-lifecycle frontend visual guard: static contrast checks, post-render metrics, evidence-based UI review."
-    },
-    {
-      "name": "museav-cli",
-      "stars": 3,
-      "pushedAt": "2026-10-30",
-      "description": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。MUSE AV CLI for image/video generation, reusable templates, asset uploads and local image tools."
-    },
-    {
-      "name": "free-imgbed",
-      "stars": 1,
-      "pushedAt": "2026-10-30",
-      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
     }
   ],
   "stars": {
+    "device-passport": 1,
+    "webkubor": 2,
     "xiaobai-kanban": 0,
     "dsh-bloom-theme": 43,
     "meridian": 0,
@@ -65,7 +67,6 @@
     "museav-cli": 3,
     "free-imgbed": 1,
     "dsh-museav-assets": 1,
-    "webkubor": 2,
     "pr-contributor-skill": 0,
     "kyvault": 4,
     "chat-mood-gen": 3,
@@ -80,9 +81,8 @@
     "facet": 4,
     "supercli": 2,
     "ai-orb": 2,
-    "device-passport": 1,
     "typora-Bloom-theme": 103,
-    "dsh-env-inspector": 3,
+    "dsh-env-inspector": 4,
     "deadcode-reaper-skill": 2,
     "im-notify-kit": 2,
     "mlx-vlm-kit": 1,

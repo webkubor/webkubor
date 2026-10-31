@@ -23,7 +23,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/218_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/219_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/17_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
@@ -97,7 +97,6 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-30 · 2 ★</sub><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
 - **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-30 · 5 ★</sub><br/>A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.
 - **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-30 · 0 ★</sub><br/>Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.
-- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-10-30 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
 
 </details>
 

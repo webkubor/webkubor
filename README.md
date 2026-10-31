@@ -23,7 +23,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/218_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/219_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/17_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
@@ -97,7 +97,6 @@
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-30 · 2 ★</sub><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
 - **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-30 · 5 ★</sub><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
 - **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-30 · 0 ★</sub><br/>在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。
-- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-10-30 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
 
 </details>
 
