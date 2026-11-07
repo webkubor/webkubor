@@ -51,7 +51,7 @@ function projectLine(name, lang, style) {
     .join(' · ');
   const meta = [starBadge(name, style), badges].filter(Boolean).join(' · ');
   const showcase = p.showcase;
-  const media = showcase ? `\n\n<details>\n<summary>${esc(showcase.version)} · ${lang === 'zh' ? '查看演示' : 'View demo'}</summary>\n\n${esc(showcase.embed)}\n\n<a href="${esc(showcase.video)}"><img src="${esc(showcase.image)}" width="480" alt="${esc(lang === 'zh' ? showcase.alt : showcase.altEn)}" /></a>\n\n${esc(lang === 'zh' ? showcase.caption : showcase.captionEn)}\n\n</details>` : '';
+  const media = showcase ? `\n\n<details>\n<summary>${esc(showcase.version)} · ${lang === 'zh' ? '查看演示' : 'View demo'}</summary>\n\n${esc(showcase.embed)}\n\n<a href="${esc(showcase.video)}"><img src="${esc(showcase.image)}" width="480" alt="${esc(lang === 'zh' ? showcase.alt : showcase.altEn)}" /></a>\n\n${esc(lang === 'zh' ? showcase.caption : showcase.captionEn)}\n\n</details>\n` : '';
   return `- **[${p.emoji} ${esc(p.name)}](${repoUrl(name)})** — ${desc}<br/><sub>${meta}</sub>${media}`;
 }
 
