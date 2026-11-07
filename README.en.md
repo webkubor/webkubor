@@ -79,6 +79,7 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 Preview image shows v0.26; click to watch the demo
 
 </details>
+
 - **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/frontend-contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
 ### Skills: writing standards for agents
