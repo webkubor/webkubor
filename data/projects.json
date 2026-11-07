@@ -89,8 +89,18 @@
     "dsh-bloom-theme": {
       "emoji": "🎛️",
       "name": "Bloom for DSH",
-      "zh": "把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。",
-      "en": "The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.",
+      "zh": "DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。",
+      "en": "A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.",
+      "showcase": {
+        "version": "v0.27.0",
+        "image": "./assets/bloom-preview-v0.26.png",
+        "video": "https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4",
+        "embed": "https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb",
+        "alt": "Bloom for DSH v0.26 画面预览：深色星空与主题切换菜单；点击观看演示",
+        "altEn": "Bloom for DSH v0.26 preview: night sky and theme switcher; click to watch the demo",
+        "caption": "预览图为 v0.26；点击观看演示",
+        "captionEn": "Preview image shows v0.26; click to watch the demo"
+      },
       "badges": []
     },
     "frontend-contrast-guard": {

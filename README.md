@@ -67,7 +67,18 @@
 不是只把颜色做得好看——每套配色都有两条轨，让设计选择能被自动检查。
 
 - **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 套主题，为长文写作和沉浸阅读设计；获 Typora 官方主题库收录。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — 把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
+
+<details>
+<summary>v0.27.0 · 查看演示</summary>
+
+https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
+
+<a href="https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4"><img src="./assets/bloom-preview-v0.26.png" width="480" alt="Bloom for DSH v0.26 画面预览：深色星空与主题切换菜单；点击观看演示" /></a>
+
+预览图为 v0.26；点击观看演示
+
+</details>
 - **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — 在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/frontend-contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
 ### Skills：给 Agent 装上的表达规范
@@ -93,7 +104,7 @@
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-30 · 43 ★</sub><br/>把同一套莫兰迪视觉语言带进 DeepSeek Harness，提供明暗主题与 OKLCH 配色。
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-30 · 43 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-30 · 2 ★</sub><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
 - **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-30 · 5 ★</sub><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
 - **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-30 · 0 ★</sub><br/>在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。

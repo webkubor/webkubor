@@ -67,7 +67,18 @@ From "let AI write code" to "let it see and stay safe".
 Not just pretty colors: every palette runs on two rails, so design choices can be checked automatically.
 
 - **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 themes for long-form writing and immersive reading; included in the official Typora theme gallery.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
+
+<details>
+<summary>v0.27.0 · View demo</summary>
+
+https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
+
+<a href="https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4"><img src="./assets/bloom-preview-v0.26.png" width="480" alt="Bloom for DSH v0.26 preview: night sky and theme switcher; click to watch the demo" /></a>
+
+Preview image shows v0.26; click to watch the demo
+
+</details>
 - **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/frontend-contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
 ### Skills: writing standards for agents
@@ -93,7 +104,7 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-30 · 43 ★</sub><br/>The same Morandi visual language brought to DeepSeek Harness, with light and dark themes and OKLCH palettes.
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-30 · 43 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-30 · 2 ★</sub><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
 - **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-30 · 5 ★</sub><br/>A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.
 - **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-30 · 0 ★</sub><br/>Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.
