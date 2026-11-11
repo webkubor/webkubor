@@ -45,7 +45,14 @@ const h2 = (md) => [...md.matchAll(/^## (.+)$/gm)].map((m) => m[1]);
 const h3 = (md) => [...md.matchAll(/^### (.+)$/gm)].map((m) => m[1]);
 if (h2(zh).length !== h2(en).length) fail(`双语二级标题数量不一致：中文 ${h2(zh).length} / 英文 ${h2(en).length}`);
 if (h3(zh).length !== h3(en).length) fail(`双语三级标题数量不一致：中文 ${h3(zh).length} / 英文 ${h3(en).length}`);
-const links = (md) => [...md.matchAll(/https:\/\/github\.com\/webkubor\/([\w.-]+)/g)].map((m) => m[1]);
+// 仓库可能挂在组织名下，链接按 owner/repo 全名判定；
+// 只检查 data/projects.json 声明的 owner，避免把 user-attachments 之类的资源链接当成仓库。
+const profileData = JSON.parse(readFileSync(join(root, 'data', 'projects.json'), 'utf8'));
+const OWNERS = profileData.owners || ['webkubor'];
+const PROFILE_OWNER = profileData.profileOwner || 'webkubor';
+const ownerAlt = OWNERS.map((o) => o.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+const linkRe = new RegExp(`https://github\\.com/(${ownerAlt})/([\\w.-]+)`, 'g');
+const links = (md) => [...md.matchAll(linkRe)].map((m) => `${m[1]}/${m[2]}`);
 const zhRepos = [...new Set(links(zh))].sort();
 const enRepos = [...new Set(links(en))].sort();
 if (zhRepos.join() !== enRepos.join()) {
@@ -56,18 +63,33 @@ if (zhRepos.join() !== enRepos.join()) {
 let offline = false;
 let liveRepos = new Set();
 try {
-  const out = execFileSync('gh', ['repo', 'list', 'webkubor', '--limit', '100', '--json', 'name'], {
-    encoding: 'utf8',
-    stdio: ['ignore', 'pipe', 'pipe'],
-  });
-  liveRepos = new Set(JSON.parse(out).map((r) => r.name));
+  const out = execFileSync(
+    'gh',
+    ['repo', 'list', PROFILE_OWNER, '--limit', '200', '--json', 'name'],
+    { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] },
+  );
+  for (const r of JSON.parse(out)) liveRepos.add(`${PROFILE_OWNER}/${r.name}`);
+  // 外部组织仓逐个查公开接口：CI 的 GITHUB_TOKEN 只装了本仓，list 不了别人的组织
+  for (const repo of zhRepos) {
+    const [owner] = repo.split('/');
+    if (owner === PROFILE_OWNER || liveRepos.has(repo)) continue;
+    try {
+      execFileSync('gh', ['api', `repos/${repo}`], {
+        encoding: 'utf8',
+        stdio: ['ignore', 'pipe', 'pipe'],
+      });
+      liveRepos.add(repo);
+    } catch {
+      // 查不到就当不存在，由下面的判定报错
+    }
+  }
 } catch (err) {
   offline = true;
   console.warn(`⚠ gh 不可用，跳过链接存活检查（${(err.stderr || '').toString().slice(0, 80)}）`);
 }
 if (!offline) {
   for (const repo of zhRepos) {
-    if (!liveRepos.has(repo)) fail(`链接仓库不存在：https://github.com/webkubor/${repo}`);
+    if (!liveRepos.has(repo)) fail(`链接仓库不存在：https://github.com/${repo}`);
   }
 }
 
@@ -94,7 +116,7 @@ const recentPath = join(root, 'data', 'recent.json');
 if (existsSync(recentPath)) {
   const recent = JSON.parse(readFileSync(recentPath, 'utf8'));
   for (const [repo, stars] of Object.entries(recent.stars || {})) {
-    const m = zh.match(new RegExp(`github/stars/webkubor/${repo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\?[^"]*color=([0-9a-f]{6})`));
+    const m = zh.match(new RegExp(`github/stars/${repo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\?[^"]*color=([0-9a-f]{6})`));
     if (!m) continue;
     const expected = stars >= 10 ? '6e7681' : stars > 0 ? '8b949e' : 'c9d1d9';
     if (m[1] !== expected) {

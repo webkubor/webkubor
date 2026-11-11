@@ -1,5 +1,7 @@
 {
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-11-11",
+  "owners": ["webkubor", "supercli-site", "cortexos-dev"],
+  "profileOwner": "webkubor",
   "groups": [
     {
       "id": "agent",
@@ -21,7 +23,7 @@
       "asset": "bloom",
       "assetAlt": "Bloom 六个莫兰迪原色直接当文字时对比度只有 2.3 到 3.3:1；保持色相与彩度，只解亮度到 4.5:1。",
       "assetAltEn": "Six Bloom Morandi colors used directly as text only reach 2.3 to 3.3:1 contrast; keeping hue and chroma and solving only lightness brings each to 4.5:1.",
-      "projects": ["typora-Bloom-theme", "dsh-bloom-theme", "frontend-contrast-guard"]
+      "projects": ["typora-Bloom-theme", "dsh-bloom-theme", "ui-craft"]
     }
   ],
   "featured": {
@@ -103,21 +105,22 @@
       },
       "badges": []
     },
-    "frontend-contrast-guard": {
-      "emoji": "🛡️",
-      "name": "frontend-contrast-guard",
-      "zh": "在 CI 检查色彩对比度，支持 OKLCH；失败时给出可执行的调色方向。",
-      "en": "Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.",
+    "ui-craft": {
+      "emoji": "✳️",
+      "name": "ui-craft",
+      "zh": "让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。",
+      "en": "Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.",
       "badges": []
     },
     "scorecard": {
       "emoji": "📋",
       "name": "Scorecard",
+      "owner": "supercli-site",
       "zh": "对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。",
       "en": "Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.",
       "badges": [
         { "label": "在线体验", "href": "https://scorecard.webkubor.online" },
-        { "label": "源码", "href": "https://github.com/webkubor/scorecard" }
+        { "label": "源码", "href": "https://github.com/supercli-site/scorecard" }
       ]
     },
     "voxflow": {
@@ -189,11 +192,10 @@
       { "repo": "mlx-vlm-kit", "zh": "Apple Silicon 本地离线图片理解。", "en": "Local, offline image understanding on Apple Silicon." },
       { "repo": "im-notify-kit", "zh": "飞书 / 企业微信通知库，带重试与去重。", "en": "A Lark / WeCom notification library with retries and deduplication." },
       { "repo": "path-guard", "zh": "PATH 命令诊断 CLI：定位实际执行的副本与版本漂移。", "en": "PATH diagnostics CLI: find the copy that actually runs and detect version drift." },
-      { "repo": "supercli", "zh": "CLI 工具目录与发现站，按用途与 Stars 快照排名。", "en": "A CLI directory and discovery site ranked by purpose and a Stars snapshot." },
-      { "repo": "meridian", "zh": "一个安静的 macOS Git 客户端。Tauri 2 + Vue 3 + git2。", "en": "A calm macOS Git client. Tauri 2 + Vue 3 + git2." },
+      { "repo": "supercli", "owner": "supercli-site", "zh": "CLI 工具目录与发现站，按用途与 Stars 快照排名。", "en": "A CLI directory and discovery site ranked by purpose and a Stars snapshot." },
       { "repo": "wallpaper-generator", "zh": "浏览器壁纸编辑器：多设备预设、水印与导出 PNG。", "en": "A browser wallpaper editor: device presets, watermarks and PNG export." },
-      { "repo": "xiaobai-kanban", "zh": "中文 AI 编程助手入门教程，含 AGENTS.md 协作指南。", "en": "A Chinese beginner guide to coding agents, requirements and Git workflows." },
-      { "repo": "cs-mcp", "zh": "把个人开源工具链接进 AI Agent 的 MCP 服务，按能力分组。", "en": "An MCP server that strings a personal open-source toolchain into AI agents, per capability group." },
+      { "repo": "xiaobai-kanban", "owner": "supercli-site", "zh": "中文 AI 编程助手入门教程，含 AGENTS.md 协作指南。", "en": "A Chinese beginner guide to coding agents, requirements and Git workflows." },
+      { "repo": "cs-mcp", "owner": "cortexos-dev", "zh": "把个人开源工具链接进 AI Agent 的 MCP 服务，按能力分组。", "en": "An MCP server that strings a personal open-source toolchain into AI agents, per capability group." },
       { "repo": "lite-browser", "zh": "AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。", "en": "Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs." },
       { "repo": "device-passport", "zh": "确定性的浏览器 / 设备画像，用于自动化与测试。", "en": "Deterministic, self-consistent browser/device personas for automation and testing." },
       { "repo": "free-imgbed", "zh": "图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。", "en": "Image assets for personal projects, served over GitHub raw and jsDelivr." },

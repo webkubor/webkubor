@@ -1,97 +1,103 @@
 {
   "totals": {
-    "publicRepos": 37,
-    "stars": 219,
-    "commits30d": 17,
-    "lastCommit": "2026-10-30"
+    "publicRepos": 36,
+    "stars": 527,
+    "commits30d": 21,
+    "lastCommit": "2026-11-07"
   },
   "recent": [
     {
-      "name": "device-passport",
+      "owner": "webkubor",
+      "name": "reel-kit",
+      "stars": 7,
+      "pushedAt": "2026-11-11",
+      "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
+    },
+    {
+      "owner": "webkubor",
+      "name": "harnessweight",
       "stars": 1,
-      "pushedAt": "2026-10-31",
-      "description": "Deterministic, self-consistent browser/device personas for automation and testing: sticky hardware seed, RFC 8942/8941 Client-Hints, native fetch ↔ Playwright/Puppeteer bridge."
+      "pushedAt": "2026-11-11",
+      "description": "给网关后面的每个 Agent harness 称重：输入 token、缓存命中、失败率、每轮重发的工具定义体积。已收录 magpie 社区插件 · Weigh every agent harness behind your magpie gateway."
     },
     {
-      "name": "webkubor",
-      "stars": 2,
-      "pushedAt": "2026-10-30",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
-    },
-    {
-      "name": "xiaobai-kanban",
+      "owner": "webkubor",
+      "name": "ui-craft",
       "stars": 0,
-      "pushedAt": "2026-10-30",
-      "description": "中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流，提供 AGENTS.md 协作指南。 / Chinese beginner guide to coding agents, requirements, CLI setup, and Git workflows."
+      "pushedAt": "2026-11-11",
+      "description": "帮助 AI coding agent 做出更好看的组件与页面。UI design skills for AI coding agents."
     },
     {
+      "owner": "webkubor",
+      "name": "decision-flow",
+      "stars": 0,
+      "pushedAt": "2026-11-11",
+      "description": "选型决策闭环 Flow 1.0：可证伪假设 + 固定字段复盘 + 跨轮迭代，让「做选择的依据」越来越可靠"
+    },
+    {
+      "owner": "webkubor",
       "name": "dsh-bloom-theme",
-      "stars": 43,
-      "pushedAt": "2026-10-30",
+      "stars": 246,
+      "pushedAt": "2026-11-11",
       "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
     },
     {
-      "name": "meridian",
-      "stars": 0,
-      "pushedAt": "2026-10-30",
-      "description": "Meridian — a calm macOS Git client. Tauri 2 + Vue 3 + git2."
+      "owner": "supercli-site",
+      "name": "supercli",
+      "pushedAt": "2026-11-11",
+      "description": "CLI 工具目录与发现站：按用途搜索、厂商筛选和 GitHub Stars 快照排名，社区通过 PR 贡献。 / Community CLI directory with category search, vendor filters, and transparent GitHub star rankings."
     },
     {
-      "name": "dsh-llm-hub",
-      "stars": 2,
-      "pushedAt": "2026-10-30",
-      "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
+      "owner": "webkubor",
+      "name": "wallpaper-generator",
+      "stars": 1,
+      "pushedAt": "2026-11-11",
+      "description": "浏览器壁纸编辑器：为多设备制作壁纸，添加文字/图片水印、复用模板并导出 PNG，本地处理图片。 / Browser wallpaper editor with device presets, watermarks, reusable templates, and local PNG export."
     },
     {
+      "owner": "webkubor",
       "name": "vite-plugin-agent-eyes",
-      "stars": 5,
-      "pushedAt": "2026-10-30",
+      "stars": 105,
+      "pushedAt": "2026-11-11",
       "description": "Vite 运行时遥测插件：为 AI agent 提供结构化日志、错误快照、本地 Cookie 修复与提交前检查。 / Vite telemetry plugin for AI agents with structured logs, error snapshots, local cookie repair, and pre-commit checks."
-    },
-    {
-      "name": "frontend-contrast-guard",
-      "stars": 0,
-      "pushedAt": "2026-10-30",
-      "description": "前端工程视觉与色彩全栈守卫：静态配色校验、渲染后视觉计量、证据驱动的 UI 评审闭环与规则演进治理。A full-lifecycle frontend visual guard: static contrast checks, post-render metrics, evidence-based UI review."
     }
   ],
   "stars": {
-    "device-passport": 1,
-    "webkubor": 2,
-    "xiaobai-kanban": 0,
-    "dsh-bloom-theme": 43,
-    "meridian": 0,
-    "dsh-llm-hub": 2,
-    "vite-plugin-agent-eyes": 5,
-    "frontend-contrast-guard": 0,
-    "museav-cli": 3,
-    "free-imgbed": 1,
-    "dsh-museav-assets": 1,
-    "pr-contributor-skill": 0,
-    "kyvault": 4,
-    "chat-mood-gen": 3,
-    "voxflow": 9,
-    "vite-plugin-refresh-guard": 2,
-    "cs-mcp": 0,
-    "logo-brand-designer": 0,
-    "wallpaper-generator": 1,
-    "reel-kit": 7,
-    "claude-usage-statusline": 0,
-    "scorecard": 1,
-    "facet": 4,
-    "supercli": 2,
-    "ai-orb": 2,
-    "typora-Bloom-theme": 103,
-    "dsh-env-inspector": 4,
-    "deadcode-reaper-skill": 2,
-    "im-notify-kit": 2,
-    "mlx-vlm-kit": 1,
-    "path-guard": 1,
-    "writing-standard-skills": 6,
-    "charmoji-sticker-skill": 5,
-    "release-sync-skill": 0,
-    "ai-sse-kit": 2,
-    "lite-browser": 0,
-    "suno-publisher": 0
+    "webkubor/reel-kit": 7,
+    "webkubor/harnessweight": 1,
+    "webkubor/ui-craft": 0,
+    "webkubor/decision-flow": 0,
+    "webkubor/dsh-bloom-theme": 246,
+    "webkubor/wallpaper-generator": 1,
+    "webkubor/vite-plugin-agent-eyes": 105,
+    "webkubor/voxflow": 10,
+    "webkubor/typora-Bloom-theme": 107,
+    "webkubor/kyvault": 4,
+    "webkubor/fovea": 1,
+    "webkubor/logo-brand-designer": 1,
+    "webkubor/free-imgbed": 1,
+    "webkubor/dsh-llm-hub": 3,
+    "webkubor/museav-cli": 3,
+    "webkubor/dsh-museav-assets": 1,
+    "webkubor/charmoji-sticker-skill": 5,
+    "webkubor/writing-standard-skills": 6,
+    "webkubor/ai-orb": 2,
+    "webkubor/jianpu-editor": 0,
+    "webkubor/chat-mood-gen": 3,
+    "webkubor/webkubor": 2,
+    "webkubor/claude-usage-statusline": 0,
+    "webkubor/device-passport": 1,
+    "webkubor/vite-plugin-refresh-guard": 2,
+    "webkubor/im-notify-kit": 2,
+    "webkubor/facet": 4,
+    "webkubor/ai-sse-kit": 2,
+    "webkubor/release-sync-skill": 0,
+    "webkubor/pr-contributor-skill": 0,
+    "webkubor/deadcode-reaper-skill": 2,
+    "webkubor/dsh-env-inspector": 3,
+    "webkubor/mlx-vlm-kit": 1,
+    "webkubor/path-guard": 1,
+    "webkubor/lite-browser": 0,
+    "webkubor/suno-publisher": 0
   }
 }

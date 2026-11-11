@@ -22,22 +22,22 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/219_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/17_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/527_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/21_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>10-30</sub> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <sub>10-30</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>10-30</sub> · [🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard) <sub>10-30</sub></sub>
+  <sub>Recently updated：[🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-11</sub> · [✳️ ui-craft](https://github.com/webkubor/ui-craft) <sub>11-11</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-11</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>11-11</sub></sub>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.png" />
-    <img src="./assets/logowall-light.png" width="100%" alt="Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor." />
+    <img src="./assets/logowall-light.png" width="100%" alt="Transparent-background logos of 5 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, wallpaper editor." />
   </picture>
 </p>
-<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/webkubor/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [meridian](https://github.com/webkubor/meridian) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
+<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/supercli-site/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
 
 ### Agent tools
 
@@ -50,7 +50,7 @@
 
 From "let AI write code" to "let it see and stay safe".
 
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · MIT · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes)</sub>
+- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · MIT · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes)</sub>
 - **[🔐 Kyvault](https://github.com/webkubor/kyvault)** — A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · Rust · MIT · [crates.io](https://crates.io/crates/kyvault)</sub>
 - **[🖥️ DSH Env Inspector](https://github.com/webkubor/dsh-env-inspector)** — Checks your dev environment, CLIs, plugins and ports, making environment problems visible and fixable without exposing secret values.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-env-inspector?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-env-inspector)</sub>
 - **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** — Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-refresh-guard?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · MIT · [npm](https://www.npmjs.com/package/vite-plugin-refresh-guard)</sub>
@@ -80,7 +80,7 @@ Preview image shows v0.26; click to watch the demo
 
 </details>
 
-- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** — Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/frontend-contrast-guard?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
+- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** — Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/ui-craft?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
 ### Skills: writing standards for agents
 
@@ -93,8 +93,8 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Also in progress</summary>
 
-- **[📋 Scorecard](https://github.com/webkubor/scorecard)** — Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/scorecard?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/webkubor/scorecard)</sub>
-- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
+- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.<br/><sub>[在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
+- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — Adds model gateway probing, catalog discovery and balance info to DSH.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
 - **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** — Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/reel-kit?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** — A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/chat-mood-gen?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
@@ -105,10 +105,10 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-10-30 · 43 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-10-30 · 2 ★</sub><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-10-30 · 5 ★</sub><br/>A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.
-- **[🛡️ frontend-contrast-guard](https://github.com/webkubor/frontend-contrast-guard)** <sub>2026-10-30 · 0 ★</sub><br/>Checks color contrast in CI with OKLCH support; when a pair fails, it tells you which way to adjust.
+- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-11 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
+- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-11 · 0 ★</sub><br/>Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-11 · 246 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
+- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-11-11 · 105 ★</sub><br/>A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.
 
 </details>
 
@@ -121,11 +121,10 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 - **[mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit)** — Local, offline image understanding on Apple Silicon.
 - **[im-notify-kit](https://github.com/webkubor/im-notify-kit)** — A Lark / WeCom notification library with retries and deduplication.
 - **[path-guard](https://github.com/webkubor/path-guard)** — PATH diagnostics CLI: find the copy that actually runs and detect version drift.
-- **[supercli](https://github.com/webkubor/supercli)** — A CLI directory and discovery site ranked by purpose and a Stars snapshot.
-- **[meridian](https://github.com/webkubor/meridian)** — A calm macOS Git client. Tauri 2 + Vue 3 + git2.
+- **[supercli](https://github.com/supercli-site/supercli)** — A CLI directory and discovery site ranked by purpose and a Stars snapshot.
 - **[wallpaper-generator](https://github.com/webkubor/wallpaper-generator)** — A browser wallpaper editor: device presets, watermarks and PNG export.
-- **[xiaobai-kanban](https://github.com/webkubor/xiaobai-kanban)** — A Chinese beginner guide to coding agents, requirements and Git workflows.
-- **[cs-mcp](https://github.com/webkubor/cs-mcp)** — An MCP server that strings a personal open-source toolchain into AI agents, per capability group.
+- **[xiaobai-kanban](https://github.com/supercli-site/xiaobai-kanban)** — A Chinese beginner guide to coding agents, requirements and Git workflows.
+- **[cs-mcp](https://github.com/cortexos-dev/cs-mcp)** — An MCP server that strings a personal open-source toolchain into AI agents, per capability group.
 - **[lite-browser](https://github.com/webkubor/lite-browser)** — Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs.
 - **[device-passport](https://github.com/webkubor/device-passport)** — Deterministic, self-consistent browser/device personas for automation and testing.
 - **[free-imgbed](https://github.com/webkubor/free-imgbed)** — Image assets for personal projects, served over GitHub raw and jsDelivr.

@@ -28,15 +28,22 @@ try {
 }
 
 const OWNER = 'webkubor';
-const repoUrl = (name) => `https://github.com/${OWNER}/${name}`;
-const starOf = (name) => recent.stars?.[name] ?? null;
+
+// 项目不一定挂在本人名下（迁组织、联合维护），owner 是数据的显式字段：
+// 没写 owner 的一律算本人仓库。链接与 star 徽章都必须按真实 owner 生成，
+// 否则迁组后主页会指向一个 301 到别处的死链。
+const ownerOf = (name) => data.projects?.[name]?.owner || OWNER;
+const ownerOfExtra = (entry) => entry.owner || OWNER;
+const repoUrl = (name) => `https://github.com/${ownerOf(name)}/${name}`;
+const repoUrlFull = (owner, name) => `https://github.com/${owner}/${name}`;
+const starOf = (name) => recent.stars?.[`${ownerOf(name)}/${name}`] ?? null;
 
 /** star 徽章：有真实 star 才亮，0 star 显示为灰色 0，不假装 */
 function starBadge(name, style) {
   const s = starOf(name);
   if (s === null) return '';
   const color = s >= 10 ? '6e7681' : s > 0 ? '8b949e' : 'c9d1d9';
-  return `<img src="https://img.shields.io/github/stars/${OWNER}/${name}?style=${style}&label=%20%E2%98%85&color=${color}" alt="stars" height="14" />`;
+  return `<img src="https://img.shields.io/github/stars/${ownerOf(name)}/${name}?style=${style}&label=%20%E2%98%85&color=${color}" alt="stars" height="14" />`;
 }
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -75,12 +82,15 @@ ${body}
 </details>`;
 }
 
-/** 主页收录的项目集合（用于过滤最近动态） */
+/** 主页收录的项目集合（用于过滤最近动态）；用 owner/repo 全名，避免同名仓库互相顶替 */
 const knownRepos = new Set([
   ...data.groups.flatMap((g) => g.projects),
   ...data.featured.projects,
   ...data.skills.projects,
-]);
+].map((name) => `${ownerOf(name)}/${name}`));
+
+/** 最近动态里的条目按 owner/repo 全名匹配主页收录项 */
+const isKnown = (entry) => knownRepos.has(`${entry.owner}/${entry.name}`);
 
 export function buildReadme(lang) {
   const zh = lang === 'zh';
@@ -95,14 +105,14 @@ export function buildReadme(lang) {
 </p>`;
 
   // 最近动态：首屏一行（最近 4 个有推送的收录项目），完整列表进折叠块
-  const recentKnown = (recent.recent || []).filter((r) => knownRepos.has(r.name));
+  const recentKnown = (recent.recent || []).filter(isKnown);
   const recentStrip = recentKnown.length
     ? `<p align="center">
   <sub>${T('最近更新', 'Recently updated')}：${recentKnown
       .slice(0, 4)
       .map((r) => {
         const p = data.projects[r.name];
-        return `[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrl(r.name)}) <sub>${r.pushedAt.slice(5)}</sub>`;
+        return `[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)}) <sub>${r.pushedAt.slice(5)}</sub>`;
       })
       .join(' · ')}</sub>
 </p>`
@@ -114,14 +124,14 @@ export function buildReadme(lang) {
   );
 
   const logowallAlt = T(
-    '6 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、Meridian、壁纸编辑器。',
-    'Transparent-background logos of 6 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, Meridian, wallpaper editor.',
+    '5 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、壁纸编辑器。',
+    'Transparent-background logos of 5 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, wallpaper editor.',
   );
 
   // logo 墙：只收透明底纯图形 logo（带底色方块的不进墙），没有正式 logo 的项目不凑数
   const wallNames = [
     'typora-Bloom-theme', 'scorecard', 'reel-kit',
-    'chat-mood-gen', 'meridian', 'wallpaper-generator',
+    'chat-mood-gen', 'wallpaper-generator',
   ];
   const wallStrip = `<p align="center"><sub>${wallNames
     .map((n) => `[${esc(data.projects[n]?.name || n)}](${repoUrl(n)})`)
@@ -152,7 +162,7 @@ ${lines}`;
 
   const extraTitle = T(data.extras.title, data.extras.titleEn);
   const extraLines = data.extras.projects
-    .map((e) => `- **[${esc(e.repo)}](${repoUrl(e.repo)})** — ${T(e.zh, e.en)}`)
+    .map((e) => `- **[${esc(e.repo)}](${repoUrlFull(ownerOfExtra(e), e.repo)})** — ${T(e.zh, e.en)}`)
     .join('\n');
 
   const recentDetail = recentKnown.length
@@ -162,7 +172,7 @@ ${lines}`;
           .map((r) => {
             const p = data.projects[r.name];
             const desc = T(p?.zh || '', p?.en || '');
-            return `- **[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrl(r.name)})** <sub>${r.pushedAt} · ${r.stars} ★</sub><br/>${desc}`;
+            return `- **[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)})** <sub>${r.pushedAt} · ${r.stars} ★</sub><br/>${desc}`;
           })
           .join('\n'),
       )
