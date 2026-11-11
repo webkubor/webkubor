@@ -8,6 +8,13 @@
   "recent": [
     {
       "owner": "webkubor",
+      "name": "harnessweight",
+      "stars": 1,
+      "pushedAt": "2026-11-11",
+      "description": "给网关后面的每个 Agent harness 称重：输入 token、缓存命中、失败率、每轮重发的工具定义体积。已收录 magpie 社区插件 · Weigh every agent harness behind your magpie gateway."
+    },
+    {
+      "owner": "webkubor",
       "name": "webkubor",
       "stars": 2,
       "pushedAt": "2026-11-11",
@@ -19,13 +26,6 @@
       "stars": 7,
       "pushedAt": "2026-11-11",
       "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
-    },
-    {
-      "owner": "webkubor",
-      "name": "harnessweight",
-      "stars": 1,
-      "pushedAt": "2026-11-11",
-      "description": "给网关后面的每个 Agent harness 称重：输入 token、缓存命中、失败率、每轮重发的工具定义体积。已收录 magpie 社区插件 · Weigh every agent harness behind your magpie gateway."
     },
     {
       "owner": "webkubor",
@@ -63,9 +63,9 @@
     }
   ],
   "stars": {
+    "webkubor/harnessweight": 1,
     "webkubor/webkubor": 2,
     "webkubor/reel-kit": 7,
-    "webkubor/harnessweight": 1,
     "webkubor/ui-craft": 0,
     "webkubor/decision-flow": 0,
     "webkubor/dsh-bloom-theme": 246,
