@@ -24,11 +24,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
   <img src="https://img.shields.io/badge/527_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/21_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/22_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-11</sub> · [✳️ ui-craft](https://github.com/webkubor/ui-craft) <sub>11-11</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-11</sub> · [👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>11-11</sub></sub>
+  <sub>最近更新：[🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-11</sub> · [✳️ ui-craft](https://github.com/webkubor/ui-craft) <sub>11-11</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-11</sub></sub>
 </p>
 
 <p align="center">
@@ -108,7 +108,6 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 - **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-11 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
 - **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-11 · 0 ★</sub><br/>让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-11 · 246 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-11-11 · 105 ★</sub><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
 
 </details>
 

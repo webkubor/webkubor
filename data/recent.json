@@ -2,10 +2,17 @@
   "totals": {
     "publicRepos": 36,
     "stars": 527,
-    "commits30d": 21,
-    "lastCommit": "2026-11-07"
+    "commits30d": 22,
+    "lastCommit": "2026-11-11"
   },
   "recent": [
+    {
+      "owner": "webkubor",
+      "name": "webkubor",
+      "stars": 2,
+      "pushedAt": "2026-11-11",
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
     {
       "owner": "webkubor",
       "name": "reel-kit",
@@ -53,16 +60,10 @@
       "stars": 1,
       "pushedAt": "2026-11-11",
       "description": "浏览器壁纸编辑器：为多设备制作壁纸，添加文字/图片水印、复用模板并导出 PNG，本地处理图片。 / Browser wallpaper editor with device presets, watermarks, reusable templates, and local PNG export."
-    },
-    {
-      "owner": "webkubor",
-      "name": "vite-plugin-agent-eyes",
-      "stars": 105,
-      "pushedAt": "2026-11-11",
-      "description": "Vite 运行时遥测插件：为 AI agent 提供结构化日志、错误快照、本地 Cookie 修复与提交前检查。 / Vite telemetry plugin for AI agents with structured logs, error snapshots, local cookie repair, and pre-commit checks."
     }
   ],
   "stars": {
+    "webkubor/webkubor": 2,
     "webkubor/reel-kit": 7,
     "webkubor/harnessweight": 1,
     "webkubor/ui-craft": 0,
@@ -84,7 +85,6 @@
     "webkubor/ai-orb": 2,
     "webkubor/jianpu-editor": 0,
     "webkubor/chat-mood-gen": 3,
-    "webkubor/webkubor": 2,
     "webkubor/claude-usage-statusline": 0,
     "webkubor/device-passport": 1,
     "webkubor/vite-plugin-refresh-guard": 2,
