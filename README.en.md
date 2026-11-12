@@ -23,12 +23,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/527_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/536_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/22_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-11</sub> · [✳️ ui-craft](https://github.com/webkubor/ui-craft) <sub>11-11</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-11</sub></sub>
+  <sub>Recently updated：[🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-12</sub> · [🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-12</sub></sub>
 </p>
 
 <p align="center">
@@ -105,9 +105,8 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-11 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
-- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-11 · 0 ★</sub><br/>Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-11 · 246 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-12 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
+- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-12 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
 
 </details>
 

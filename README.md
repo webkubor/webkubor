@@ -23,12 +23,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/527_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/536_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/22_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-11</sub> · [✳️ ui-craft](https://github.com/webkubor/ui-craft) <sub>11-11</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-11</sub></sub>
+  <sub>最近更新：[🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-12</sub> · [🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-12</sub></sub>
 </p>
 
 <p align="center">
@@ -105,9 +105,8 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-11 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
-- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-11 · 0 ★</sub><br/>让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-11 · 246 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-12 · 4 ★</sub><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
+- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-12 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
 
 </details>
 

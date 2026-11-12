@@ -1,82 +1,83 @@
 {
   "totals": {
     "publicRepos": 36,
-    "stars": 527,
+    "stars": 536,
     "commits30d": 22,
     "lastCommit": "2026-11-11"
   },
   "recent": [
     {
       "owner": "webkubor",
-      "name": "harnessweight",
+      "name": "kyvault",
+      "stars": 4,
+      "pushedAt": "2026-11-12",
+      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
+    },
+    {
+      "owner": "webkubor",
+      "name": "mlx-vlm-kit",
       "stars": 1,
-      "pushedAt": "2026-11-11",
-      "description": "给网关后面的每个 Agent harness 称重：输入 token、缓存命中、失败率、每轮重发的工具定义体积。已收录 magpie 社区插件 · Weigh every agent harness behind your magpie gateway."
-    },
-    {
-      "owner": "webkubor",
-      "name": "webkubor",
-      "stars": 2,
-      "pushedAt": "2026-11-11",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
-    },
-    {
-      "owner": "webkubor",
-      "name": "reel-kit",
-      "stars": 7,
-      "pushedAt": "2026-11-11",
-      "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
-    },
-    {
-      "owner": "webkubor",
-      "name": "ui-craft",
-      "stars": 0,
-      "pushedAt": "2026-11-11",
-      "description": "帮助 AI coding agent 做出更好看的组件与页面。UI design skills for AI coding agents."
-    },
-    {
-      "owner": "webkubor",
-      "name": "decision-flow",
-      "stars": 0,
-      "pushedAt": "2026-11-11",
-      "description": "选型决策闭环 Flow 1.0：可证伪假设 + 固定字段复盘 + 跨轮迭代，让「做选择的依据」越来越可靠"
-    },
-    {
-      "owner": "webkubor",
-      "name": "dsh-bloom-theme",
-      "stars": 246,
-      "pushedAt": "2026-11-11",
-      "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
-    },
-    {
-      "owner": "supercli-site",
-      "name": "supercli",
-      "pushedAt": "2026-11-11",
-      "description": "CLI 工具目录与发现站：按用途搜索、厂商筛选和 GitHub Stars 快照排名，社区通过 PR 贡献。 / Community CLI directory with category search, vendor filters, and transparent GitHub star rankings."
+      "pushedAt": "2026-11-12",
+      "description": "Apple Silicon 本地视觉语言模型 CLI：用 MLX/Qwen3-VL 描述图片、图像问答与提示词反推。Offline vision-language CLI for image understanding, visual Q&A and reverse prompting on Apple Silicon."
     },
     {
       "owner": "webkubor",
       "name": "wallpaper-generator",
       "stars": 1,
-      "pushedAt": "2026-11-11",
+      "pushedAt": "2026-11-12",
       "description": "浏览器壁纸编辑器：为多设备制作壁纸，添加文字/图片水印、复用模板并导出 PNG，本地处理图片。 / Browser wallpaper editor with device presets, watermarks, reusable templates, and local PNG export."
+    },
+    {
+      "owner": "webkubor",
+      "name": "harnessweight",
+      "stars": 1,
+      "pushedAt": "2026-11-12",
+      "description": "给网关后面的每个 Agent harness 称重：输入 token、缓存命中、失败率、每轮重发的工具定义体积。已收录 magpie 社区插件 · Weigh every agent harness behind your magpie gateway."
+    },
+    {
+      "owner": "webkubor",
+      "name": "reel-kit",
+      "stars": 7,
+      "pushedAt": "2026-11-12",
+      "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
+    },
+    {
+      "owner": "supercli-site",
+      "name": "xiaobai-kanban",
+      "pushedAt": "2026-11-11",
+      "description": "中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流。 / Chinese beginner guide to coding agents, CLI setup, and Git workflows."
+    },
+    {
+      "owner": "webkubor",
+      "name": "lite-browser",
+      "stars": 0,
+      "pushedAt": "2026-11-11",
+      "description": "AI Agent 浏览器自动化 CLI：Chrome CDP 操控、会话复用、多 Agent 隔离与人工接管。Browser automation CLI for AI agents with CDP, reusable sessions and human-in-the-loop handoffs."
+    },
+    {
+      "owner": "cortexos-dev",
+      "name": "cs-mcp",
+      "pushedAt": "2026-11-11",
+      "description": "CortexOS 的 MCP 接入层：探测本机 CLI 并向 AI 客户端提供工具能力。品牌源由 CortexOS 维护。"
     }
   ],
   "stars": {
-    "webkubor/harnessweight": 1,
-    "webkubor/webkubor": 2,
-    "webkubor/reel-kit": 7,
-    "webkubor/ui-craft": 0,
-    "webkubor/decision-flow": 0,
-    "webkubor/dsh-bloom-theme": 246,
-    "webkubor/wallpaper-generator": 1,
-    "webkubor/vite-plugin-agent-eyes": 105,
-    "webkubor/voxflow": 10,
-    "webkubor/typora-Bloom-theme": 107,
     "webkubor/kyvault": 4,
+    "webkubor/mlx-vlm-kit": 1,
+    "webkubor/wallpaper-generator": 1,
+    "webkubor/harnessweight": 1,
+    "webkubor/reel-kit": 7,
+    "webkubor/lite-browser": 0,
+    "webkubor/dsh-bloom-theme": 254,
+    "webkubor/typora-Bloom-theme": 108,
+    "webkubor/vite-plugin-agent-eyes": 105,
+    "webkubor/free-imgbed": 1,
+    "webkubor/ui-craft": 0,
+    "webkubor/webkubor": 2,
+    "webkubor/decision-flow": 0,
+    "webkubor/voxflow": 10,
     "webkubor/fovea": 1,
     "webkubor/logo-brand-designer": 1,
-    "webkubor/free-imgbed": 1,
     "webkubor/dsh-llm-hub": 3,
     "webkubor/museav-cli": 3,
     "webkubor/dsh-museav-assets": 1,
@@ -95,9 +96,7 @@
     "webkubor/pr-contributor-skill": 0,
     "webkubor/deadcode-reaper-skill": 2,
     "webkubor/dsh-env-inspector": 3,
-    "webkubor/mlx-vlm-kit": 1,
     "webkubor/path-guard": 1,
-    "webkubor/lite-browser": 0,
     "webkubor/suno-publisher": 0
   }
 }
