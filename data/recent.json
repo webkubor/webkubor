@@ -1,17 +1,16 @@
 {
   "totals": {
     "publicRepos": 36,
-    "stars": 536,
-    "commits30d": 22,
-    "lastCommit": "2026-11-11"
+    "stars": 550,
+    "commits30d": 21,
+    "lastCommit": "2026-11-12"
   },
   "recent": [
     {
-      "owner": "webkubor",
-      "name": "kyvault",
-      "stars": 4,
+      "owner": "cortexos-dev",
+      "name": "cs-mcp",
       "pushedAt": "2026-11-12",
-      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
+      "description": "CortexOS 的 MCP 接入层：探测本机 CLI 并向 AI 客户端提供工具能力。品牌源由 CortexOS 维护。"
     },
     {
       "owner": "webkubor",
@@ -19,6 +18,20 @@
       "stars": 1,
       "pushedAt": "2026-11-12",
       "description": "Apple Silicon 本地视觉语言模型 CLI：用 MLX/Qwen3-VL 描述图片、图像问答与提示词反推。Offline vision-language CLI for image understanding, visual Q&A and reverse prompting on Apple Silicon."
+    },
+    {
+      "owner": "webkubor",
+      "name": "webkubor",
+      "stars": 2,
+      "pushedAt": "2026-11-12",
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
+    {
+      "owner": "webkubor",
+      "name": "kyvault",
+      "stars": 4,
+      "pushedAt": "2026-11-12",
+      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
     },
     {
       "owner": "webkubor",
@@ -46,34 +59,21 @@
       "name": "xiaobai-kanban",
       "pushedAt": "2026-11-11",
       "description": "中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流。 / Chinese beginner guide to coding agents, CLI setup, and Git workflows."
-    },
-    {
-      "owner": "webkubor",
-      "name": "lite-browser",
-      "stars": 0,
-      "pushedAt": "2026-11-11",
-      "description": "AI Agent 浏览器自动化 CLI：Chrome CDP 操控、会话复用、多 Agent 隔离与人工接管。Browser automation CLI for AI agents with CDP, reusable sessions and human-in-the-loop handoffs."
-    },
-    {
-      "owner": "cortexos-dev",
-      "name": "cs-mcp",
-      "pushedAt": "2026-11-11",
-      "description": "CortexOS 的 MCP 接入层：探测本机 CLI 并向 AI 客户端提供工具能力。品牌源由 CortexOS 维护。"
     }
   ],
   "stars": {
-    "webkubor/kyvault": 4,
     "webkubor/mlx-vlm-kit": 1,
+    "webkubor/webkubor": 2,
+    "webkubor/kyvault": 4,
     "webkubor/wallpaper-generator": 1,
     "webkubor/harnessweight": 1,
     "webkubor/reel-kit": 7,
     "webkubor/lite-browser": 0,
-    "webkubor/dsh-bloom-theme": 254,
+    "webkubor/dsh-bloom-theme": 266,
     "webkubor/typora-Bloom-theme": 108,
     "webkubor/vite-plugin-agent-eyes": 105,
     "webkubor/free-imgbed": 1,
     "webkubor/ui-craft": 0,
-    "webkubor/webkubor": 2,
     "webkubor/decision-flow": 0,
     "webkubor/voxflow": 10,
     "webkubor/fovea": 1,
@@ -82,7 +82,7 @@
     "webkubor/museav-cli": 3,
     "webkubor/dsh-museav-assets": 1,
     "webkubor/charmoji-sticker-skill": 5,
-    "webkubor/writing-standard-skills": 6,
+    "webkubor/writing-standard-skills": 8,
     "webkubor/ai-orb": 2,
     "webkubor/jianpu-editor": 0,
     "webkubor/chat-mood-gen": 3,
