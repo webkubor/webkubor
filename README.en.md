@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/550_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/561_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/21_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-12</sub> · [🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-12</sub></sub>
+  <sub>Recently updated：[🎨 museav-cli](https://github.com/webkubor/museav-cli) <sub>11-14</sub> · [🎙️ VoxFlow](https://github.com/webkubor/voxflow) <sub>11-14</sub> · [🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-13</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-13</sub></sub>
 </p>
 
 <p align="center">
@@ -105,8 +105,10 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-12 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-12 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
+- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-11-14 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
+- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-14 · 10 ★</sub><br/>A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.
+- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-13 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-13 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
 
 </details>
 

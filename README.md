@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/36_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/550_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/561_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/21_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-12</sub> · [🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-12</sub></sub>
+  <sub>最近更新：[🎨 museav-cli](https://github.com/webkubor/museav-cli) <sub>11-14</sub> · [🎙️ VoxFlow](https://github.com/webkubor/voxflow) <sub>11-14</sub> · [🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-13</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-13</sub></sub>
 </p>
 
 <p align="center">
@@ -105,8 +105,10 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-12 · 4 ★</sub><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-12 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
+- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-11-14 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
+- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-14 · 10 ★</sub><br/>Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。
+- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-13 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-13 · 4 ★</sub><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
 
 </details>
 

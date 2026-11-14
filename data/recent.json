@@ -1,85 +1,90 @@
 {
   "totals": {
-    "publicRepos": 36,
-    "stars": 550,
+    "publicRepos": 37,
+    "stars": 561,
     "commits30d": 21,
-    "lastCommit": "2026-11-12"
+    "lastCommit": "2026-11-13"
   },
   "recent": [
     {
-      "owner": "cortexos-dev",
-      "name": "cs-mcp",
-      "pushedAt": "2026-11-12",
-      "description": "CortexOS 的 MCP 接入层：探测本机 CLI 并向 AI 客户端提供工具能力。品牌源由 CortexOS 维护。"
+      "owner": "webkubor",
+      "name": "museav-cli",
+      "stars": 3,
+      "pushedAt": "2026-11-14",
+      "description": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。MUSE AV CLI for image/video generation, reusable templates, asset uploads and local image tools."
     },
     {
       "owner": "webkubor",
-      "name": "mlx-vlm-kit",
+      "name": "suno-publisher",
+      "stars": 0,
+      "pushedAt": "2026-11-14",
+      "description": "音乐发行管理工作台：上架台账、平台账号与填表辅助，提交和签署由人确认。 / Music release management dashboard with listing records, platform accounts, and form-filling assistance."
+    },
+    {
+      "owner": "webkubor",
+      "name": "voxflow",
+      "stars": 10,
+      "pushedAt": "2026-11-14",
+      "description": "AI 音频工作台：Apple Silicon 本地 TTS、语音克隆与音色设计，另支持 Suno 音乐生成。 / AI audio workbench with local Apple Silicon TTS, voice cloning, voice design, and Suno music generation."
+    },
+    {
+      "owner": "webkubor",
+      "name": "device-passport",
       "stars": 1,
-      "pushedAt": "2026-11-12",
-      "description": "Apple Silicon 本地视觉语言模型 CLI：用 MLX/Qwen3-VL 描述图片、图像问答与提示词反推。Offline vision-language CLI for image understanding, visual Q&A and reverse prompting on Apple Silicon."
+      "pushedAt": "2026-11-13",
+      "description": "Deterministic, self-consistent browser/device personas for automation and testing: sticky hardware seed, RFC 8942/8941 Client-Hints, native fetch ↔ Playwright/Puppeteer bridge."
     },
     {
       "owner": "webkubor",
-      "name": "webkubor",
-      "stars": 2,
-      "pushedAt": "2026-11-12",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
-    },
-    {
-      "owner": "webkubor",
-      "name": "kyvault",
-      "stars": 4,
-      "pushedAt": "2026-11-12",
-      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
-    },
-    {
-      "owner": "webkubor",
-      "name": "wallpaper-generator",
-      "stars": 1,
-      "pushedAt": "2026-11-12",
-      "description": "浏览器壁纸编辑器：为多设备制作壁纸，添加文字/图片水印、复用模板并导出 PNG，本地处理图片。 / Browser wallpaper editor with device presets, watermarks, reusable templates, and local PNG export."
-    },
-    {
-      "owner": "webkubor",
-      "name": "harnessweight",
-      "stars": 1,
-      "pushedAt": "2026-11-12",
-      "description": "给网关后面的每个 Agent harness 称重：输入 token、缓存命中、失败率、每轮重发的工具定义体积。已收录 magpie 社区插件 · Weigh every agent harness behind your magpie gateway."
+      "name": "reel-dev-samples",
+      "stars": 0,
+      "pushedAt": "2026-11-13",
+      "description": "Reel Studio 开发过程录像归档：装包验收与流程走查的真实录屏（发布素材在 reel-kit 仓）"
     },
     {
       "owner": "webkubor",
       "name": "reel-kit",
       "stars": 7,
-      "pushedAt": "2026-11-12",
+      "pushedAt": "2026-11-13",
       "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
     },
     {
-      "owner": "supercli-site",
-      "name": "xiaobai-kanban",
-      "pushedAt": "2026-11-11",
-      "description": "中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流。 / Chinese beginner guide to coding agents, CLI setup, and Git workflows."
+      "owner": "webkubor",
+      "name": "free-imgbed",
+      "stars": 1,
+      "pushedAt": "2026-11-13",
+      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
+    },
+    {
+      "owner": "webkubor",
+      "name": "kyvault",
+      "stars": 4,
+      "pushedAt": "2026-11-13",
+      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
     }
   ],
   "stars": {
-    "webkubor/mlx-vlm-kit": 1,
-    "webkubor/webkubor": 2,
-    "webkubor/kyvault": 4,
-    "webkubor/wallpaper-generator": 1,
-    "webkubor/harnessweight": 1,
+    "webkubor/museav-cli": 3,
+    "webkubor/suno-publisher": 0,
+    "webkubor/voxflow": 10,
+    "webkubor/device-passport": 1,
+    "webkubor/reel-dev-samples": 0,
     "webkubor/reel-kit": 7,
-    "webkubor/lite-browser": 0,
-    "webkubor/dsh-bloom-theme": 266,
-    "webkubor/typora-Bloom-theme": 108,
-    "webkubor/vite-plugin-agent-eyes": 105,
     "webkubor/free-imgbed": 1,
+    "webkubor/kyvault": 4,
+    "webkubor/harnessweight": 1,
+    "webkubor/webkubor": 2,
+    "webkubor/mlx-vlm-kit": 1,
+    "webkubor/wallpaper-generator": 1,
+    "webkubor/lite-browser": 0,
+    "webkubor/dsh-bloom-theme": 276,
+    "webkubor/typora-Bloom-theme": 109,
+    "webkubor/vite-plugin-agent-eyes": 105,
     "webkubor/ui-craft": 0,
     "webkubor/decision-flow": 0,
-    "webkubor/voxflow": 10,
     "webkubor/fovea": 1,
     "webkubor/logo-brand-designer": 1,
     "webkubor/dsh-llm-hub": 3,
-    "webkubor/museav-cli": 3,
     "webkubor/dsh-museav-assets": 1,
     "webkubor/charmoji-sticker-skill": 5,
     "webkubor/writing-standard-skills": 8,
@@ -87,7 +92,6 @@
     "webkubor/jianpu-editor": 0,
     "webkubor/chat-mood-gen": 3,
     "webkubor/claude-usage-statusline": 0,
-    "webkubor/device-passport": 1,
     "webkubor/vite-plugin-refresh-guard": 2,
     "webkubor/im-notify-kit": 2,
     "webkubor/facet": 4,
@@ -96,7 +100,6 @@
     "webkubor/pr-contributor-skill": 0,
     "webkubor/deadcode-reaper-skill": 2,
     "webkubor/dsh-env-inspector": 3,
-    "webkubor/path-guard": 1,
-    "webkubor/suno-publisher": 0
+    "webkubor/path-guard": 1
   }
 }
