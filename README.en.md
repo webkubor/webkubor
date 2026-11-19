@@ -28,7 +28,7 @@
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-19</sub> · [🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-19</sub> · [🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard) <sub>11-19</sub></sub>
+  <sub>Recently updated：[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [🎨 museav-cli](https://github.com/museav-ai/museav-cli) <sub>11-19</sub> · [🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-19</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-19</sub></sub>
 </p>
 
 <p align="center">
@@ -106,13 +106,12 @@ Reusable standards for brand expression, docs and tickets, and code subtraction.
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-19 · 296 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
 - **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-19 · 2 ★</sub><br/>Retires dead code and stale skills for good, and shows off the subtraction.
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-19 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
 - **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** <sub>2026-11-19 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-19 · 296 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
 - **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** <sub>2026-11-19 · 2 ★</sub><br/>Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-19 · 10 ★</sub><br/>A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.
-- **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-11-19 · 8 ★</sub><br/>6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-18 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
 
 </details>
 
