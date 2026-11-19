@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11",
-  "owners": ["webkubor", "supercli-site", "cortexos-dev"],
+  "updatedAt": "2026-11-19",
+  "owners": ["webkubor", "supercli-site", "cortexos-dev", "museav-ai"],
   "profileOwner": "webkubor",
   "groups": [
     {
@@ -32,11 +32,11 @@
     "projects": ["scorecard", "voxflow", "dsh-llm-hub", "reel-kit", "chat-mood-gen", "museav-cli"]
   },
   "skills": {
-    "title": "Skills：给 Agent 装上的表达规范",
-    "titleEn": "Skills: writing standards for agents",
-    "lede": "写文档、提单、发帖之前先想「这话怎么说才对」的规范集合，一行命令接入 Claude Code / Codex / DSH / Antigravity。",
-    "ledeEn": "Standards for thinking \"how should this be said\" before writing docs, tickets or posts. One command to install into Claude Code / Codex / DSH / Antigravity.",
-    "projects": ["writing-standard-skills", "deadcode-reaper-skill", "charmoji-sticker-skill"]
+    "title": "Skills：设计与表达的工作规范",
+    "titleEn": "Skills: standards for design and communication",
+    "lede": "从品牌表达、文档提单到代码减法，把反复执行的判断做成可复用规范，一行命令接入 Claude Code / Codex / DSH / Antigravity。",
+    "ledeEn": "Reusable standards for brand expression, docs and tickets, and code subtraction. One command to install into Claude Code / Codex / DSH / Antigravity.",
+    "projects": ["logo-brand-designer", "writing-standard-skills", "deadcode-reaper-skill", "charmoji-sticker-skill"]
   },
   "projects": {
     "vite-plugin-agent-eyes": {
@@ -142,6 +142,8 @@
     "reel-kit": {
       "emoji": "🎞️",
       "name": "reel-kit",
+      "owner": "museav-ai",
+      "repo": "muse-tv",
       "zh": "用素材、逐句文案、配音和模板在本地合成竖版短视频。",
       "en": "Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.",
       "badges": []
@@ -156,6 +158,7 @@
     "museav-cli": {
       "emoji": "🎨",
       "name": "museav-cli",
+      "owner": "museav-ai",
       "zh": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。",
       "en": "MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.",
       "badges": []
@@ -165,6 +168,13 @@
       "name": "writing-standard-skills",
       "zh": "6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。",
       "en": "6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.",
+      "badges": []
+    },
+    "logo-brand-designer": {
+      "emoji": "🎨",
+      "name": "Logo Brand Designer",
+      "zh": "从理念、design token 到透明底 SVG 与真实截图，交付可复用、可验收的品牌标识。",
+      "en": "Builds reusable, reviewable brand identities from concept and design tokens through transparent SVGs and real screenshots.",
       "badges": []
     },
     "deadcode-reaper-skill": {
@@ -199,9 +209,8 @@
       { "repo": "lite-browser", "zh": "AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。", "en": "Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs." },
       { "repo": "device-passport", "zh": "确定性的浏览器 / 设备画像，用于自动化与测试。", "en": "Deterministic, self-consistent browser/device personas for automation and testing." },
       { "repo": "free-imgbed", "zh": "图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。", "en": "Image assets for personal projects, served over GitHub raw and jsDelivr." },
-      { "repo": "dsh-museav-assets", "zh": "DSH 素材浏览插件：按工作区查看出图记录与素材直链。", "en": "A DSH plugin that browses generated assets and image libraries by workspace." },
+      { "repo": "dsh-museav-assets", "owner": "museav-ai", "zh": "DSH 素材浏览插件：按工作区查看出图记录与素材直链。", "en": "A DSH plugin that browses generated assets and image libraries by workspace." },
       { "repo": "release-sync-skill", "zh": "发版时自动把版本号同步到台账与 SKILL.md。", "en": "Syncs release versions into the ledger and SKILL.md at publish time." },
-      { "repo": "suno-publisher", "zh": "音乐发行管理工作台：上架台账与填表辅助。", "en": "A music release management dashboard: release ledger and form-filling help." },
       { "repo": "claude-usage-statusline", "zh": "Claude Code 状态栏：会话花费与额度预警。", "en": "A Claude Code status line: session cost and quota warnings." }
     ]
   }

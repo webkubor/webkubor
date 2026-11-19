@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/567_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/20_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/32_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/571_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/18_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-14</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-14</sub> · [🎨 museav-cli](https://github.com/webkubor/museav-cli) <sub>11-14</sub> · [🎙️ VoxFlow](https://github.com/webkubor/voxflow) <sub>11-14</sub></sub>
+  <sub>最近更新：[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard) <sub>11-19</sub> · [🎙️ VoxFlow](https://github.com/webkubor/voxflow) <sub>11-19</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>11-19</sub></sub>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
     <img src="./assets/logowall-light.png" width="100%" alt="5 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、壁纸编辑器。" />
   </picture>
 </p>
-<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/supercli-site/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
+<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/supercli-site/scorecard) · [reel-kit](https://github.com/museav-ai/muse-tv) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
 
 ### Agent 工具
 
@@ -82,10 +82,11 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 
 - **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** — 让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/ui-craft?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
-### Skills：给 Agent 装上的表达规范
+### Skills：设计与表达的工作规范
 
-写文档、提单、发帖之前先想「这话怎么说才对」的规范集合，一行命令接入 Claude Code / Codex / DSH / Antigravity。
+从品牌表达、文档提单到代码减法，把反复执行的判断做成可复用规范，一行命令接入 Claude Code / Codex / DSH / Antigravity。
 
+- **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** — 从理念、design token 到透明底 SVG 与真实截图，交付可复用、可验收的品牌标识。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/logo-brand-designer?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** — 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** — 让死代码与废弃 skill 真正入土为安，晒出减法战绩。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/deadcode-reaper-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** — 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/charmoji-sticker-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
@@ -96,19 +97,21 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 - **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。<br/><sub>[在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — 为 DSH 补上模型网关探测、目录发现与余额信息。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** — 用素材、逐句文案、配音和模板在本地合成竖版短视频。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/reel-kit?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — 用素材、逐句文案、配音和模板在本地合成竖版短视频。<br/><sub></sub>
 - **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** — 仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/chat-mood-gen?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** — MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/museav-cli?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。<br/><sub></sub>
 
 </details>
 
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-14 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-14 · 281 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
-- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-11-14 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
-- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-14 · 10 ★</sub><br/>Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。
+- **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-19 · 2 ★</sub><br/>让死代码与废弃 skill 真正入土为安，晒出减法战绩。
+- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** <sub>2026-11-19 · 2 ★</sub><br/>解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。
+- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-19 · 10 ★</sub><br/>Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。
+- **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-11-19 · 8 ★</sub><br/>6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-18 · 296 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
+- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-17 · 0 ★</sub><br/>让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。
 
 </details>
 
@@ -128,9 +131,8 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 - **[lite-browser](https://github.com/webkubor/lite-browser)** — AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。
 - **[device-passport](https://github.com/webkubor/device-passport)** — 确定性的浏览器 / 设备画像，用于自动化与测试。
 - **[free-imgbed](https://github.com/webkubor/free-imgbed)** — 图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。
-- **[dsh-museav-assets](https://github.com/webkubor/dsh-museav-assets)** — DSH 素材浏览插件：按工作区查看出图记录与素材直链。
+- **[dsh-museav-assets](https://github.com/museav-ai/dsh-museav-assets)** — DSH 素材浏览插件：按工作区查看出图记录与素材直链。
 - **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** — 发版时自动把版本号同步到台账与 SKILL.md。
-- **[suno-publisher](https://github.com/webkubor/suno-publisher)** — 音乐发行管理工作台：上架台账与填表辅助。
 - **[claude-usage-statusline](https://github.com/webkubor/claude-usage-statusline)** — Claude Code 状态栏：会话花费与额度预警。
 
 </details>

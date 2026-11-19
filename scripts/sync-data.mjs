@@ -32,12 +32,13 @@ const PROFILE_REPO = 'webkubor';
 function referencedRepos() {
   const names = new Set();
   const ownerOf = (name) => data.projects?.[name]?.owner || OWNER;
+  const repoOf = (name) => data.projects?.[name]?.repo || name;
   const listed = [
     ...data.groups.flatMap((g) => g.projects),
     ...data.featured.projects,
     ...data.skills.projects,
   ];
-  for (const name of listed) names.add(`${ownerOf(name)}/${name}`);
+  for (const name of listed) names.add(`${ownerOf(name)}/${repoOf(name)}`);
   for (const entry of data.extras?.projects || []) {
     names.add(`${entry.owner || OWNER}/${entry.repo}`);
   }

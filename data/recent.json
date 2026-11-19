@@ -1,104 +1,99 @@
 {
   "totals": {
-    "publicRepos": 37,
-    "stars": 567,
-    "commits30d": 20,
-    "lastCommit": "2026-11-14"
+    "publicRepos": 32,
+    "stars": 571,
+    "commits30d": 18,
+    "lastCommit": "2026-11-15"
   },
   "recent": [
     {
       "owner": "webkubor",
-      "name": "reel-kit",
-      "stars": 7,
-      "pushedAt": "2026-11-14",
-      "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
-    },
-    {
-      "owner": "webkubor",
-      "name": "suno-publisher",
-      "stars": 0,
-      "pushedAt": "2026-11-14",
-      "description": "音乐发行管理工作台：上架台账、平台账号与填表辅助，提交和签署由人确认。 / Music release management dashboard with listing records, platform accounts, and form-filling assistance."
-    },
-    {
-      "owner": "webkubor",
-      "name": "dsh-bloom-theme",
-      "stars": 281,
-      "pushedAt": "2026-11-14",
-      "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
-    },
-    {
-      "owner": "webkubor",
-      "name": "webkubor",
+      "name": "deadcode-reaper-skill",
       "stars": 2,
-      "pushedAt": "2026-11-14",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+      "pushedAt": "2026-11-19",
+      "description": "扫出并清除「自称已废」的墓碑 skill、AI 幽灵碎片与死代码，统计释放的 Token 与磁盘。· An agent skill that reaps tombstoned skills, agent leftovers and dead code, reporting tokens reclaimed."
     },
     {
       "owner": "webkubor",
-      "name": "museav-cli",
-      "stars": 3,
-      "pushedAt": "2026-11-14",
-      "description": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。MUSE AV CLI for image/video generation, reusable templates, asset uploads and local image tools."
+      "name": "vite-plugin-refresh-guard",
+      "stars": 2,
+      "pushedAt": "2026-11-19",
+      "description": "Vite 应用版本更新检测与刷新插件：静默刷新、提示后刷新或弹窗确认，支持 Vue/React。 / Vite version-check plugin with silent, prompted, or modal refresh policies and Vue/React adapters."
     },
     {
       "owner": "webkubor",
       "name": "voxflow",
       "stars": 10,
-      "pushedAt": "2026-11-14",
+      "pushedAt": "2026-11-19",
       "description": "AI 音频工作台：Apple Silicon 本地 TTS、语音克隆与音色设计，另支持 Suno 音乐生成。 / AI audio workbench with local Apple Silicon TTS, voice cloning, voice design, and Suno music generation."
     },
     {
       "owner": "webkubor",
-      "name": "device-passport",
-      "stars": 1,
-      "pushedAt": "2026-11-13",
-      "description": "Deterministic, self-consistent browser/device personas for automation and testing: sticky hardware seed, RFC 8942/8941 Client-Hints, native fetch ↔ Playwright/Puppeteer bridge."
+      "name": "writing-standard-skills",
+      "stars": 8,
+      "pushedAt": "2026-11-19",
+      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
     },
     {
       "owner": "webkubor",
-      "name": "reel-dev-samples",
+      "name": "dsh-bloom-theme",
+      "stars": 296,
+      "pushedAt": "2026-11-18",
+      "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
+    },
+    {
+      "owner": "webkubor",
+      "name": "webkubor.github.io",
       "stars": 0,
-      "pushedAt": "2026-11-13",
-      "description": "Reel Studio 开发过程录像归档：装包验收与流程走查的真实录屏（发布素材在 reel-kit 仓）"
+      "pushedAt": "2026-11-18",
+      "description": "个人 GitHub Pages：旧项目地址跳转"
+    },
+    {
+      "owner": "webkubor",
+      "name": "fovea",
+      "stars": 1,
+      "pushedAt": "2026-11-17",
+      "description": "magpie gateway middleware: keep the recent window sharp, thin old history — saccade drops old context on a new topic; evidence page included"
+    },
+    {
+      "owner": "webkubor",
+      "name": "ui-craft",
+      "stars": 0,
+      "pushedAt": "2026-11-17",
+      "description": "帮助 AI coding agent 做出更好看的组件与页面。UI design skills for AI coding agents."
     }
   ],
   "stars": {
-    "webkubor/reel-kit": 7,
-    "webkubor/suno-publisher": 0,
-    "webkubor/dsh-bloom-theme": 281,
-    "webkubor/webkubor": 2,
-    "webkubor/museav-cli": 3,
+    "webkubor/deadcode-reaper-skill": 2,
+    "webkubor/vite-plugin-refresh-guard": 2,
     "webkubor/voxflow": 10,
-    "webkubor/device-passport": 1,
-    "webkubor/reel-dev-samples": 0,
-    "webkubor/free-imgbed": 1,
-    "webkubor/kyvault": 4,
+    "webkubor/writing-standard-skills": 8,
+    "webkubor/dsh-bloom-theme": 296,
+    "webkubor/webkubor.github.io": 0,
+    "webkubor/fovea": 1,
+    "webkubor/ui-craft": 0,
     "webkubor/harnessweight": 1,
+    "webkubor/vite-plugin-agent-eyes": 105,
+    "webkubor/typora-Bloom-theme": 109,
+    "webkubor/kyvault": 4,
+    "webkubor/dsh-llm-hub": 3,
+    "webkubor/lite-browser": 1,
+    "webkubor/webkubor": 2,
+    "webkubor/device-passport": 1,
+    "webkubor/free-imgbed": 1,
     "webkubor/mlx-vlm-kit": 1,
     "webkubor/wallpaper-generator": 1,
-    "webkubor/lite-browser": 1,
-    "webkubor/typora-Bloom-theme": 109,
-    "webkubor/vite-plugin-agent-eyes": 105,
-    "webkubor/ui-craft": 0,
-    "webkubor/decision-flow": 0,
-    "webkubor/fovea": 1,
     "webkubor/logo-brand-designer": 1,
-    "webkubor/dsh-llm-hub": 3,
-    "webkubor/dsh-museav-assets": 1,
     "webkubor/charmoji-sticker-skill": 5,
-    "webkubor/writing-standard-skills": 8,
     "webkubor/ai-orb": 2,
     "webkubor/jianpu-editor": 0,
     "webkubor/chat-mood-gen": 3,
     "webkubor/claude-usage-statusline": 0,
-    "webkubor/vite-plugin-refresh-guard": 2,
     "webkubor/im-notify-kit": 2,
     "webkubor/facet": 4,
     "webkubor/ai-sse-kit": 2,
     "webkubor/release-sync-skill": 0,
     "webkubor/pr-contributor-skill": 0,
-    "webkubor/deadcode-reaper-skill": 2,
     "webkubor/dsh-env-inspector": 3,
     "webkubor/path-guard": 1
   }

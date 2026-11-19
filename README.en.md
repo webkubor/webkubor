@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/37_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/567_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/20_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/32_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/571_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/18_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🎞️ reel-kit](https://github.com/webkubor/reel-kit) <sub>11-14</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-14</sub> · [🎨 museav-cli](https://github.com/webkubor/museav-cli) <sub>11-14</sub> · [🎙️ VoxFlow](https://github.com/webkubor/voxflow) <sub>11-14</sub></sub>
+  <sub>Recently updated：[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard) <sub>11-19</sub> · [🎙️ VoxFlow](https://github.com/webkubor/voxflow) <sub>11-19</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>11-19</sub></sub>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@
     <img src="./assets/logowall-light.png" width="100%" alt="Transparent-background logos of 5 open-source projects: Bloom, Scorecard, reel-kit, chat-mood-gen, wallpaper editor." />
   </picture>
 </p>
-<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/supercli-site/scorecard) · [reel-kit](https://github.com/webkubor/reel-kit) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
+<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/supercli-site/scorecard) · [reel-kit](https://github.com/museav-ai/muse-tv) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
 
 ### Agent tools
 
@@ -82,10 +82,11 @@ Preview image shows v0.26; click to watch the demo
 
 - **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** — Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/ui-craft?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
 
-### Skills: writing standards for agents
+### Skills: standards for design and communication
 
-Standards for thinking "how should this be said" before writing docs, tickets or posts. One command to install into Claude Code / Codex / DSH / Antigravity.
+Reusable standards for brand expression, docs and tickets, and code subtraction. One command to install into Claude Code / Codex / DSH / Antigravity.
 
+- **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** — Builds reusable, reviewable brand identities from concept and design tokens through transparent SVGs and real screenshots.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/logo-brand-designer?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** — 6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** — Retires dead code and stale skills for good, and shows off the subtraction.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/deadcode-reaper-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** — One front-facing character portrait becomes a complete, submittable WeChat sticker set, fully scripted.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/charmoji-sticker-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
@@ -96,19 +97,21 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 - **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.<br/><sub>[在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — Adds model gateway probing, catalog discovery and balance info to DSH.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** — Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/reel-kit?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.<br/><sub></sub>
 - **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** — A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/chat-mood-gen?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** — MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/museav-cli?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.<br/><sub></sub>
 
 </details>
 
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🎞️ reel-kit](https://github.com/webkubor/reel-kit)** <sub>2026-11-14 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-14 · 281 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
-- **[🎨 museav-cli](https://github.com/webkubor/museav-cli)** <sub>2026-11-14 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
-- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-14 · 10 ★</sub><br/>A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.
+- **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-19 · 2 ★</sub><br/>Retires dead code and stale skills for good, and shows off the subtraction.
+- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** <sub>2026-11-19 · 2 ★</sub><br/>Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.
+- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-19 · 10 ★</sub><br/>A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.
+- **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-11-19 · 8 ★</sub><br/>6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-18 · 296 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
+- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-17 · 0 ★</sub><br/>Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.
 
 </details>
 
@@ -128,9 +131,8 @@ Standards for thinking "how should this be said" before writing docs, tickets or
 - **[lite-browser](https://github.com/webkubor/lite-browser)** — Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs.
 - **[device-passport](https://github.com/webkubor/device-passport)** — Deterministic, self-consistent browser/device personas for automation and testing.
 - **[free-imgbed](https://github.com/webkubor/free-imgbed)** — Image assets for personal projects, served over GitHub raw and jsDelivr.
-- **[dsh-museav-assets](https://github.com/webkubor/dsh-museav-assets)** — A DSH plugin that browses generated assets and image libraries by workspace.
+- **[dsh-museav-assets](https://github.com/museav-ai/dsh-museav-assets)** — A DSH plugin that browses generated assets and image libraries by workspace.
 - **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** — Syncs release versions into the ledger and SKILL.md at publish time.
-- **[suno-publisher](https://github.com/webkubor/suno-publisher)** — A music release management dashboard: release ledger and form-filling help.
 - **[claude-usage-statusline](https://github.com/webkubor/claude-usage-statusline)** — A Claude Code status line: session cost and quota warnings.
 
 </details>

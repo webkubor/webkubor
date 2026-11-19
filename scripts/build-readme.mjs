@@ -33,17 +33,18 @@ const OWNER = 'webkubor';
 // 没写 owner 的一律算本人仓库。链接与 star 徽章都必须按真实 owner 生成，
 // 否则迁组后主页会指向一个 301 到别处的死链。
 const ownerOf = (name) => data.projects?.[name]?.owner || OWNER;
+const repoOf = (name) => data.projects?.[name]?.repo || name;
 const ownerOfExtra = (entry) => entry.owner || OWNER;
-const repoUrl = (name) => `https://github.com/${ownerOf(name)}/${name}`;
+const repoUrl = (name) => `https://github.com/${ownerOf(name)}/${repoOf(name)}`;
 const repoUrlFull = (owner, name) => `https://github.com/${owner}/${name}`;
-const starOf = (name) => recent.stars?.[`${ownerOf(name)}/${name}`] ?? null;
+const starOf = (name) => recent.stars?.[`${ownerOf(name)}/${repoOf(name)}`] ?? null;
 
 /** star 徽章：有真实 star 才亮，0 star 显示为灰色 0，不假装 */
 function starBadge(name, style) {
   const s = starOf(name);
   if (s === null) return '';
   const color = s >= 10 ? '6e7681' : s > 0 ? '8b949e' : 'c9d1d9';
-  return `<img src="https://img.shields.io/github/stars/${ownerOf(name)}/${name}?style=${style}&label=%20%E2%98%85&color=${color}" alt="stars" height="14" />`;
+  return `<img src="https://img.shields.io/github/stars/${ownerOf(name)}/${repoOf(name)}?style=${style}&label=%20%E2%98%85&color=${color}" alt="stars" height="14" />`;
 }
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -87,7 +88,7 @@ const knownRepos = new Set([
   ...data.groups.flatMap((g) => g.projects),
   ...data.featured.projects,
   ...data.skills.projects,
-].map((name) => `${ownerOf(name)}/${name}`));
+].map((name) => `${ownerOf(name)}/${repoOf(name)}`));
 
 /** 最近动态里的条目按 owner/repo 全名匹配主页收录项 */
 const isKnown = (entry) => knownRepos.has(`${entry.owner}/${entry.name}`);
