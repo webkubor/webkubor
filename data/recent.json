@@ -2,16 +2,36 @@
   "totals": {
     "publicRepos": 32,
     "stars": 571,
-    "commits30d": 18,
-    "lastCommit": "2026-11-15"
+    "commits30d": 19,
+    "lastCommit": "2026-11-19"
   },
   "recent": [
+    {
+      "owner": "webkubor",
+      "name": "webkubor",
+      "stars": 2,
+      "pushedAt": "2026-11-19",
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
+    {
+      "owner": "webkubor",
+      "name": "dsh-bloom-theme",
+      "stars": 296,
+      "pushedAt": "2026-11-19",
+      "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
+    },
     {
       "owner": "webkubor",
       "name": "deadcode-reaper-skill",
       "stars": 2,
       "pushedAt": "2026-11-19",
       "description": "扫出并清除「自称已废」的墓碑 skill、AI 幽灵碎片与死代码，统计释放的 Token 与磁盘。· An agent skill that reaps tombstoned skills, agent leftovers and dead code, reporting tokens reclaimed."
+    },
+    {
+      "owner": "museav-ai",
+      "name": "muse-tv",
+      "pushedAt": "2026-11-19",
+      "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
     },
     {
       "owner": "webkubor",
@@ -35,40 +55,19 @@
       "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
     },
     {
-      "owner": "webkubor",
-      "name": "dsh-bloom-theme",
-      "stars": 296,
+      "owner": "museav-ai",
+      "name": "museav-cli",
       "pushedAt": "2026-11-18",
-      "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
-    },
-    {
-      "owner": "webkubor",
-      "name": "webkubor.github.io",
-      "stars": 0,
-      "pushedAt": "2026-11-18",
-      "description": "个人 GitHub Pages：旧项目地址跳转"
-    },
-    {
-      "owner": "webkubor",
-      "name": "fovea",
-      "stars": 1,
-      "pushedAt": "2026-11-17",
-      "description": "magpie gateway middleware: keep the recent window sharp, thin old history — saccade drops old context on a new topic; evidence page included"
-    },
-    {
-      "owner": "webkubor",
-      "name": "ui-craft",
-      "stars": 0,
-      "pushedAt": "2026-11-17",
-      "description": "帮助 AI coding agent 做出更好看的组件与页面。UI design skills for AI coding agents."
+      "description": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。MUSE AV CLI for image/video generation, reusable templates, asset uploads and local image tools."
     }
   ],
   "stars": {
+    "webkubor/webkubor": 2,
+    "webkubor/dsh-bloom-theme": 296,
     "webkubor/deadcode-reaper-skill": 2,
     "webkubor/vite-plugin-refresh-guard": 2,
     "webkubor/voxflow": 10,
     "webkubor/writing-standard-skills": 8,
-    "webkubor/dsh-bloom-theme": 296,
     "webkubor/webkubor.github.io": 0,
     "webkubor/fovea": 1,
     "webkubor/ui-craft": 0,
@@ -78,7 +77,6 @@
     "webkubor/kyvault": 4,
     "webkubor/dsh-llm-hub": 3,
     "webkubor/lite-browser": 1,
-    "webkubor/webkubor": 2,
     "webkubor/device-passport": 1,
     "webkubor/free-imgbed": 1,
     "webkubor/mlx-vlm-kit": 1,
