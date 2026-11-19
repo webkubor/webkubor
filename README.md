@@ -28,7 +28,7 @@
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-19</sub> · [🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [ muse-tv](https://github.com/museav-ai/muse-tv) <sub>11-19</sub> · [🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard) <sub>11-19</sub></sub>
+  <sub>最近更新：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-19</sub> · [🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-19</sub> · [🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard) <sub>11-19</sub></sub>
 </p>
 
 <p align="center">
@@ -97,9 +97,9 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 - **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。<br/><sub>[在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — 为 DSH 补上模型网关探测、目录发现与余额信息。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
-- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — 用素材、逐句文案、配音和模板在本地合成竖版短视频。<br/><sub></sub>
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — 用素材、逐句文案、配音和模板在本地合成竖版短视频。<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/muse-tv?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** — 仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/chat-mood-gen?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。<br/><sub></sub>
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/museav-cli?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 
 </details>
 
@@ -108,11 +108,11 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-19 · 296 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
 - **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-19 · 2 ★</sub><br/>让死代码与废弃 skill 真正入土为安，晒出减法战绩。
-- **[ muse-tv](https://github.com/museav-ai/muse-tv)** <sub>2026-11-19 · undefined ★</sub><br/>
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** <sub>2026-11-19 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
 - **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** <sub>2026-11-19 · 2 ★</sub><br/>解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-19 · 10 ★</sub><br/>Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。
 - **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-11-19 · 8 ★</sub><br/>6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-18 · undefined ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-18 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
 
 </details>
 

@@ -35,9 +35,18 @@ const OWNER = 'webkubor';
 const ownerOf = (name) => data.projects?.[name]?.owner || OWNER;
 const repoOf = (name) => data.projects?.[name]?.repo || name;
 const ownerOfExtra = (entry) => entry.owner || OWNER;
+const projectByRepo = new Map(
+  Object.entries(data.projects || {}).map(([name, project]) => [
+    `${project.owner || OWNER}/${project.repo || name}`,
+    name,
+  ]),
+);
 const repoUrl = (name) => `https://github.com/${ownerOf(name)}/${repoOf(name)}`;
 const repoUrlFull = (owner, name) => `https://github.com/${owner}/${name}`;
-const starOf = (name) => recent.stars?.[`${ownerOf(name)}/${repoOf(name)}`] ?? null;
+const starOf = (name) => {
+  const repoStars = recent.stars?.[`${ownerOf(name)}/${repoOf(name)}`];
+  return repoStars ?? data.projects?.[name]?.stars ?? null;
+};
 
 /** star 徽章：有真实 star 才亮，0 star 显示为灰色 0，不假装 */
 function starBadge(name, style) {
@@ -112,7 +121,8 @@ export function buildReadme(lang) {
   <sub>${T('最近更新', 'Recently updated')}：${recentKnown
       .slice(0, 4)
       .map((r) => {
-        const p = data.projects[r.name];
+        const name = projectByRepo.get(`${r.owner}/${r.name}`) || r.name;
+        const p = data.projects[name];
         return `[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)}) <sub>${r.pushedAt.slice(5)}</sub>`;
       })
       .join(' · ')}</sub>
@@ -171,9 +181,11 @@ ${lines}`;
         T('最近在做什么（按推送时间）', 'Recently shipped (by push time)'),
         recentKnown
           .map((r) => {
-            const p = data.projects[r.name];
+            const name = projectByRepo.get(`${r.owner}/${r.name}`) || r.name;
+            const p = data.projects[name];
             const desc = T(p?.zh || '', p?.en || '');
-            return `- **[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)})** <sub>${r.pushedAt} · ${r.stars} ★</sub><br/>${desc}`;
+            const stars = r.stars ?? p?.stars ?? 'unknown';
+            return `- **[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)})** <sub>${r.pushedAt} · ${stars} ★</sub><br/>${desc}`;
           })
           .join('\n'),
       )

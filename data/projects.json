@@ -146,6 +146,7 @@
       "repo": "muse-tv",
       "zh": "用素材、逐句文案、配音和模板在本地合成竖版短视频。",
       "en": "Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.",
+      "stars": 7,
       "badges": []
     },
     "chat-mood-gen": {
@@ -161,6 +162,7 @@
       "owner": "museav-ai",
       "zh": "MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。",
       "en": "MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.",
+      "stars": 3,
       "badges": []
     },
     "writing-standard-skills": {
@@ -209,7 +211,7 @@
       { "repo": "lite-browser", "zh": "AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。", "en": "Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs." },
       { "repo": "device-passport", "zh": "确定性的浏览器 / 设备画像，用于自动化与测试。", "en": "Deterministic, self-consistent browser/device personas for automation and testing." },
       { "repo": "free-imgbed", "zh": "图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。", "en": "Image assets for personal projects, served over GitHub raw and jsDelivr." },
-      { "repo": "dsh-museav-assets", "owner": "museav-ai", "zh": "DSH 素材浏览插件：按工作区查看出图记录与素材直链。", "en": "A DSH plugin that browses generated assets and image libraries by workspace." },
+      { "repo": "dsh-museav-assets", "owner": "museav-ai", "stars": 1, "zh": "DSH 素材浏览插件：按工作区查看出图记录与素材直链。", "en": "A DSH plugin that browses generated assets and image libraries by workspace." },
       { "repo": "release-sync-skill", "zh": "发版时自动把版本号同步到台账与 SKILL.md。", "en": "Syncs release versions into the ledger and SKILL.md at publish time." },
       { "repo": "claude-usage-statusline", "zh": "Claude Code 状态栏：会话花费与额度预警。", "en": "A Claude Code status line: session cost and quota warnings." }
     ]

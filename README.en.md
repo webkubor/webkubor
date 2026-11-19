@@ -28,7 +28,7 @@
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-19</sub> · [🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [ muse-tv](https://github.com/museav-ai/muse-tv) <sub>11-19</sub> · [🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard) <sub>11-19</sub></sub>
+  <sub>Recently updated：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-19</sub> · [🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-19</sub> · [🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard) <sub>11-19</sub></sub>
 </p>
 
 <p align="center">
@@ -97,9 +97,9 @@ Reusable standards for brand expression, docs and tickets, and code subtraction.
 - **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.<br/><sub>[在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — Adds model gateway probing, catalog discovery and balance info to DSH.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
-- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.<br/><sub></sub>
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/muse-tv?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 - **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** — A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/chat-mood-gen?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.<br/><sub></sub>
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/museav-cli?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 
 </details>
 
@@ -108,11 +108,11 @@ Reusable standards for brand expression, docs and tickets, and code subtraction.
 
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-19 · 296 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
 - **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-19 · 2 ★</sub><br/>Retires dead code and stale skills for good, and shows off the subtraction.
-- **[ muse-tv](https://github.com/museav-ai/muse-tv)** <sub>2026-11-19 · undefined ★</sub><br/>
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** <sub>2026-11-19 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
 - **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** <sub>2026-11-19 · 2 ★</sub><br/>Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-19 · 10 ★</sub><br/>A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.
 - **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-11-19 · 8 ★</sub><br/>6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-18 · undefined ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-18 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
 
 </details>
 
