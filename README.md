@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/32_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/571_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/33_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/581_stars-8b949e?style=flat-square" alt="总 star" height="20" />
   <img src="https://img.shields.io/badge/20_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-19</sub> · [🎨 museav-cli](https://github.com/museav-ai/museav-cli) <sub>11-19</sub> · [🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-19</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-19</sub></sub>
+  <sub>最近更新：[🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-20</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-20</sub> · [✳️ ui-craft](https://github.com/webkubor/ui-craft) <sub>11-20</sub> · [🎨 museav-cli](https://github.com/museav-ai/museav-cli) <sub>11-20</sub></sub>
 </p>
 
 <p align="center">
@@ -106,12 +106,11 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 <details>
 <summary>最近在做什么（按推送时间）</summary>
 
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** <sub>2026-11-20 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-20 · 306 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
+- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-20 · 0 ★</sub><br/>让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。
+- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-20 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
 - **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-19 · 2 ★</sub><br/>让死代码与废弃 skill 真正入土为安，晒出减法战绩。
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-19 · 3 ★</sub><br/>MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。
-- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** <sub>2026-11-19 · 7 ★</sub><br/>用素材、逐句文案、配音和模板在本地合成竖版短视频。
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-19 · 296 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
-- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** <sub>2026-11-19 · 2 ★</sub><br/>解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。
-- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-19 · 10 ★</sub><br/>Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。
 
 </details>
 
