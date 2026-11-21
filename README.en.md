@@ -23,12 +23,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/33_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/581_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/20_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/505_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/19_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-20</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-20</sub> · [✳️ ui-craft](https://github.com/webkubor/ui-craft) <sub>11-20</sub> · [🎨 museav-cli](https://github.com/museav-ai/museav-cli) <sub>11-20</sub></sub>
+  <sub>Recently updated：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-21</sub> · [🎞️ reel-kit](https://github.com/museav-ai/muse-tv) <sub>11-21</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>11-20</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-20</sub></sub>
 </p>
 
 <p align="center">
@@ -106,11 +106,12 @@ Reusable standards for brand expression, docs and tickets, and code subtraction.
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** <sub>2026-11-20 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-20 · 306 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-21 · 308 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
+- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** <sub>2026-11-21 · 7 ★</sub><br/>Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.
+- **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-11-20 · 8 ★</sub><br/>6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-20 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
+- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** <sub>2026-11-20 · 10 ★</sub><br/>A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.
 - **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** <sub>2026-11-20 · 0 ★</sub><br/>Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** <sub>2026-11-20 · 3 ★</sub><br/>MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.
-- **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-19 · 2 ★</sub><br/>Retires dead code and stale skills for good, and shows off the subtraction.
 
 </details>
 
