@@ -1,87 +1,89 @@
 {
   "totals": {
-    "publicRepos": 33,
-    "stars": 505,
-    "commits30d": 19,
-    "lastCommit": "2026-11-20"
+    "publicRepos": 34,
+    "stars": 517,
+    "commits30d": 17,
+    "lastCommit": "2026-11-21"
   },
   "recent": [
     {
       "owner": "webkubor",
       "name": "dsh-bloom-theme",
-      "stars": 308,
-      "pushedAt": "2026-11-21",
+      "stars": 309,
+      "pushedAt": "2026-11-22",
       "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
-    },
-    {
-      "owner": "webkubor",
-      "name": "github-hot-rank",
-      "stars": 0,
-      "pushedAt": "2026-11-21",
-      "description": "GitHub 热点项目追踪排行：按涨幅排新星（Chrome MV3 扩展）"
-    },
-    {
-      "owner": "museav-ai",
-      "name": "muse-tv",
-      "pushedAt": "2026-11-21",
-      "description": "短视频合成 CLI 与库：素材、文案、配音和 HTML/CSS 模板生成 MP4。 / Short-video composition CLI and library with HTML/CSS templates, narration, and BGM."
-    },
-    {
-      "owner": "webkubor",
-      "name": "writing-standard-skills",
-      "stars": 8,
-      "pushedAt": "2026-11-20",
-      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
     },
     {
       "owner": "webkubor",
       "name": "kyvault",
       "stars": 4,
-      "pushedAt": "2026-11-20",
+      "pushedAt": "2026-11-22",
       "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
     },
     {
       "owner": "webkubor",
-      "name": "voxflow",
-      "stars": 10,
-      "pushedAt": "2026-11-20",
-      "description": "AI 音频工作台：Apple Silicon 本地 TTS、语音克隆与音色设计，另支持 Suno 音乐生成。 / AI audio workbench with local Apple Silicon TTS, voice cloning, voice design, and Suno music generation."
+      "name": "free-imgbed",
+      "stars": 1,
+      "pushedAt": "2026-11-22",
+      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
     },
     {
       "owner": "webkubor",
-      "name": "webkubor",
+      "name": "writing-standard-skills",
+      "stars": 8,
+      "pushedAt": "2026-11-22",
+      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
+    },
+    {
+      "owner": "webkubor",
+      "name": "deadcode-reaper-skill",
       "stars": 2,
-      "pushedAt": "2026-11-20",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+      "pushedAt": "2026-11-22",
+      "description": "扫出并清除「自称已废」的墓碑 skill、AI 幽灵碎片与死代码，统计释放的 Token 与磁盘。· An agent skill that reaps tombstoned skills, agent leftovers and dead code, reporting tokens reclaimed."
     },
     {
       "owner": "webkubor",
-      "name": "ui-craft",
+      "name": "harness",
       "stars": 0,
-      "pushedAt": "2026-11-20",
-      "description": "帮助 AI coding agent 做出更好看的组件与页面。UI design skills for AI coding agents."
+      "pushedAt": "2026-11-21",
+      "description": "Harness — 给多 Agent 团队的执行与留痕底座（CortexOS cs 命令面）"
+    },
+    {
+      "owner": "webkubor",
+      "name": "wallpaper-generator",
+      "stars": 1,
+      "pushedAt": "2026-11-21",
+      "description": "浏览器壁纸编辑器：为多设备制作壁纸，添加文字/图片水印、复用模板并导出 PNG，本地处理图片。 / Browser wallpaper editor with device presets, watermarks, reusable templates, and local PNG export."
+    },
+    {
+      "owner": "webkubor",
+      "name": "vite-plugin-refresh-guard",
+      "stars": 2,
+      "pushedAt": "2026-11-21",
+      "description": "Vite 应用版本更新检测与刷新插件：静默刷新、提示后刷新或弹窗确认，支持 Vue/React。 / Vite version-check plugin with silent, prompted, or modal refresh policies and Vue/React adapters."
     }
   ],
   "stars": {
-    "webkubor/dsh-bloom-theme": 308,
-    "webkubor/github-hot-rank": 0,
-    "webkubor/writing-standard-skills": 8,
+    "webkubor/dsh-bloom-theme": 309,
     "webkubor/kyvault": 4,
-    "webkubor/voxflow": 10,
-    "webkubor/webkubor": 2,
-    "webkubor/ui-craft": 0,
+    "webkubor/free-imgbed": 1,
+    "webkubor/writing-standard-skills": 8,
     "webkubor/deadcode-reaper-skill": 2,
+    "webkubor/harness": 0,
     "webkubor/wallpaper-generator": 1,
     "webkubor/vite-plugin-refresh-guard": 2,
+    "webkubor/vite-plugin-agent-eyes": 37,
+    "webkubor/webkubor": 2,
+    "webkubor/github-hot-rank": 0,
+    "webkubor/voxflow": 10,
+    "webkubor/ui-craft": 0,
     "webkubor/webkubor.github.io": 0,
     "webkubor/fovea": 1,
     "webkubor/harnessweight": 1,
-    "webkubor/vite-plugin-agent-eyes": 26,
     "webkubor/typora-Bloom-theme": 110,
     "webkubor/dsh-llm-hub": 3,
     "webkubor/lite-browser": 1,
     "webkubor/device-passport": 1,
-    "webkubor/free-imgbed": 1,
     "webkubor/mlx-vlm-kit": 1,
     "webkubor/logo-brand-designer": 1,
     "webkubor/charmoji-sticker-skill": 5,
