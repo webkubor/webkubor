@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/34_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/517_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/17_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/33_projects-8b949e?style=flat-square" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/522_stars-8b949e?style=flat-square" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/19_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-22</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-22</sub> · [✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills) <sub>11-22</sub> · [🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill) <sub>11-22</sub></sub>
+  <sub>Recently updated：[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>11-23</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-23</sub> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <sub>11-23</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-23</sub></sub>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ From "let AI write code" to "let it see and stay safe".
 
 - **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · MIT · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes)</sub>
 - **[🔐 Kyvault](https://github.com/webkubor/kyvault)** — A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · Rust · MIT · [crates.io](https://crates.io/crates/kyvault)</sub>
-- **[🖥️ DSH Env Inspector](https://github.com/webkubor/dsh-env-inspector)** — Checks your dev environment, CLIs, plugins and ports, making environment problems visible and fixable without exposing secret values.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-env-inspector?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-env-inspector)</sub>
+- **[🖥️ DSH Env Inspector](https://github.com/webkubor/dsh-env-inspector)** — Checks your dev environment, CLIs, plugins and ports, making environment problems visible and fixable without exposing secret values.<br/><sub>[npm](https://www.npmjs.com/package/@dsh-plugins/dsh-env-inspector)</sub>
 - **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** — Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-refresh-guard?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · MIT · [npm](https://www.npmjs.com/package/vite-plugin-refresh-guard)</sub>
 
 ### Bloom: a design system where visual judgment can be tested
@@ -106,11 +106,11 @@ Reusable standards for brand expression, docs and tickets, and code subtraction.
 <details>
 <summary>Recently shipped (by push time)</summary>
 
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-22 · 309 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-22 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
-- **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** <sub>2026-11-22 · 8 ★</sub><br/>6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.
-- **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** <sub>2026-11-22 · 2 ★</sub><br/>Retires dead code and stale skills for good, and shows off the subtraction.
-- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** <sub>2026-11-21 · 2 ★</sub><br/>Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.
+- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-11-23 · 40 ★</sub><br/>A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-23 · 314 ★</sub><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
+- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-11-23 · 3 ★</sub><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-23 · 4 ★</sub><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
+- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** <sub>2026-11-22 · unknown ★</sub><br/>Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.
 
 </details>
 

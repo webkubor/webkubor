@@ -1,102 +1,99 @@
 {
   "totals": {
-    "publicRepos": 34,
-    "stars": 517,
-    "commits30d": 17,
-    "lastCommit": "2026-11-21"
+    "publicRepos": 33,
+    "stars": 522,
+    "commits30d": 19,
+    "lastCommit": "2026-11-23"
   },
   "recent": [
     {
       "owner": "webkubor",
+      "name": "vite-plugin-agent-eyes",
+      "stars": 40,
+      "pushedAt": "2026-11-23",
+      "description": "Vite 运行时遥测插件：为 AI agent 提供结构化日志、错误快照、本地 Cookie 修复与提交前检查。 / Vite telemetry plugin for AI agents with structured logs, error snapshots, local cookie repair, and pre-commit checks."
+    },
+    {
+      "owner": "webkubor",
+      "name": "webkubor",
+      "stars": 2,
+      "pushedAt": "2026-11-23",
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
+    {
+      "owner": "webkubor",
+      "name": "path-guard",
+      "stars": 1,
+      "pushedAt": "2026-11-23",
+      "description": "PATH 命令诊断 CLI：定位实际执行的副本、版本遮蔽与悬空软链。PATH diagnostics CLI for executable resolution, duplicate installations, version shadowing and dangling symlinks."
+    },
+    {
+      "owner": "webkubor",
       "name": "dsh-bloom-theme",
-      "stars": 309,
-      "pushedAt": "2026-11-22",
+      "stars": 314,
+      "pushedAt": "2026-11-23",
       "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
+    },
+    {
+      "owner": "webkubor",
+      "name": "dsh-llm-hub",
+      "stars": 3,
+      "pushedAt": "2026-11-23",
+      "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
+    },
+    {
+      "owner": "museav-ai",
+      "name": "dsh-museav-assets",
+      "pushedAt": "2026-11-23",
+      "description": "DeepSeek Harness 素材浏览插件：按工作区查看 MUSE AV 素材与出图记录，复制素材直链。DSH asset browser for MUSE AV workspaces, image libraries and generation history."
     },
     {
       "owner": "webkubor",
       "name": "kyvault",
       "stars": 4,
-      "pushedAt": "2026-11-22",
+      "pushedAt": "2026-11-23",
       "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
     },
     {
-      "owner": "webkubor",
-      "name": "free-imgbed",
-      "stars": 1,
+      "owner": "supercli-site",
+      "name": "scorecard",
       "pushedAt": "2026-11-22",
-      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
-    },
-    {
-      "owner": "webkubor",
-      "name": "writing-standard-skills",
-      "stars": 8,
-      "pushedAt": "2026-11-22",
-      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
-    },
-    {
-      "owner": "webkubor",
-      "name": "deadcode-reaper-skill",
-      "stars": 2,
-      "pushedAt": "2026-11-22",
-      "description": "扫出并清除「自称已废」的墓碑 skill、AI 幽灵碎片与死代码，统计释放的 Token 与磁盘。· An agent skill that reaps tombstoned skills, agent leftovers and dead code, reporting tokens reclaimed."
-    },
-    {
-      "owner": "webkubor",
-      "name": "harness",
-      "stars": 0,
-      "pushedAt": "2026-11-21",
-      "description": "Harness — 给多 Agent 团队的执行与留痕底座（CortexOS cs 命令面）"
-    },
-    {
-      "owner": "webkubor",
-      "name": "wallpaper-generator",
-      "stars": 1,
-      "pushedAt": "2026-11-21",
-      "description": "浏览器壁纸编辑器：为多设备制作壁纸，添加文字/图片水印、复用模板并导出 PNG，本地处理图片。 / Browser wallpaper editor with device presets, watermarks, reusable templates, and local PNG export."
-    },
-    {
-      "owner": "webkubor",
-      "name": "vite-plugin-refresh-guard",
-      "stars": 2,
-      "pushedAt": "2026-11-21",
-      "description": "Vite 应用版本更新检测与刷新插件：静默刷新、提示后刷新或弹窗确认，支持 Vue/React。 / Vite version-check plugin with silent, prompted, or modal refresh policies and Vue/React adapters."
+      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
     }
   ],
   "stars": {
-    "webkubor/dsh-bloom-theme": 309,
+    "webkubor/vite-plugin-agent-eyes": 40,
+    "webkubor/webkubor": 2,
+    "webkubor/path-guard": 1,
+    "webkubor/dsh-bloom-theme": 314,
+    "webkubor/dsh-llm-hub": 3,
     "webkubor/kyvault": 4,
+    "webkubor/fovea": 1,
+    "webkubor/vite-plugin-refresh-guard": 2,
+    "webkubor/typora-Bloom-theme": 110,
+    "webkubor/chat-mood-gen": 3,
+    "webkubor/voxflow": 10,
+    "webkubor/jianpu-editor": 0,
     "webkubor/free-imgbed": 1,
+    "webkubor/harnessweight": 1,
+    "webkubor/github-hot-rank": 0,
     "webkubor/writing-standard-skills": 8,
+    "webkubor/release-sync-skill": 0,
+    "webkubor/pr-contributor-skill": 0,
+    "webkubor/logo-brand-designer": 1,
+    "webkubor/charmoji-sticker-skill": 5,
+    "webkubor/mlx-vlm-kit": 1,
+    "webkubor/im-notify-kit": 2,
+    "webkubor/device-passport": 1,
+    "webkubor/claude-usage-statusline": 0,
+    "webkubor/ai-sse-kit": 2,
+    "webkubor/ai-orb": 2,
     "webkubor/deadcode-reaper-skill": 2,
     "webkubor/harness": 0,
     "webkubor/wallpaper-generator": 1,
-    "webkubor/vite-plugin-refresh-guard": 2,
-    "webkubor/vite-plugin-agent-eyes": 37,
-    "webkubor/webkubor": 2,
-    "webkubor/github-hot-rank": 0,
-    "webkubor/voxflow": 10,
     "webkubor/ui-craft": 0,
     "webkubor/webkubor.github.io": 0,
-    "webkubor/fovea": 1,
-    "webkubor/harnessweight": 1,
-    "webkubor/typora-Bloom-theme": 110,
-    "webkubor/dsh-llm-hub": 3,
     "webkubor/lite-browser": 1,
-    "webkubor/device-passport": 1,
-    "webkubor/mlx-vlm-kit": 1,
-    "webkubor/logo-brand-designer": 1,
-    "webkubor/charmoji-sticker-skill": 5,
-    "webkubor/ai-orb": 2,
-    "webkubor/jianpu-editor": 0,
-    "webkubor/chat-mood-gen": 3,
-    "webkubor/claude-usage-statusline": 0,
-    "webkubor/im-notify-kit": 2,
-    "webkubor/facet": 4,
-    "webkubor/ai-sse-kit": 2,
-    "webkubor/release-sync-skill": 0,
-    "webkubor/pr-contributor-skill": 0,
-    "webkubor/dsh-env-inspector": 3,
-    "webkubor/path-guard": 1
+    "webkubor/facet": 4
   }
 }
