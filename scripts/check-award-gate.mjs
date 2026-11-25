@@ -42,7 +42,7 @@ const ALLOWED_PROPS = new Set([
 /** 一路动画都必须用的自然阻尼缓动 */
 const NATURAL_EASINGS = /cubic-bezier\([^)]*\)|ease-in-out|ease-out|ease-in-out-back/;
 
-const files = ['hero', 'agent', 'bloom'];
+const files = ['hero'];
 
 for (const name of files) {
   for (const mode of ['light', 'dark']) {

@@ -148,49 +148,56 @@ export function buildReadme(lang) {
     .map((n) => `<a href="${repoUrl(n)}">${esc(data.projects[n]?.name || n)}</a>`)
     .join(' · ')}</sub></p>`;
 
-  const groups = data.groups
-    .map((g) => {
-      const title = T(g.title, g.titleEn);
-      const lede = T(g.lede, g.ledeEn);
-      const alt = T(g.assetAlt, g.assetAltEn);
-      const lines = g.projects.map((n) => projectLine(n, lang, 'flat')).join('\n');
-      return `### ${title}
+const SELECTED = [
+  'dsh-bloom-theme',
+  'typora-Bloom-theme',
+  'vite-plugin-agent-eyes',
+  'scorecard',
+  'writing-standard-skills',
+  'kyvault',
+];
 
-${picture(g.asset, alt)}
+function selectedRow(name, lang) {
+  const p = data.projects[name];
+  if (!p) throw new Error(`data/projects.json 缺少项目 ${name}`);
+  const desc = lang === 'zh' ? p.zh : p.en;
+  const links = (p.badges || [])
+    .filter((b) => b.href)
+    .map((b) => `[${b.label}](${b.href})`);
+  const meta = [starBadge(name, 'flat'), ...links].filter(Boolean).join(' · ');
+  return `| **[${p.emoji} ${esc(p.name)}](${repoUrl(name)})** | ${desc} | ${meta} |`;
+}
 
-${lede}
+  const selectedTitle = T('代表作', 'Selected work');
+  const selectedHeader = T('| 项目 | 说明 | 指标 |\n| :--- | :--- | :--- |', '| Project | Description | Stats |\n| :--- | :--- | :--- |');
+  const selectedRows = SELECTED.map((n) => selectedRow(n, lang));
 
-${lines}`;
-    })
-    .join('\n\n');
+  const selectedSet = new Set(SELECTED.map((n) => `${ownerOf(n)}/${repoOf(n)}`));
+  const restEntries = [];
+  const seen = new Set(selectedSet);
 
-  const featTitle = `${T(data.featured.title, data.featured.titleEn)}（${data.featured.projects.length}）`;
-  const featLines = data.featured.projects.map((n) => projectLine(n, lang, 'flat')).join('\n');
+  const restProjectNames = [
+    ...data.groups.flatMap((g) => g.projects),
+    ...data.skills.projects,
+    ...data.featured.projects,
+  ];
+  for (const name of restProjectNames) {
+    const full = `${ownerOf(name)}/${repoOf(name)}`;
+    if (seen.has(full)) continue;
+    seen.add(full);
+    const p = data.projects[name];
+    restEntries.push(`| **[${p.emoji} ${esc(p.name)}](${repoUrl(name)})** | ${T(p.zh, p.en)} |`);
+  }
+  for (const e of data.extras.projects) {
+    const full = `${ownerOfExtra(e)}/${e.repo}`;
+    if (seen.has(full)) continue;
+    seen.add(full);
+    restEntries.push(`| **[${esc(e.repo)}](${repoUrlFull(ownerOfExtra(e), e.repo)})** | ${T(e.zh, e.en)} |`);
+  }
 
-  const skillTitle = T(data.skills.title, data.skills.titleEn);
-  const skillLede = T(data.skills.lede, data.skills.ledeEn);
-  const skillLines = data.skills.projects.map((n) => projectLine(n, lang, 'flat')).join('\n');
-
-  const extraTitle = `${T(data.extras.title, data.extras.titleEn)}（${data.extras.projects.length}）`;
-  const extraHeader = T('| 项目 | 说明 |\n| :--- | :--- |', '| Repository | Description |\n| :--- | :--- |');
-  const extraRows = data.extras.projects
-    .map((e) => `| **[${esc(e.repo)}](${repoUrlFull(ownerOfExtra(e), e.repo)})** | ${T(e.zh, e.en)} |`);
-  const extraLines = [extraHeader, ...extraRows].join('\n');
-
-  const recentDetail = recentKnown.length
-    ? details(
-        `${T('最近在做什么（按推送时间）', 'Recently shipped (by push time)')}（${recentKnown.length}）`,
-        recentKnown
-          .map((r) => {
-            const name = projectByRepo.get(`${r.owner}/${r.name}`) || r.name;
-            const p = data.projects[name];
-            const desc = T(p?.zh || '', p?.en || '');
-            const stars = r.stars ?? p?.stars ?? 'unknown';
-            return `- **[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)})** <code>${r.pushedAt} · ${stars} ★</code><br/>${desc}`;
-          })
-          .join('\n'),
-      )
-    : '';
+  const moreTitle = `${T('更多开源项目', 'More open-source projects')}（${restEntries.length}）`;
+  const moreHeader = T('| 项目 | 说明 |\n| :--- | :--- |', '| Repository | Description |\n| :--- | :--- |');
+  const moreBlock = details(moreTitle, [moreHeader, ...restEntries].join('\n'));
 
   const tagline = T(
     '我做两类东西：让 AI 编码过程更安全、可观察；让设计与无障碍标准能被工程验证。',
@@ -221,20 +228,12 @@ ${lines}`;
 ${statRow}
 ${recentStrip}
 
+### ${selectedTitle}
 
-${groups}
+${selectedHeader}
+${selectedRows.join('\n')}
 
-### ${skillTitle}
-
-${skillLede}
-
-${skillLines}
-
-${details(featTitle, featLines)}
-
-${recentDetail}
-
-${details(extraTitle, extraLines)}
+${moreBlock}
 
 <p align="center">
   <sub>${footer}</sub>

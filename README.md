@@ -31,86 +31,32 @@
   <sub>最近更新：<a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes</a> <code>11-23</code> · <a href="https://github.com/webkubor/dsh-bloom-theme">🎛️ Bloom for DSH</a> <code>11-25</code> · <a href="https://github.com/webkubor/dsh-llm-hub">🧭 dsh-llm-hub</a> <code>11-23</code> · <a href="https://github.com/webkubor/kyvault">🔐 Kyvault</a> <code>11-23</code></sub>
 </p>
 
+### 代表作
 
-### Agent 工具
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-dark.svg" />
-    <img src="./assets/agent-light.svg" width="100%" alt="一次 401 的修复过程：Agent Eyes 收集脱敏证据，agent 按证据定位到本地 cookie 过期，自修复后用同一请求复验为 200。" />
-  </picture>
-</p>
-
-从「让 AI 写代码」到「让它看得见、守得住」。
-
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — 给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · <code>MIT</code> · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes)</sub>
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** — 为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · <code>Rust</code> · <code>MIT</code> · [crates.io](https://crates.io/crates/kyvault)</sub>
-- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** — 解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-refresh-guard?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · <code>MIT</code> · [npm](https://www.npmjs.com/package/vite-plugin-refresh-guard)</sub>
-
-### Bloom：把视觉判断做成可检验的设计系统
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/bloom-dark.svg" />
-    <img src="./assets/bloom-light.svg" width="100%" alt="Bloom 六个莫兰迪原色直接当文字时对比度只有 2.3 到 3.3:1；保持色相与彩度，只解亮度到 4.5:1。" />
-  </picture>
-</p>
-
-不是只把颜色做得好看——每套配色都有两条轨，让设计选择能被自动检查。
-
-- **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 套主题，为长文写作和沉浸阅读设计；获 Typora 官方主题库收录。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
+| 项目 | 说明 | 指标 |
+| :--- | :--- | :--- |
+| **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** | DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。 | <img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> |
+| **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** | 24 套主题，为长文写作和沉浸阅读设计；获 Typora 官方主题库收录。 | <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/) |
+| **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** | 给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。 | <img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes) |
+| **[📋 Scorecard](https://github.com/supercli-site/scorecard)** | 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。 | <img src="https://img.shields.io/github/stars/supercli-site/scorecard?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard) |
+| **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** | 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。 | <img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> |
+| **[🔐 Kyvault](https://github.com/webkubor/kyvault)** | 为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。 | <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [crates.io](https://crates.io/crates/kyvault) |
 
 <details>
-<summary>v0.30.0 · 查看演示</summary>
-
-https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
-
-<a href="https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4"><img src="./assets/bloom-preview-v0.26.png" width="640" alt="Bloom for DSH v0.30.0 画面预览：深色星空与主题切换菜单；点击观看演示" /></a>
-
-预览图为 v0.26，最新已发版至 v0.30.0；点击观看演示
-
-</details>
-
-- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** — 让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/ui-craft?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-
-### Skills：设计与表达的工作规范
-
-从品牌表达、文档提单到代码减法，把反复执行的判断做成可复用规范，一行命令接入 Claude Code / Codex / DSH / Antigravity。
-
-- **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** — 从理念、design token 到透明底 SVG 与真实截图，交付可复用、可验收的品牌标识。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/logo-brand-designer?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** — 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** — 让死代码与废弃 skill 真正入土为安，晒出减法战绩。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/deadcode-reaper-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** — 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/charmoji-sticker-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-
-<details>
-<summary>还在做（6）</summary>
-
-- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。<br/><sub><img src="https://img.shields.io/github/stars/supercli-site/scorecard?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
-- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — 为 DSH 补上模型网关探测、目录发现与余额信息。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
-- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — 用素材、逐句文案、配音和模板在本地合成竖版短视频。<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/muse-tv?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** — 仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/chat-mood-gen?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/museav-cli?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-
-</details>
-
-<details>
-<summary>最近在做什么（按推送时间）（5）</summary>
-
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <code>2026-11-23 · 41 ★</code><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <code>2026-11-25 · 322 ★</code><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <code>2026-11-23 · 3 ★</code><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <code>2026-11-23 · 4 ★</code><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
-- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** <code>2026-11-23 · 41 ★</code><br/>对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。
-
-</details>
-
-<details>
-<summary>更多工具（19）</summary>
+<summary>更多开源项目（29）</summary>
 
 | 项目 | 说明 |
 | :--- | :--- |
+| **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** | 解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。 |
+| **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** | 让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。 |
+| **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** | 从理念、design token 到透明底 SVG 与真实截图，交付可复用、可验收的品牌标识。 |
+| **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** | 让死代码与废弃 skill 真正入土为安，晒出减法战绩。 |
+| **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** | 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。 |
+| **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** | Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。 |
+| **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** | 为 DSH 补上模型网关探测、目录发现与余额信息。 |
+| **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** | 用素材、逐句文案、配音和模板在本地合成竖版短视频。 |
+| **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** | 仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式。 |
+| **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** | MUSE AV 图像与视频生成 CLI：支持模板、素材上传及本地图像处理，供人和 Agent 从终端调用。 |
 | **[ai-sse-kit](https://github.com/webkubor/ai-sse-kit)** | 框架无关的 AI 流式对话工具包，带 React / Vue 绑定。 |
 | **[facet](https://github.com/webkubor/facet)** | 一份 Markdown 生成演讲页、PDF 与长图。 |
 | **[ai-orb](https://github.com/webkubor/ai-orb)** | 零依赖 SVG AI 助手状态球（含 Crystal 皮肤），表达在想 / 干活 / 等你回话等六态。 |

@@ -96,20 +96,20 @@ if (!offline) {
 // 4. 长度预算：折叠之前的内容必须在预算内（防止主页再次变长）
 //    口径用「访客真正要滚过的量」：可见大图数 + 可见项目卡数。
 //    折叠块里的内容默认不计入 —— 它们点开才占版面。
-const MAX_VISIBLE_IMAGES = 4; // 首屏大图：hero + logo 墙 + 两张代表作面板
-const MAX_VISIBLE_CARDS = 12; // 折叠之前露出的项目卡
+const MAX_VISIBLE_IMAGES = 1; // 首屏只允许 1 张 Hero 头图
+const MAX_VISIBLE_CARDS = 6; // 折叠之前只允许露 6 个核心代表作
 const firstDetails = zh.indexOf('<details>');
 const aboveFold = firstDetails === -1 ? zh : zh.slice(0, firstDetails);
 const visibleImages = (aboveFold.match(/<img[^>]+assets\//g) || []).length;
-const visibleCards = (aboveFold.match(/^- \*\*\[/gm) || []).length;
+const visibleCards = (aboveFold.match(/^(\| \*\*\[|- \*\*\[)/gm) || []).length;
 if (visibleImages > MAX_VISIBLE_IMAGES) {
   fail(`折叠前有 ${visibleImages} 张大图，超过预算 ${MAX_VISIBLE_IMAGES} 张 —— 主页又变长了`);
 }
 if (visibleCards > MAX_VISIBLE_CARDS) {
-  fail(`折叠前有 ${visibleCards} 张项目卡，超过预算 ${MAX_VISIBLE_CARDS} 张 —— 主页又变长了`);
+  fail(`折叠前有 ${visibleCards} 个代表作，超过预算 ${MAX_VISIBLE_CARDS} 个 —— 主页又变长了`);
 }
 const foldCount = (zh.match(/<details>/g) || []).length;
-if (foldCount < 2) fail(`折叠块只有 ${foldCount} 个，长内容没被折叠`);
+if (foldCount !== 1) fail(`折叠块应严格收敛为 1 个，当前有 ${foldCount} 个`);
 
 // 5. star 徽章与 data/recent.json 一致
 const recentPath = join(root, 'data', 'recent.json');

@@ -31,86 +31,32 @@
   <sub>Recently updated：<a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes</a> <code>11-23</code> · <a href="https://github.com/webkubor/dsh-bloom-theme">🎛️ Bloom for DSH</a> <code>11-25</code> · <a href="https://github.com/webkubor/dsh-llm-hub">🧭 dsh-llm-hub</a> <code>11-23</code> · <a href="https://github.com/webkubor/kyvault">🔐 Kyvault</a> <code>11-23</code></sub>
 </p>
 
+### Selected work
 
-### Agent tools
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-dark.svg" />
-    <img src="./assets/agent-light.svg" width="100%" alt="A 401 being fixed: Agent Eyes collects redacted evidence, the agent traces it to an expired local cookie, self-repairs it and re-verifies the same request returns 200." />
-  </picture>
-</p>
-
-From "let AI write code" to "let it see and stay safe".
-
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · <code>MIT</code> · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes)</sub>
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** — A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · <code>Rust</code> · <code>MIT</code> · [crates.io](https://crates.io/crates/kyvault)</sub>
-- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** — Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-refresh-guard?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · <code>MIT</code> · [npm](https://www.npmjs.com/package/vite-plugin-refresh-guard)</sub>
-
-### Bloom: a design system where visual judgment can be tested
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/bloom-dark.svg" />
-    <img src="./assets/bloom-light.svg" width="100%" alt="Six Bloom Morandi colors used directly as text only reach 2.3 to 3.3:1 contrast; keeping hue and chroma and solving only lightness brings each to 4.5:1." />
-  </picture>
-</p>
-
-Not just pretty colors: every palette runs on two rails, so design choices can be checked automatically.
-
-- **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** — 24 themes for long-form writing and immersive reading; included in the official Typora theme gallery.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/)</sub>
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
+| Project | Description | Stats |
+| :--- | :--- | :--- |
+| **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** | A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies. | <img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> |
+| **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** | 24 themes for long-form writing and immersive reading; included in the official Typora theme gallery. | <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/) |
+| **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** | A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own. | <img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes) |
+| **[📋 Scorecard](https://github.com/supercli-site/scorecard)** | Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list. | <img src="https://img.shields.io/github/stars/supercli-site/scorecard?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard) |
+| **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** | 6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader. | <img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> |
+| **[🔐 Kyvault](https://github.com/webkubor/kyvault)** | A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext. | <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [crates.io](https://crates.io/crates/kyvault) |
 
 <details>
-<summary>v0.30.0 · View demo</summary>
-
-https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
-
-<a href="https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4"><img src="./assets/bloom-preview-v0.26.png" width="640" alt="Bloom for DSH v0.30.0 preview: night sky and theme switcher; click to watch the demo" /></a>
-
-Preview shows v0.26, latest release is v0.30.0; click to watch the demo
-
-</details>
-
-- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** — Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/ui-craft?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-
-### Skills: standards for design and communication
-
-Reusable standards for brand expression, docs and tickets, and code subtraction. One command to install into Claude Code / Codex / DSH / Antigravity.
-
-- **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** — Builds reusable, reviewable brand identities from concept and design tokens through transparent SVGs and real screenshots.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/logo-brand-designer?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** — 6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** — Retires dead code and stale skills for good, and shows off the subtraction.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/deadcode-reaper-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** — One front-facing character portrait becomes a complete, submittable WeChat sticker set, fully scripted.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/charmoji-sticker-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-
-<details>
-<summary>Also in progress（6）</summary>
-
-- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.<br/><sub><img src="https://img.shields.io/github/stars/supercli-site/scorecard?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
-- **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — Adds model gateway probing, catalog discovery and balance info to DSH.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
-- **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates.<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/muse-tv?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** — A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes.<br/><sub><img src="https://img.shields.io/github/stars/webkubor/chat-mood-gen?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-- **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** — MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools.<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/museav-cli?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
-
-</details>
-
-<details>
-<summary>Recently shipped (by push time)（5）</summary>
-
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <code>2026-11-23 · 41 ★</code><br/>A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own.
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <code>2026-11-25 · 322 ★</code><br/>A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <code>2026-11-23 · 3 ★</code><br/>Adds model gateway probing, catalog discovery and balance info to DSH.
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <code>2026-11-23 · 4 ★</code><br/>A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext.
-- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** <code>2026-11-23 · 41 ★</code><br/>Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list.
-
-</details>
-
-<details>
-<summary>More tools（19）</summary>
+<summary>More open-source projects（29）</summary>
 
 | Repository | Description |
 | :--- | :--- |
+| **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** | Stops users from staying on a stale build after you deploy. Pick silent reload, prompted reload or a blocking wait in one line of config; the core works with Vue and React. |
+| **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** | Helps agents build better-looking UI: set the design direction and tokens first, then review the real rendered page and fix it. |
+| **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** | Builds reusable, reviewable brand identities from concept and design tokens through transparent SVGs and real screenshots. |
+| **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** | Retires dead code and stale skills for good, and shows off the subtraction. |
+| **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** | One front-facing character portrait becomes a complete, submittable WeChat sticker set, fully scripted. |
+| **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** | A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine. |
+| **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** | Adds model gateway probing, catalog discovery and balance info to DSH. |
+| **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** | Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates. |
+| **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** | A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes. |
+| **[🎨 museav-cli](https://github.com/museav-ai/museav-cli)** | MUSE AV CLI for image and video generation, reusable templates, asset uploads and local image tools. |
 | **[ai-sse-kit](https://github.com/webkubor/ai-sse-kit)** | A framework-agnostic toolkit for streaming AI chat, with React / Vue bindings. |
 | **[facet](https://github.com/webkubor/facet)** | One Markdown file becomes slides, a PDF and a long image. |
 | **[ai-orb](https://github.com/webkubor/ai-orb)** | A zero-dependency SVG orb (with Crystal skin) showing what an AI assistant is doing across six states. |
