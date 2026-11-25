@@ -56,7 +56,7 @@ function ghRepo(owner, name) {
   const r = gh(['api', `repos/${owner}/${name}`]);
   return {
     name: r.name,
-    stargazerCount: r.stargazer_count,
+    stargazerCount: r.stargazers_count,
     pushedAt: r.pushed_at,
     description: r.description || '',
     isArchived: !!r.archived,

@@ -1,7 +1,7 @@
 {
   "totals": {
     "publicRepos": 33,
-    "stars": 522,
+    "stars": 532,
     "commits30d": 19,
     "lastCommit": "2026-11-23"
   },
@@ -9,7 +9,7 @@
     {
       "owner": "webkubor",
       "name": "vite-plugin-agent-eyes",
-      "stars": 40,
+      "stars": 41,
       "pushedAt": "2026-11-23",
       "description": "Vite 运行时遥测插件：为 AI agent 提供结构化日志、错误快照、本地 Cookie 修复与提交前检查。 / Vite telemetry plugin for AI agents with structured logs, error snapshots, local cookie repair, and pre-commit checks."
     },
@@ -30,8 +30,8 @@
     {
       "owner": "webkubor",
       "name": "dsh-bloom-theme",
-      "stars": 314,
-      "pushedAt": "2026-11-23",
+      "stars": 322,
+      "pushedAt": "2026-11-25",
       "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
     },
     {
@@ -45,7 +45,8 @@
       "owner": "museav-ai",
       "name": "dsh-museav-assets",
       "pushedAt": "2026-11-23",
-      "description": "DeepSeek Harness 素材浏览插件：按工作区查看 MUSE AV 素材与出图记录，复制素材直链。DSH asset browser for MUSE AV workspaces, image libraries and generation history."
+      "description": "DeepSeek Harness 素材浏览插件：按工作区查看 MUSE AV 素材与出图记录，复制素材直链。DSH asset browser for MUSE AV workspaces, image libraries and generation history.",
+      "stars": 1
     },
     {
       "owner": "webkubor",
@@ -57,15 +58,16 @@
     {
       "owner": "supercli-site",
       "name": "scorecard",
-      "pushedAt": "2026-11-22",
-      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网页，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports."
+      "pushedAt": "2026-11-23",
+      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网站，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports.",
+      "stars": 41
     }
   ],
   "stars": {
-    "webkubor/vite-plugin-agent-eyes": 40,
+    "webkubor/vite-plugin-agent-eyes": 41,
     "webkubor/webkubor": 2,
     "webkubor/path-guard": 1,
-    "webkubor/dsh-bloom-theme": 314,
+    "webkubor/dsh-bloom-theme": 322,
     "webkubor/dsh-llm-hub": 3,
     "webkubor/kyvault": 4,
     "webkubor/fovea": 1,
@@ -91,9 +93,11 @@
     "webkubor/deadcode-reaper-skill": 2,
     "webkubor/harness": 0,
     "webkubor/wallpaper-generator": 1,
-    "webkubor/ui-craft": 0,
+    "webkubor/ui-craft": 1,
     "webkubor/webkubor.github.io": 0,
     "webkubor/lite-browser": 1,
-    "webkubor/facet": 4
+    "webkubor/facet": 4,
+    "supercli-site/scorecard": 41,
+    "museav-ai/dsh-museav-assets": 1
   }
 }

@@ -64,11 +64,11 @@ function projectLine(name, lang, style) {
   if (!p) throw new Error(`data/projects.json 缺少项目 ${name}`);
   const desc = lang === 'zh' ? p.zh : p.en;
   const badges = (p.badges || [])
-    .map((b) => (b.href ? `[${b.label}](${b.href})` : b.label))
+    .map((b) => (b.href ? `[${b.label}](${b.href})` : `<code>${esc(b.label)}</code>`))
     .join(' · ');
   const meta = [starBadge(name, style), badges].filter(Boolean).join(' · ');
   const showcase = p.showcase;
-  const media = showcase ? `\n\n<details>\n<summary>${esc(showcase.version)} · ${lang === 'zh' ? '查看演示' : 'View demo'}</summary>\n\n${esc(showcase.embed)}\n\n<a href="${esc(showcase.video)}"><img src="${esc(showcase.image)}" width="480" alt="${esc(lang === 'zh' ? showcase.alt : showcase.altEn)}" /></a>\n\n${esc(lang === 'zh' ? showcase.caption : showcase.captionEn)}\n\n</details>\n` : '';
+  const media = showcase ? `\n\n<details>\n<summary>${esc(showcase.version)} · ${lang === 'zh' ? '查看演示' : 'View demo'}</summary>\n\n${esc(showcase.embed)}\n\n<a href="${esc(showcase.video)}"><img src="${esc(showcase.image)}" width="640" alt="${esc(lang === 'zh' ? showcase.alt : showcase.altEn)}" /></a>\n\n${esc(lang === 'zh' ? showcase.caption : showcase.captionEn)}\n\n</details>\n` : '';
   return `- **[${p.emoji} ${esc(p.name)}](${repoUrl(name)})** — ${desc}<br/><sub>${meta}</sub>${media}`;
 }
 
@@ -108,10 +108,10 @@ export function buildReadme(lang) {
 
   const totals = recent.totals || {};
   const statRow = `<p align="center">
-  <img src="https://img.shields.io/badge/${totals.publicRepos ?? 0}_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/${totals.stars ?? 0}_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/${totals.commits30d ?? 0}_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
-  <img src="https://img.shields.io/github/last-commit/${OWNER}/${OWNER}?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
+  <img src="https://img.shields.io/badge/Projects-${totals.publicRepos ?? 0}-57606a?style=flat-square&labelColor=f3eff1" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/Stars-${totals.stars ?? 0}-b4536b?style=flat-square&labelColor=f3eff1" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-${totals.commits30d ?? 0}-57606a?style=flat-square&labelColor=f3eff1" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/github/last-commit/${OWNER}/${OWNER}?style=flat-square&label=last%20commit&color=57606a&labelColor=f3eff1" alt="最近提交" height="20" />
 </p>`;
 
   // 最近动态：首屏一行（最近 4 个有推送的收录项目），完整列表进折叠块
@@ -123,7 +123,7 @@ export function buildReadme(lang) {
       .map((r) => {
         const name = projectByRepo.get(`${r.owner}/${r.name}`) || r.name;
         const p = data.projects[name];
-        return `[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)}) <sub>${r.pushedAt.slice(5)}</sub>`;
+        return `[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)}) <code>${r.pushedAt.slice(5)}</code>`;
       })
       .join(' · ')}</sub>
 </p>`
@@ -164,28 +164,29 @@ ${lines}`;
     })
     .join('\n\n');
 
-  const featTitle = T(data.featured.title, data.featured.titleEn);
+  const featTitle = `${T(data.featured.title, data.featured.titleEn)}（${data.featured.projects.length}）`;
   const featLines = data.featured.projects.map((n) => projectLine(n, lang, 'flat')).join('\n');
 
   const skillTitle = T(data.skills.title, data.skills.titleEn);
   const skillLede = T(data.skills.lede, data.skills.ledeEn);
   const skillLines = data.skills.projects.map((n) => projectLine(n, lang, 'flat')).join('\n');
 
-  const extraTitle = T(data.extras.title, data.extras.titleEn);
-  const extraLines = data.extras.projects
-    .map((e) => `- **[${esc(e.repo)}](${repoUrlFull(ownerOfExtra(e), e.repo)})** — ${T(e.zh, e.en)}`)
-    .join('\n');
+  const extraTitle = `${T(data.extras.title, data.extras.titleEn)}（${data.extras.projects.length}）`;
+  const extraHeader = T('| 项目 | 说明 |\n| :--- | :--- |', '| Repository | Description |\n| :--- | :--- |');
+  const extraRows = data.extras.projects
+    .map((e) => `| **[${esc(e.repo)}](${repoUrlFull(ownerOfExtra(e), e.repo)})** | ${T(e.zh, e.en)} |`);
+  const extraLines = [extraHeader, ...extraRows].join('\n');
 
   const recentDetail = recentKnown.length
     ? details(
-        T('最近在做什么（按推送时间）', 'Recently shipped (by push time)'),
+        `${T('最近在做什么（按推送时间）', 'Recently shipped (by push time)')}（${recentKnown.length}）`,
         recentKnown
           .map((r) => {
             const name = projectByRepo.get(`${r.owner}/${r.name}`) || r.name;
             const p = data.projects[name];
             const desc = T(p?.zh || '', p?.en || '');
             const stars = r.stars ?? p?.stars ?? 'unknown';
-            return `- **[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)})** <sub>${r.pushedAt} · ${stars} ★</sub><br/>${desc}`;
+            return `- **[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)})** <code>${r.pushedAt} · ${stars} ★</code><br/>${desc}`;
           })
           .join('\n'),
       )

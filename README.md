@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/33_projects-8b949e?style=flat-square" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/522_stars-8b949e?style=flat-square" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/19_commits%20in%2030d-8b949e?style=flat-square" alt="近 30 天提交" height="20" />
-  <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=8b949e" alt="最近提交" height="20" />
+  <img src="https://img.shields.io/badge/Projects-33-57606a?style=flat-square&labelColor=f3eff1" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/Stars-532-b4536b?style=flat-square&labelColor=f3eff1" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-19-57606a?style=flat-square&labelColor=f3eff1" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=57606a&labelColor=f3eff1" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <sub>11-23</sub> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <sub>11-23</sub> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <sub>11-23</sub> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <sub>11-23</sub></sub>
+  <sub>最近更新：[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <code>11-23</code> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <code>11-25</code> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <code>11-23</code> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <code>11-23</code></sub>
 </p>
 
 <p align="center">
@@ -50,10 +50,9 @@
 
 从「让 AI 写代码」到「让它看得见、守得住」。
 
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — 给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · MIT · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes)</sub>
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** — 为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · Rust · MIT · [crates.io](https://crates.io/crates/kyvault)</sub>
-- **[🖥️ DSH Env Inspector](https://github.com/webkubor/dsh-env-inspector)** — 检查开发环境、CLI、插件与端口状态；在不暴露密钥明文的前提下，让环境问题可见、可处理。<br/><sub>[npm](https://www.npmjs.com/package/@dsh-plugins/dsh-env-inspector)</sub>
-- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** — 解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-refresh-guard?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · MIT · [npm](https://www.npmjs.com/package/vite-plugin-refresh-guard)</sub>
+- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** — 给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · <code>MIT</code> · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes)</sub>
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** — 为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · <code>Rust</code> · <code>MIT</code> · [crates.io](https://crates.io/crates/kyvault)</sub>
+- **[🔄 Vite Refresh Guard](https://github.com/webkubor/vite-plugin-refresh-guard)** — 解决网页部署更新后用户仍停留在旧版本的问题。静默刷新、提示后刷新或阻断等待，一行配置选择策略，核心逻辑兼容 Vue 与 React。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/vite-plugin-refresh-guard?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · <code>MIT</code> · [npm](https://www.npmjs.com/package/vite-plugin-refresh-guard)</sub>
 
 ### Bloom：把视觉判断做成可检验的设计系统
 
@@ -70,17 +69,17 @@
 - **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** — DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 
 <details>
-<summary>v0.27.0 · 查看演示</summary>
+<summary>v0.30.0 · 查看演示</summary>
 
 https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 
-<a href="https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4"><img src="./assets/bloom-preview-v0.26.png" width="480" alt="Bloom for DSH v0.26 画面预览：深色星空与主题切换菜单；点击观看演示" /></a>
+<a href="https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4"><img src="./assets/bloom-preview-v0.26.png" width="640" alt="Bloom for DSH v0.30.0 画面预览：深色星空与主题切换菜单；点击观看演示" /></a>
 
-预览图为 v0.26；点击观看演示
+预览图为 v0.26，最新已发版至 v0.30.0；点击观看演示
 
 </details>
 
-- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** — 让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/ui-craft?style=flat&label=%20%E2%98%85&color=c9d1d9" alt="stars" height="14" /></sub>
+- **[✳️ ui-craft](https://github.com/webkubor/ui-craft)** — 让 Agent 写出更好看的组件与页面：先定设计方向与 tokens，再截图评审真实页面并修。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/ui-craft?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 
 ### Skills：设计与表达的工作规范
 
@@ -92,9 +91,9 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 - **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** — 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/charmoji-sticker-skill?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
 
 <details>
-<summary>还在做</summary>
+<summary>还在做（6）</summary>
 
-- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。<br/><sub>[在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
+- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** — 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。<br/><sub><img src="https://img.shields.io/github/stars/supercli-site/scorecard?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard)</sub>
 - **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** — Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/voxflow?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /></sub>
 - **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** — 为 DSH 补上模型网关探测、目录发现与余额信息。<br/><sub><img src="https://img.shields.io/github/stars/webkubor/dsh-llm-hub?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/@dsh-plugins/dsh-llm-hub)</sub>
 - **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** — 用素材、逐句文案、配音和模板在本地合成竖版短视频。<br/><sub><img src="https://img.shields.io/github/stars/museav-ai/muse-tv?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /></sub>
@@ -104,35 +103,40 @@ https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb
 </details>
 
 <details>
-<summary>最近在做什么（按推送时间）</summary>
+<summary>最近在做什么（按推送时间）（5）</summary>
 
-- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <sub>2026-11-23 · 40 ★</sub><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
-- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <sub>2026-11-23 · 314 ★</sub><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
-- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <sub>2026-11-23 · 3 ★</sub><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
-- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <sub>2026-11-23 · 4 ★</sub><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
-- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** <sub>2026-11-22 · unknown ★</sub><br/>对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。
+- **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** <code>2026-11-23 · 41 ★</code><br/>给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。
+- **[🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme)** <code>2026-11-25 · 322 ★</code><br/>DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。
+- **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** <code>2026-11-23 · 3 ★</code><br/>为 DSH 补上模型网关探测、目录发现与余额信息。
+- **[🔐 Kyvault](https://github.com/webkubor/kyvault)** <code>2026-11-23 · 4 ★</code><br/>为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。
+- **[📋 Scorecard](https://github.com/supercli-site/scorecard)** <code>2026-11-23 · 41 ★</code><br/>对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。
 
 </details>
 
 <details>
-<summary>更多工具</summary>
+<summary>更多工具（19）</summary>
 
-- **[ai-sse-kit](https://github.com/webkubor/ai-sse-kit)** — 框架无关的 AI 流式对话工具包，带 React / Vue 绑定。
-- **[facet](https://github.com/webkubor/facet)** — 一份 Markdown 生成演讲页、PDF 与长图。
-- **[ai-orb](https://github.com/webkubor/ai-orb)** — 4KB 零依赖 SVG，表达 AI 助手当前状态。
-- **[mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit)** — Apple Silicon 本地离线图片理解。
-- **[im-notify-kit](https://github.com/webkubor/im-notify-kit)** — 飞书 / 企业微信通知库，带重试与去重。
-- **[path-guard](https://github.com/webkubor/path-guard)** — PATH 命令诊断 CLI：定位实际执行的副本与版本漂移。
-- **[supercli](https://github.com/supercli-site/supercli)** — CLI 工具目录与发现站，按用途与 Stars 快照排名。
-- **[wallpaper-generator](https://github.com/webkubor/wallpaper-generator)** — 浏览器壁纸编辑器：多设备预设、水印与导出 PNG。
-- **[xiaobai-kanban](https://github.com/supercli-site/xiaobai-kanban)** — 中文 AI 编程助手入门教程，含 AGENTS.md 协作指南。
-- **[cs-mcp](https://github.com/cortexos-dev/cs-mcp)** — 把个人开源工具链接进 AI Agent 的 MCP 服务，按能力分组。
-- **[lite-browser](https://github.com/webkubor/lite-browser)** — AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。
-- **[device-passport](https://github.com/webkubor/device-passport)** — 确定性的浏览器 / 设备画像，用于自动化与测试。
-- **[free-imgbed](https://github.com/webkubor/free-imgbed)** — 图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。
-- **[dsh-museav-assets](https://github.com/museav-ai/dsh-museav-assets)** — DSH 素材浏览插件：按工作区查看出图记录与素材直链。
-- **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** — 发版时自动把版本号同步到台账与 SKILL.md。
-- **[claude-usage-statusline](https://github.com/webkubor/claude-usage-statusline)** — Claude Code 状态栏：会话花费与额度预警。
+| 项目 | 说明 |
+| :--- | :--- |
+| **[ai-sse-kit](https://github.com/webkubor/ai-sse-kit)** | 框架无关的 AI 流式对话工具包，带 React / Vue 绑定。 |
+| **[facet](https://github.com/webkubor/facet)** | 一份 Markdown 生成演讲页、PDF 与长图。 |
+| **[ai-orb](https://github.com/webkubor/ai-orb)** | 零依赖 SVG AI 助手状态球（含 Crystal 皮肤），表达在想 / 干活 / 等你回话等六态。 |
+| **[harnessweight](https://github.com/webkubor/harnessweight)** | 给网关后面的每个 Agent harness 称重：统计输入 token、缓存命中与工具定义体积。 |
+| **[fovea](https://github.com/webkubor/fovea)** | magpie 网关上下文中间件：保留近期窗口并按新话题裁剪旧历史。 |
+| **[awesome-coding-plan](https://github.com/supercli-site/awesome-coding-plan)** | TokenPlan：AI 编程套餐、API 单价与模型性价比对比。 |
+| **[pr-contributor-skill](https://github.com/webkubor/pr-contributor-skill)** | 给开源项目提高质量 PR 的工作流 skill：读上游规矩、最小改动与跑通 CI。 |
+| **[mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit)** | Apple Silicon 本地离线图片理解。 |
+| **[im-notify-kit](https://github.com/webkubor/im-notify-kit)** | 飞书 / 企业微信通知库，带重试与去重。 |
+| **[path-guard](https://github.com/webkubor/path-guard)** | PATH 命令诊断 CLI：定位实际执行的副本与版本漂移。 |
+| **[supercli](https://github.com/supercli-site/supercli)** | CLI 工具目录与发现站，按用途与 Stars 快照排名。 |
+| **[wallpaper-generator](https://github.com/webkubor/wallpaper-generator)** | 浏览器壁纸编辑器：多设备预设、水印与导出 PNG。 |
+| **[xiaobai-kanban](https://github.com/supercli-site/xiaobai-kanban)** | 中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流。 |
+| **[lite-browser](https://github.com/webkubor/lite-browser)** | AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。 |
+| **[device-passport](https://github.com/webkubor/device-passport)** | 确定性的浏览器 / 设备画像，用于自动化与测试。 |
+| **[free-imgbed](https://github.com/webkubor/free-imgbed)** | 图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。 |
+| **[dsh-museav-assets](https://github.com/museav-ai/dsh-museav-assets)** | DSH 素材浏览插件：按工作区查看出图记录与素材直链。 |
+| **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** | 发版时自动把版本号同步到台账与 SKILL.md。 |
+| **[claude-usage-statusline](https://github.com/webkubor/claude-usage-statusline)** | Claude Code 状态栏：会话花费与额度预警。 |
 
 </details>
 

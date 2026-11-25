@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19",
-  "owners": ["webkubor", "supercli-site", "cortexos-dev", "museav-ai"],
+  "updatedAt": "2026-11-25",
+  "owners": ["webkubor", "supercli-site", "museav-ai"],
   "profileOwner": "webkubor",
   "groups": [
     {
@@ -12,7 +12,7 @@
       "asset": "agent",
       "assetAlt": "一次 401 的修复过程：Agent Eyes 收集脱敏证据，agent 按证据定位到本地 cookie 过期，自修复后用同一请求复验为 200。",
       "assetAltEn": "A 401 being fixed: Agent Eyes collects redacted evidence, the agent traces it to an expired local cookie, self-repairs it and re-verifies the same request returns 200.",
-      "projects": ["vite-plugin-agent-eyes", "kyvault", "dsh-env-inspector", "vite-plugin-refresh-guard"]
+      "projects": ["vite-plugin-agent-eyes", "kyvault", "vite-plugin-refresh-guard"]
     },
     {
       "id": "bloom",
@@ -60,15 +60,6 @@
         { "label": "crates.io", "href": "https://crates.io/crates/kyvault" }
       ]
     },
-    "dsh-env-inspector": {
-      "emoji": "🖥️",
-      "name": "DSH Env Inspector",
-      "zh": "检查开发环境、CLI、插件与端口状态；在不暴露密钥明文的前提下，让环境问题可见、可处理。",
-      "en": "Checks your dev environment, CLIs, plugins and ports, making environment problems visible and fixable without exposing secret values.",
-      "badges": [
-        { "label": "npm", "href": "https://www.npmjs.com/package/@dsh-plugins/dsh-env-inspector" }
-      ]
-    },
     "vite-plugin-refresh-guard": {
       "emoji": "🔄",
       "name": "Vite Refresh Guard",
@@ -94,14 +85,14 @@
       "zh": "DeepSeek Harness 的莫兰迪配色主题：三款玻璃质感、独立明暗背景与深色星空动效。",
       "en": "A Morandi palette theme for DeepSeek Harness, with three glass materials, independent light and dark backgrounds, and animated night skies.",
       "showcase": {
-        "version": "v0.27.0",
+        "version": "v0.30.0",
         "image": "./assets/bloom-preview-v0.26.png",
         "video": "https://img.webkubor.online/projects/dsh-bloom-theme/bloom-demo-v0.27.0.mp4",
         "embed": "https://github.com/user-attachments/assets/10b0b971-a94a-4b06-bd5e-e6df59a574eb",
-        "alt": "Bloom for DSH v0.26 画面预览：深色星空与主题切换菜单；点击观看演示",
-        "altEn": "Bloom for DSH v0.26 preview: night sky and theme switcher; click to watch the demo",
-        "caption": "预览图为 v0.26；点击观看演示",
-        "captionEn": "Preview image shows v0.26; click to watch the demo"
+        "alt": "Bloom for DSH v0.30.0 画面预览：深色星空与主题切换菜单；点击观看演示",
+        "altEn": "Bloom for DSH v0.30.0 preview: night sky and theme switcher; click to watch the demo",
+        "caption": "预览图为 v0.26，最新已发版至 v0.30.0；点击观看演示",
+        "captionEn": "Preview shows v0.26, latest release is v0.30.0; click to watch the demo"
       },
       "badges": []
     },
@@ -200,14 +191,17 @@
     "projects": [
       { "repo": "ai-sse-kit", "zh": "框架无关的 AI 流式对话工具包，带 React / Vue 绑定。", "en": "A framework-agnostic toolkit for streaming AI chat, with React / Vue bindings." },
       { "repo": "facet", "zh": "一份 Markdown 生成演讲页、PDF 与长图。", "en": "One Markdown file becomes slides, a PDF and a long image." },
-      { "repo": "ai-orb", "zh": "4KB 零依赖 SVG，表达 AI 助手当前状态。", "en": "A 4KB zero-dependency SVG that shows what an AI assistant is doing." },
+      { "repo": "ai-orb", "zh": "零依赖 SVG AI 助手状态球（含 Crystal 皮肤），表达在想 / 干活 / 等你回话等六态。", "en": "A zero-dependency SVG orb (with Crystal skin) showing what an AI assistant is doing across six states." },
+      { "repo": "harnessweight", "zh": "给网关后面的每个 Agent harness 称重：统计输入 token、缓存命中与工具定义体积。", "en": "Weigh every agent harness behind your magpie gateway: input tokens, cache hits and tool payload size." },
+      { "repo": "fovea", "zh": "magpie 网关上下文中间件：保留近期窗口并按新话题裁剪旧历史。", "en": "Magpie gateway middleware that keeps the recent context window sharp and thins stale history." },
+      { "repo": "awesome-coding-plan", "owner": "supercli-site", "zh": "TokenPlan：AI 编程套餐、API 单价与模型性价比对比。", "en": "TokenPlan: AI coding plans, API pricing and model value comparisons." },
+      { "repo": "pr-contributor-skill", "zh": "给开源项目提高质量 PR 的工作流 skill：读上游规矩、最小改动与跑通 CI。", "en": "An agent skill for submitting clean, merge-ready pull requests to open-source projects." },
       { "repo": "mlx-vlm-kit", "zh": "Apple Silicon 本地离线图片理解。", "en": "Local, offline image understanding on Apple Silicon." },
       { "repo": "im-notify-kit", "zh": "飞书 / 企业微信通知库，带重试与去重。", "en": "A Lark / WeCom notification library with retries and deduplication." },
       { "repo": "path-guard", "zh": "PATH 命令诊断 CLI：定位实际执行的副本与版本漂移。", "en": "PATH diagnostics CLI: find the copy that actually runs and detect version drift." },
       { "repo": "supercli", "owner": "supercli-site", "zh": "CLI 工具目录与发现站，按用途与 Stars 快照排名。", "en": "A CLI directory and discovery site ranked by purpose and a Stars snapshot." },
       { "repo": "wallpaper-generator", "zh": "浏览器壁纸编辑器：多设备预设、水印与导出 PNG。", "en": "A browser wallpaper editor: device presets, watermarks and PNG export." },
-      { "repo": "xiaobai-kanban", "owner": "supercli-site", "zh": "中文 AI 编程助手入门教程，含 AGENTS.md 协作指南。", "en": "A Chinese beginner guide to coding agents, requirements and Git workflows." },
-      { "repo": "cs-mcp", "owner": "cortexos-dev", "zh": "把个人开源工具链接进 AI Agent 的 MCP 服务，按能力分组。", "en": "An MCP server that strings a personal open-source toolchain into AI agents, per capability group." },
+      { "repo": "xiaobai-kanban", "owner": "supercli-site", "zh": "中文 AI 编程助手入门教程：认识 Agent、表达需求、安装 CLI 与学习 Git 工作流。", "en": "Chinese beginner guide to coding agents, CLI setup, and Git workflows." },
       { "repo": "lite-browser", "zh": "AI Agent 浏览器自动化 CLI：CDP 操控、会话复用与人工接管。", "en": "Browser automation CLI for AI agents with CDP, reusable sessions and human handoffs." },
       { "repo": "device-passport", "zh": "确定性的浏览器 / 设备画像，用于自动化与测试。", "en": "Deterministic, self-consistent browser/device personas for automation and testing." },
       { "repo": "free-imgbed", "zh": "图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。", "en": "Image assets for personal projects, served over GitHub raw and jsDelivr." },
