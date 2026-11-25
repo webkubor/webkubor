@@ -108,10 +108,10 @@ export function buildReadme(lang) {
 
   const totals = recent.totals || {};
   const statRow = `<p align="center">
-  <img src="https://img.shields.io/badge/Projects-${totals.publicRepos ?? 0}-57606a?style=flat-square&labelColor=f3eff1" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/Stars-${totals.stars ?? 0}-b4536b?style=flat-square&labelColor=f3eff1" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/30d%20commits-${totals.commits30d ?? 0}-57606a?style=flat-square&labelColor=f3eff1" alt="近 30 天提交" height="20" />
-  <img src="https://img.shields.io/github/last-commit/${OWNER}/${OWNER}?style=flat-square&label=last%20commit&color=57606a&labelColor=f3eff1" alt="最近提交" height="20" />
+  <img src="https://img.shields.io/badge/Projects-${totals.publicRepos ?? 0}-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/Stars-${totals.stars ?? 0}-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-${totals.commits30d ?? 0}-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/github/last-commit/${OWNER}/${OWNER}?style=flat-square&label=last%20commit&color=4a525d&labelColor=2a2427" alt="最近提交" height="20" />
 </p>`;
 
   // 最近动态：首屏一行（最近 4 个有推送的收录项目），完整列表进折叠块
@@ -123,7 +123,7 @@ export function buildReadme(lang) {
       .map((r) => {
         const name = projectByRepo.get(`${r.owner}/${r.name}`) || r.name;
         const p = data.projects[name];
-        return `[${p?.emoji || ''} ${esc(p?.name || r.name)}](${repoUrlFull(r.owner, r.name)}) <code>${r.pushedAt.slice(5)}</code>`;
+        return `<a href="${repoUrlFull(r.owner, r.name)}">${p?.emoji || ''} ${esc(p?.name || r.name)}</a> <code>${r.pushedAt.slice(5)}</code>`;
       })
       .join(' · ')}</sub>
 </p>`
@@ -145,7 +145,7 @@ export function buildReadme(lang) {
     'chat-mood-gen', 'wallpaper-generator',
   ];
   const wallStrip = `<p align="center"><sub>${wallNames
-    .map((n) => `[${esc(data.projects[n]?.name || n)}](${repoUrl(n)})`)
+    .map((n) => `<a href="${repoUrl(n)}">${esc(data.projects[n]?.name || n)}</a>`)
     .join(' · ')}</sub></p>`;
 
   const groups = data.groups
@@ -221,8 +221,6 @@ ${lines}`;
 ${statRow}
 ${recentStrip}
 
-${picture('logowall', logowallAlt)}
-${wallStrip}
 
 ${groups}
 

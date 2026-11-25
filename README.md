@@ -22,22 +22,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-33-57606a?style=flat-square&labelColor=f3eff1" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/Stars-532-b4536b?style=flat-square&labelColor=f3eff1" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/30d%20commits-19-57606a?style=flat-square&labelColor=f3eff1" alt="近 30 天提交" height="20" />
-  <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=57606a&labelColor=f3eff1" alt="最近提交" height="20" />
+  <img src="https://img.shields.io/badge/Projects-33-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/Stars-532-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-19-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=4a525d&labelColor=2a2427" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes) <code>11-23</code> · [🎛️ Bloom for DSH](https://github.com/webkubor/dsh-bloom-theme) <code>11-25</code> · [🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub) <code>11-23</code> · [🔐 Kyvault](https://github.com/webkubor/kyvault) <code>11-23</code></sub>
+  <sub>最近更新：<a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes</a> <code>11-23</code> · <a href="https://github.com/webkubor/dsh-bloom-theme">🎛️ Bloom for DSH</a> <code>11-25</code> · <a href="https://github.com/webkubor/dsh-llm-hub">🧭 dsh-llm-hub</a> <code>11-23</code> · <a href="https://github.com/webkubor/kyvault">🔐 Kyvault</a> <code>11-23</code></sub>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logowall-dark.png" />
-    <img src="./assets/logowall-light.png" width="100%" alt="5 个开源项目的透明底 logo：Bloom、Scorecard、reel-kit、chat-mood-gen、壁纸编辑器。" />
-  </picture>
-</p>
-<p align="center"><sub>[Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme) · [Scorecard](https://github.com/supercli-site/scorecard) · [reel-kit](https://github.com/museav-ai/muse-tv) · [chat-mood-gen](https://github.com/webkubor/chat-mood-gen) · [wallpaper-generator](https://github.com/webkubor/wallpaper-generator)</sub></p>
 
 ### Agent 工具
 
