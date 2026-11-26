@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-33-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/Stars-532-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/30d%20commits-19-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/Projects-30-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/Stars-597-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-14-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=4a525d&labelColor=2a2427" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：<a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes</a> <code>11-23</code> · <a href="https://github.com/webkubor/dsh-bloom-theme">🎛️ Bloom for DSH</a> <code>11-25</code> · <a href="https://github.com/webkubor/dsh-llm-hub">🧭 dsh-llm-hub</a> <code>11-23</code> · <a href="https://github.com/webkubor/kyvault">🔐 Kyvault</a> <code>11-23</code></sub>
+  <sub>最近更新：<a href="https://github.com/webkubor/logo-brand-designer">🎨 Logo Brand Designer</a> <code>11-26</code> · <a href="https://github.com/webkubor/writing-standard-skills">✍️ writing-standard-skills</a> <code>11-26</code> · <a href="https://github.com/webkubor/ui-craft">✳️ ui-craft</a> <code>11-26</code> · <a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Bloom for Typora</a> <code>11-25</code></sub>
 </p>
 
 ### 代表作
@@ -39,7 +39,7 @@
 | **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** | 24 套主题，为长文写作和沉浸阅读设计；获 Typora 官方主题库收录。 | <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/) |
 | **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** | 给 coding agent 的 Vite 运行时遥测层。把 API 错误、浏览器状态与代理信息整理成 agent 可读的证据，让它自己定位、自己验证。 | <img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes) |
 | **[📋 Scorecard](https://github.com/supercli-site/scorecard)** | 对 GitHub 仓库、npm 包和网站做公开质量检查，生成证据、雷达图与整改建议。 | <img src="https://img.shields.io/github/stars/supercli-site/scorecard?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard) |
-| **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** | 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。 | <img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> |
+| **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** | 6 个表达 skill + 5D 原子矩阵：搭骨架 → 定读者 → 调语气 → 当读者通读自检。 | <img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> |
 | **[🔐 Kyvault](https://github.com/webkubor/kyvault)** | 为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。 | <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [crates.io](https://crates.io/crates/kyvault) |
 
 <details>
@@ -52,7 +52,7 @@
 | **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** | 从理念、design token 到透明底 SVG 与真实截图，交付可复用、可验收的品牌标识。 |
 | **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** | 让死代码与废弃 skill 真正入土为安，晒出减法战绩。 |
 | **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** | 一张 IP 正面照 → 整套可提交的微信表情素材，全流程脚本化。 |
-| **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** | Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。 |
+| **[🎙️ VoxFlow](https://github.com/xianling-music/voxflow)** | Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。 |
 | **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** | 为 DSH 补上模型网关探测、目录发现与余额信息。 |
 | **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** | 用素材、逐句文案、配音和模板在本地合成竖版短视频。 |
 | **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** | 仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式。 |
