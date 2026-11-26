@@ -1,6 +1,6 @@
 {
   "updatedAt": "2026-11-25",
-  "owners": ["webkubor", "supercli-site", "museav-ai"],
+  "owners": ["webkubor", "supercli-site", "museav-ai", "xianling-music"],
   "profileOwner": "webkubor",
   "groups": [
     {
@@ -119,7 +119,9 @@
       "name": "VoxFlow",
       "zh": "Apple Silicon 本地 AI 音频工作台，覆盖中文语音、音色设计、播客与 BGM；私密音频留在本机。",
       "en": "A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine.",
-      "badges": []
+      "badges": [],
+      "owner": "xianling-music",
+      "repo": "voxflow"
     },
     "dsh-llm-hub": {
       "emoji": "🧭",

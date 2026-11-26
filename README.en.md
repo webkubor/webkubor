@@ -22,13 +22,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-33-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/Stars-532-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/30d%20commits-19-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/Projects-30-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/Stars-597-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-14-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=4a525d&labelColor=2a2427" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：<a href="https://github.com/webkubor/vite-plugin-agent-eyes">👀 Agent Eyes</a> <code>11-23</code> · <a href="https://github.com/webkubor/dsh-bloom-theme">🎛️ Bloom for DSH</a> <code>11-25</code> · <a href="https://github.com/webkubor/dsh-llm-hub">🧭 dsh-llm-hub</a> <code>11-23</code> · <a href="https://github.com/webkubor/kyvault">🔐 Kyvault</a> <code>11-23</code></sub>
+  <sub>Recently updated：<a href="https://github.com/webkubor/logo-brand-designer">🎨 Logo Brand Designer</a> <code>11-26</code> · <a href="https://github.com/webkubor/writing-standard-skills">✍️ writing-standard-skills</a> <code>11-26</code> · <a href="https://github.com/webkubor/ui-craft">✳️ ui-craft</a> <code>11-26</code> · <a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Bloom for Typora</a> <code>11-25</code></sub>
 </p>
 
 ### Selected work
@@ -39,7 +39,7 @@
 | **[🌸 Bloom for Typora](https://github.com/webkubor/typora-Bloom-theme)** | 24 themes for long-form writing and immersive reading; included in the official Typora theme gallery. | <img src="https://img.shields.io/github/stars/webkubor/typora-Bloom-theme?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [Typora 官方收录](https://theme.typora.io/theme/Bloom/) |
 | **[👀 Agent Eyes](https://github.com/webkubor/vite-plugin-agent-eyes)** | A Vite runtime telemetry layer for coding agents. It turns API errors, browser state and proxy details into evidence an agent can read, so it can locate and verify a fix on its own. | <img src="https://img.shields.io/github/stars/webkubor/vite-plugin-agent-eyes?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [npm](https://www.npmjs.com/package/vite-plugin-agent-eyes) |
 | **[📋 Scorecard](https://github.com/supercli-site/scorecard)** | Public quality checks for GitHub repos, npm packages and websites, with evidence, a radar chart and a fix list. | <img src="https://img.shields.io/github/stars/supercli-site/scorecard?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> · [在线体验](https://scorecard.webkubor.online) · [源码](https://github.com/supercli-site/scorecard) |
-| **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** | 6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader. | <img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> |
+| **[✍️ writing-standard-skills](https://github.com/webkubor/writing-standard-skills)** | 6 writing skills plus a 5D atomic matrix: build the skeleton, pick the reader, tune the tone, then reread as the reader. | <img src="https://img.shields.io/github/stars/webkubor/writing-standard-skills?style=flat&label=%20%E2%98%85&color=6e7681" alt="stars" height="14" /> |
 | **[🔐 Kyvault](https://github.com/webkubor/kyvault)** | A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext. | <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [crates.io](https://crates.io/crates/kyvault) |
 
 <details>
@@ -52,7 +52,7 @@
 | **[🎨 Logo Brand Designer](https://github.com/webkubor/logo-brand-designer)** | Builds reusable, reviewable brand identities from concept and design tokens through transparent SVGs and real screenshots. |
 | **[🪦 deadcode-reaper-skill](https://github.com/webkubor/deadcode-reaper-skill)** | Retires dead code and stale skills for good, and shows off the subtraction. |
 | **[🩹 charmoji-sticker-skill](https://github.com/webkubor/charmoji-sticker-skill)** | One front-facing character portrait becomes a complete, submittable WeChat sticker set, fully scripted. |
-| **[🎙️ VoxFlow](https://github.com/webkubor/voxflow)** | A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine. |
+| **[🎙️ VoxFlow](https://github.com/xianling-music/voxflow)** | A local AI audio workbench for Apple Silicon covering Chinese speech, voice design, podcasts and BGM; private audio stays on your machine. |
 | **[🧭 dsh-llm-hub](https://github.com/webkubor/dsh-llm-hub)** | Adds model gateway probing, catalog discovery and balance info to DSH. |
 | **[🎞️ reel-kit](https://github.com/museav-ai/muse-tv)** | Composes vertical short videos locally from footage, line-by-line scripts, voiceover and templates. |
 | **[💬 chat-mood-gen](https://github.com/webkubor/chat-mood-gen)** | A generator for WeChat- and Xiaohongshu-style chat mood screenshots: chat, group, feed, moments and post modes. |

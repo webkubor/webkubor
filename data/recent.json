@@ -1,103 +1,106 @@
 {
   "totals": {
-    "publicRepos": 33,
-    "stars": 532,
-    "commits30d": 19,
-    "lastCommit": "2026-11-23"
+    "publicRepos": 30,
+    "stars": 597,
+    "commits30d": 14,
+    "lastCommit": "2026-11-25"
   },
   "recent": [
     {
       "owner": "webkubor",
-      "name": "vite-plugin-agent-eyes",
-      "stars": 41,
-      "pushedAt": "2026-11-23",
-      "description": "Vite 运行时遥测插件：为 AI agent 提供结构化日志、错误快照、本地 Cookie 修复与提交前检查。 / Vite telemetry plugin for AI agents with structured logs, error snapshots, local cookie repair, and pre-commit checks."
-    },
-    {
-      "owner": "webkubor",
-      "name": "webkubor",
+      "name": "ai-sse-kit",
       "stars": 2,
-      "pushedAt": "2026-11-23",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+      "pushedAt": "2026-11-26",
+      "description": "AI 流式接收工具包：SSE 分帧、协议适配（OpenAI / Anthropic / 自定义）、消息不可变 patch 与取消生命周期。· Framework-agnostic AI streaming toolkit: SSE framing, protocol adapters, immutable patches."
     },
     {
       "owner": "webkubor",
-      "name": "path-guard",
+      "name": "logo-brand-designer",
+      "stars": 37,
+      "pushedAt": "2026-11-26",
+      "description": "为项目设计/重设计/验收品牌标识的 agent skill：交付 design token、设计理念、透明底 1:1 SVG、离线评审页与真实截图。Logo design & brand identity skill for AI agents (design tokens, SVG, review page, screenshots)."
+    },
+    {
+      "owner": "webkubor",
+      "name": "writing-standard-skills",
+      "stars": 46,
+      "pushedAt": "2026-11-26",
+      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
+    },
+    {
+      "owner": "webkubor",
+      "name": "skillhub",
+      "stars": 0,
+      "pushedAt": "2026-11-26",
+      "description": ""
+    },
+    {
+      "owner": "supercli-site",
+      "name": "awesome-coding-plan",
+      "stars": 66,
+      "pushedAt": "2026-11-26",
+      "description": "TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and model value comparisons."
+    },
+    {
+      "owner": "webkubor",
+      "name": "ui-craft",
       "stars": 1,
-      "pushedAt": "2026-11-23",
-      "description": "PATH 命令诊断 CLI：定位实际执行的副本、版本遮蔽与悬空软链。PATH diagnostics CLI for executable resolution, duplicate installations, version shadowing and dangling symlinks."
+      "pushedAt": "2026-11-26",
+      "description": "帮助 AI coding agent 做出更好看的组件与页面。UI design skills for AI coding agents."
     },
     {
       "owner": "webkubor",
-      "name": "dsh-bloom-theme",
-      "stars": 322,
+      "name": "typora-Bloom-theme",
+      "stars": 110,
       "pushedAt": "2026-11-25",
-      "description": "DSH 主题插件：Bloom 莫兰迪中国风配色，OKLCH 调色、明暗双主题、顶栏一键切换，实测达 WCAG AA。 / A DSH theme plugin: Morandi Chinese-style palettes, OKLCH, light/dark, WCAG AA."
+      "description": "Typora Markdown 主题集：24 套明暗主题，面向长文写作与阅读，采用 OKLCH 配色。 / Typora Markdown themes for long-form writing and reading, with 24 light/dark variants and OKLCH palettes."
     },
     {
       "owner": "webkubor",
       "name": "dsh-llm-hub",
       "stars": 3,
-      "pushedAt": "2026-11-23",
+      "pushedAt": "2026-11-25",
       "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
-    },
-    {
-      "owner": "museav-ai",
-      "name": "dsh-museav-assets",
-      "pushedAt": "2026-11-23",
-      "description": "DeepSeek Harness 素材浏览插件：按工作区查看 MUSE AV 素材与出图记录，复制素材直链。DSH asset browser for MUSE AV workspaces, image libraries and generation history.",
-      "stars": 1
-    },
-    {
-      "owner": "webkubor",
-      "name": "kyvault",
-      "stars": 4,
-      "pushedAt": "2026-11-23",
-      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
-    },
-    {
-      "owner": "supercli-site",
-      "name": "scorecard",
-      "pushedAt": "2026-11-23",
-      "description": "项目成熟度审计工具：检查 GitHub 仓库、npm 包与网站，输出证据和整改清单。 / Project maturity auditor for GitHub repositories, npm packages, and websites with evidence-based reports.",
-      "stars": 41
     }
   ],
   "stars": {
-    "webkubor/vite-plugin-agent-eyes": 41,
-    "webkubor/webkubor": 2,
-    "webkubor/path-guard": 1,
-    "webkubor/dsh-bloom-theme": 322,
+    "webkubor/ai-sse-kit": 2,
+    "webkubor/logo-brand-designer": 37,
+    "webkubor/writing-standard-skills": 46,
+    "webkubor/skillhub": 0,
+    "webkubor/ui-craft": 1,
+    "webkubor/typora-Bloom-theme": 110,
     "webkubor/dsh-llm-hub": 3,
+    "webkubor/dsh-bloom-theme": 323,
+    "webkubor/ai-orb": 2,
+    "webkubor/webkubor": 2,
+    "webkubor/vite-plugin-agent-eyes": 41,
+    "webkubor/free-imgbed": 1,
     "webkubor/kyvault": 4,
+    "webkubor/wallpaper-generator": 1,
+    "webkubor/chat-mood-gen": 3,
+    "webkubor/facet": 4,
+    "webkubor/deadcode-reaper-skill": 2,
+    "webkubor/path-guard": 1,
     "webkubor/fovea": 1,
     "webkubor/vite-plugin-refresh-guard": 2,
-    "webkubor/typora-Bloom-theme": 110,
-    "webkubor/chat-mood-gen": 3,
-    "webkubor/voxflow": 10,
-    "webkubor/jianpu-editor": 0,
-    "webkubor/free-imgbed": 1,
     "webkubor/harnessweight": 1,
-    "webkubor/github-hot-rank": 0,
-    "webkubor/writing-standard-skills": 8,
     "webkubor/release-sync-skill": 0,
     "webkubor/pr-contributor-skill": 0,
-    "webkubor/logo-brand-designer": 1,
     "webkubor/charmoji-sticker-skill": 5,
     "webkubor/mlx-vlm-kit": 1,
     "webkubor/im-notify-kit": 2,
     "webkubor/device-passport": 1,
     "webkubor/claude-usage-statusline": 0,
-    "webkubor/ai-sse-kit": 2,
-    "webkubor/ai-orb": 2,
-    "webkubor/deadcode-reaper-skill": 2,
-    "webkubor/harness": 0,
-    "webkubor/wallpaper-generator": 1,
-    "webkubor/ui-craft": 1,
     "webkubor/webkubor.github.io": 0,
     "webkubor/lite-browser": 1,
-    "webkubor/facet": 4,
-    "supercli-site/scorecard": 41,
-    "museav-ai/dsh-museav-assets": 1
+    "supercli-site/scorecard": 75,
+    "supercli-site/awesome-coding-plan": 66,
+    "supercli-site/supercli": 2,
+    "supercli-site/xiaobai-kanban": 400,
+    "museav-ai/muse-tv": 7,
+    "museav-ai/museav-cli": 3,
+    "museav-ai/dsh-museav-assets": 1,
+    "xianling-music/voxflow": 10
   }
 }
