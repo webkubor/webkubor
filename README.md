@@ -23,12 +23,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-30-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/Stars-597-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/30d%20commits-14-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/Stars-659-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-12-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=4a525d&labelColor=2a2427" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>最近更新：<a href="https://github.com/webkubor/logo-brand-designer">🎨 Logo Brand Designer</a> <code>11-26</code> · <a href="https://github.com/webkubor/writing-standard-skills">✍️ writing-standard-skills</a> <code>11-26</code> · <a href="https://github.com/webkubor/ui-craft">✳️ ui-craft</a> <code>11-26</code> · <a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Bloom for Typora</a> <code>11-25</code></sub>
+  <sub>最近更新：<a href="https://github.com/webkubor/kyvault">🔐 Kyvault</a> <code>11-28</code> · <a href="https://github.com/webkubor/logo-brand-designer">🎨 Logo Brand Designer</a> <code>11-27</code> · <a href="https://github.com/webkubor/chat-mood-gen">💬 chat-mood-gen</a> <code>11-27</code> · <a href="https://github.com/webkubor/dsh-llm-hub">🧭 dsh-llm-hub</a> <code>11-27</code></sub>
 </p>
 
 ### 代表作
@@ -43,7 +43,7 @@
 | **[🔐 Kyvault](https://github.com/webkubor/kyvault)** | 为 AI 工作流设计的本地密钥库：加密保存在本机，工具通过别名取用，agent 不接触密钥明文。 | <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [crates.io](https://crates.io/crates/kyvault) |
 
 <details>
-<summary>更多开源项目（29）</summary>
+<summary>更多开源项目（28）</summary>
 
 | 项目 | 说明 |
 | :--- | :--- |
@@ -63,7 +63,7 @@
 | **[harnessweight](https://github.com/webkubor/harnessweight)** | 给网关后面的每个 Agent harness 称重：统计输入 token、缓存命中与工具定义体积。 |
 | **[fovea](https://github.com/webkubor/fovea)** | magpie 网关上下文中间件：保留近期窗口并按新话题裁剪旧历史。 |
 | **[awesome-coding-plan](https://github.com/supercli-site/awesome-coding-plan)** | TokenPlan：AI 编程套餐、API 单价与模型性价比对比。 |
-| **[pr-contributor-skill](https://github.com/webkubor/pr-contributor-skill)** | 给开源项目提高质量 PR 的工作流 skill：读上游规矩、最小改动与跑通 CI。 |
+| **[dev-skills](https://github.com/webkubor/dev-skills)** | AI 协作开发工作流合集（gitflow / pr-contributor / release-sync）：开分支、提 PR 与发版版本自动同步。 |
 | **[mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit)** | Apple Silicon 本地离线图片理解。 |
 | **[im-notify-kit](https://github.com/webkubor/im-notify-kit)** | 飞书 / 企业微信通知库，带重试与去重。 |
 | **[path-guard](https://github.com/webkubor/path-guard)** | PATH 命令诊断 CLI：定位实际执行的副本与版本漂移。 |
@@ -74,7 +74,6 @@
 | **[device-passport](https://github.com/webkubor/device-passport)** | 确定性的浏览器 / 设备画像，用于自动化与测试。 |
 | **[free-imgbed](https://github.com/webkubor/free-imgbed)** | 图床素材仓库：个人项目的图片经 GitHub raw 与 jsDelivr 分发。 |
 | **[dsh-museav-assets](https://github.com/museav-ai/dsh-museav-assets)** | DSH 素材浏览插件：按工作区查看出图记录与素材直链。 |
-| **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** | 发版时自动把版本号同步到台账与 SKILL.md。 |
 | **[claude-usage-statusline](https://github.com/webkubor/claude-usage-statusline)** | Claude Code 状态栏：会话花费与额度预警。 |
 
 </details>

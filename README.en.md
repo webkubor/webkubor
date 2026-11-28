@@ -23,12 +23,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Projects-30-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
-  <img src="https://img.shields.io/badge/Stars-597-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/30d%20commits-14-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/Stars-659-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-12-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=4a525d&labelColor=2a2427" alt="最近提交" height="20" />
 </p>
 <p align="center">
-  <sub>Recently updated：<a href="https://github.com/webkubor/logo-brand-designer">🎨 Logo Brand Designer</a> <code>11-26</code> · <a href="https://github.com/webkubor/writing-standard-skills">✍️ writing-standard-skills</a> <code>11-26</code> · <a href="https://github.com/webkubor/ui-craft">✳️ ui-craft</a> <code>11-26</code> · <a href="https://github.com/webkubor/typora-Bloom-theme">🌸 Bloom for Typora</a> <code>11-25</code></sub>
+  <sub>Recently updated：<a href="https://github.com/webkubor/kyvault">🔐 Kyvault</a> <code>11-28</code> · <a href="https://github.com/webkubor/logo-brand-designer">🎨 Logo Brand Designer</a> <code>11-27</code> · <a href="https://github.com/webkubor/chat-mood-gen">💬 chat-mood-gen</a> <code>11-27</code> · <a href="https://github.com/webkubor/dsh-llm-hub">🧭 dsh-llm-hub</a> <code>11-27</code></sub>
 </p>
 
 ### Selected work
@@ -43,7 +43,7 @@
 | **[🔐 Kyvault](https://github.com/webkubor/kyvault)** | A local secret vault built for AI workflows: encrypted on your machine, tools fetch secrets by alias, and the agent never handles the plaintext. | <img src="https://img.shields.io/github/stars/webkubor/kyvault?style=flat&label=%20%E2%98%85&color=8b949e" alt="stars" height="14" /> · [crates.io](https://crates.io/crates/kyvault) |
 
 <details>
-<summary>More open-source projects（29）</summary>
+<summary>More open-source projects（28）</summary>
 
 | Repository | Description |
 | :--- | :--- |
@@ -63,7 +63,7 @@
 | **[harnessweight](https://github.com/webkubor/harnessweight)** | Weigh every agent harness behind your magpie gateway: input tokens, cache hits and tool payload size. |
 | **[fovea](https://github.com/webkubor/fovea)** | Magpie gateway middleware that keeps the recent context window sharp and thins stale history. |
 | **[awesome-coding-plan](https://github.com/supercli-site/awesome-coding-plan)** | TokenPlan: AI coding plans, API pricing and model value comparisons. |
-| **[pr-contributor-skill](https://github.com/webkubor/pr-contributor-skill)** | An agent skill for submitting clean, merge-ready pull requests to open-source projects. |
+| **[dev-skills](https://github.com/webkubor/dev-skills)** | A collection of AI coding workflow skills (gitflow / pr-contributor / release-sync) for branching, clean PRs, and release version syncing. |
 | **[mlx-vlm-kit](https://github.com/webkubor/mlx-vlm-kit)** | Local, offline image understanding on Apple Silicon. |
 | **[im-notify-kit](https://github.com/webkubor/im-notify-kit)** | A Lark / WeCom notification library with retries and deduplication. |
 | **[path-guard](https://github.com/webkubor/path-guard)** | PATH diagnostics CLI: find the copy that actually runs and detect version drift. |
@@ -74,7 +74,6 @@
 | **[device-passport](https://github.com/webkubor/device-passport)** | Deterministic, self-consistent browser/device personas for automation and testing. |
 | **[free-imgbed](https://github.com/webkubor/free-imgbed)** | Image assets for personal projects, served over GitHub raw and jsDelivr. |
 | **[dsh-museav-assets](https://github.com/museav-ai/dsh-museav-assets)** | A DSH plugin that browses generated assets and image libraries by workspace. |
-| **[release-sync-skill](https://github.com/webkubor/release-sync-skill)** | Syncs release versions into the ledger and SKILL.md at publish time. |
 | **[claude-usage-statusline](https://github.com/webkubor/claude-usage-statusline)** | A Claude Code status line: session cost and quota warnings. |
 
 </details>

@@ -1,101 +1,101 @@
 {
   "totals": {
     "publicRepos": 30,
-    "stars": 597,
-    "commits30d": 14,
+    "stars": 659,
+    "commits30d": 12,
     "lastCommit": "2026-11-26"
   },
   "recent": [
     {
       "owner": "webkubor",
-      "name": "webkubor",
-      "stars": 2,
-      "pushedAt": "2026-11-26",
-      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
-    },
-    {
-      "owner": "webkubor",
-      "name": "ai-sse-kit",
-      "stars": 2,
-      "pushedAt": "2026-11-26",
-      "description": "AI 流式接收工具包：SSE 分帧、协议适配（OpenAI / Anthropic / 自定义）、消息不可变 patch 与取消生命周期。· Framework-agnostic AI streaming toolkit: SSE framing, protocol adapters, immutable patches."
-    },
-    {
-      "owner": "webkubor",
-      "name": "logo-brand-designer",
-      "stars": 37,
-      "pushedAt": "2026-11-26",
-      "description": "为项目设计/重设计/验收品牌标识的 agent skill：交付 design token、设计理念、透明底 1:1 SVG、离线评审页与真实截图。Logo design & brand identity skill for AI agents (design tokens, SVG, review page, screenshots)."
-    },
-    {
-      "owner": "webkubor",
-      "name": "writing-standard-skills",
-      "stars": 46,
-      "pushedAt": "2026-11-26",
-      "description": "不止去 AI 味——教 AI 人情世故。把话说对的四步：搭骨架→定读者→调语气→当读者读一遍。Claude Code / Codex / Cursor 一键接入。"
+      "name": "kyvault",
+      "stars": 4,
+      "pushedAt": "2026-11-28",
+      "description": "🔐 本地密钥库：管理 API Key / Token，AES-256-GCM 加密存本机，工具凭别名取用，agent 不接触明文。 / Local-first secret manager for AI workflows — agents get aliases, never plaintext."
     },
     {
       "owner": "webkubor",
       "name": "skillhub",
       "stars": 0,
-      "pushedAt": "2026-11-26",
+      "pushedAt": "2026-11-28",
       "description": ""
     },
     {
-      "owner": "supercli-site",
-      "name": "awesome-coding-plan",
-      "stars": 66,
-      "pushedAt": "2026-11-26",
-      "description": "TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and model value comparisons."
-    },
-    {
       "owner": "webkubor",
-      "name": "ui-craft",
+      "name": "free-imgbed",
       "stars": 1,
-      "pushedAt": "2026-11-26",
-      "description": "帮助 AI coding agent 做出更好看的组件与页面。UI design skills for AI coding agents."
+      "pushedAt": "2026-11-27",
+      "description": "开箱即用的 GitHub 免费图床：一个仓库就是一台图床 —— jsDelivr 全球分发、CI 把关红线、fork 改名即用。One GitHub repo is all it takes to run your own image CDN."
     },
     {
       "owner": "webkubor",
-      "name": "typora-Bloom-theme",
-      "stars": 110,
-      "pushedAt": "2026-11-25",
-      "description": "Typora Markdown 主题集：24 套明暗主题，面向长文写作与阅读，采用 OKLCH 配色。 / Typora Markdown themes for long-form writing and reading, with 24 light/dark variants and OKLCH palettes."
+      "name": "logo-brand-designer",
+      "stars": 67,
+      "pushedAt": "2026-11-27",
+      "description": "为项目设计/重设计/验收品牌标识的 agent skill：交付 design token、设计理念、透明底 1:1 SVG、离线评审页与真实截图。Logo design & brand identity skill for AI agents (design tokens, SVG, review page, screenshots)."
+    },
+    {
+      "owner": "webkubor",
+      "name": "chat-mood-gen",
+      "stars": 3,
+      "pushedAt": "2026-11-27",
+      "description": "仿微信与小红书的聊天氛围图生成器：对话 / 拉人 / 列表 / 朋友圈 / 小红书五模式，语料库管理与批量导出。· Vue app for WeChat and Xiaohongshu mood screenshots — five modes, corpus library, batch PNG export."
+    },
+    {
+      "owner": "webkubor",
+      "name": "dsh-llm-hub",
+      "stars": 3,
+      "pushedAt": "2026-11-27",
+      "description": "DeepSeek Harness 模型管理插件：网关健康探测、模型目录发现与余额/配额展示。DSH plugin for LLM gateway health, model discovery and account balance monitoring."
+    },
+    {
+      "owner": "supercli-site",
+      "name": "supercli",
+      "stars": 2,
+      "pushedAt": "2026-11-27",
+      "description": "CLI 工具目录与发现站：按用途搜索、厂商筛选和 GitHub Stars 快照排名，社区通过 PR 贡献。 / Community CLI directory with category search, vendor filters, and transparent GitHub star rankings."
+    },
+    {
+      "owner": "webkubor",
+      "name": "lite-browser",
+      "stars": 1,
+      "pushedAt": "2026-11-27",
+      "description": "AI Agent 浏览器自动化 CLI：Chrome CDP 操控、会话复用、多 Agent 隔离与人工接管。Browser automation CLI for AI agents with CDP, reusable sessions and human-in-the-loop handoffs."
     }
   ],
   "stars": {
-    "webkubor/webkubor": 2,
-    "webkubor/ai-sse-kit": 2,
-    "webkubor/logo-brand-designer": 37,
-    "webkubor/writing-standard-skills": 46,
+    "webkubor/kyvault": 4,
     "webkubor/skillhub": 0,
+    "webkubor/free-imgbed": 1,
+    "webkubor/logo-brand-designer": 67,
+    "webkubor/chat-mood-gen": 3,
+    "webkubor/dsh-llm-hub": 3,
+    "webkubor/lite-browser": 1,
+    "webkubor/wallpaper-generator": 1,
+    "webkubor/dev-skills": 0,
+    "webkubor/ai-sse-kit": 2,
+    "webkubor/webkubor": 2,
+    "webkubor/writing-standard-skills": 75,
     "webkubor/ui-craft": 1,
     "webkubor/typora-Bloom-theme": 110,
-    "webkubor/dsh-llm-hub": 3,
-    "webkubor/dsh-bloom-theme": 323,
+    "webkubor/core-api": 0,
+    "webkubor/dsh-bloom-theme": 325,
     "webkubor/ai-orb": 2,
-    "webkubor/vite-plugin-agent-eyes": 41,
-    "webkubor/free-imgbed": 1,
-    "webkubor/kyvault": 4,
-    "webkubor/wallpaper-generator": 1,
-    "webkubor/chat-mood-gen": 3,
+    "webkubor/vite-plugin-agent-eyes": 42,
     "webkubor/facet": 4,
     "webkubor/deadcode-reaper-skill": 2,
     "webkubor/path-guard": 1,
     "webkubor/fovea": 1,
     "webkubor/vite-plugin-refresh-guard": 2,
     "webkubor/harnessweight": 1,
-    "webkubor/release-sync-skill": 0,
-    "webkubor/pr-contributor-skill": 0,
     "webkubor/charmoji-sticker-skill": 5,
     "webkubor/mlx-vlm-kit": 1,
     "webkubor/im-notify-kit": 2,
     "webkubor/device-passport": 1,
     "webkubor/claude-usage-statusline": 0,
     "webkubor/webkubor.github.io": 0,
-    "webkubor/lite-browser": 1,
-    "supercli-site/scorecard": 75,
-    "supercli-site/awesome-coding-plan": 66,
+    "supercli-site/scorecard": 107,
+    "supercli-site/awesome-coding-plan": 68,
     "supercli-site/supercli": 2,
     "supercli-site/xiaobai-kanban": 400,
     "museav-ai/muse-tv": 7,
