@@ -1,11 +1,18 @@
 {
   "totals": {
-    "publicRepos": 30,
+    "publicRepos": 29,
     "stars": 659,
-    "commits30d": 12,
-    "lastCommit": "2026-11-26"
+    "commits30d": 13,
+    "lastCommit": "2026-11-28"
   },
   "recent": [
+    {
+      "owner": "webkubor",
+      "name": "webkubor",
+      "stars": 2,
+      "pushedAt": "2026-11-28",
+      "description": "个人 GitHub 主页：展示 AI agent 工具、设计系统、无障碍工程与创意工具项目。 / GitHub profile showcasing AI agent tooling, testable design systems, accessibility engineering, and creative tools."
+    },
     {
       "owner": "webkubor",
       "name": "kyvault",
@@ -54,16 +61,10 @@
       "stars": 2,
       "pushedAt": "2026-11-27",
       "description": "CLI 工具目录与发现站：按用途搜索、厂商筛选和 GitHub Stars 快照排名，社区通过 PR 贡献。 / Community CLI directory with category search, vendor filters, and transparent GitHub star rankings."
-    },
-    {
-      "owner": "webkubor",
-      "name": "lite-browser",
-      "stars": 1,
-      "pushedAt": "2026-11-27",
-      "description": "AI Agent 浏览器自动化 CLI：Chrome CDP 操控、会话复用、多 Agent 隔离与人工接管。Browser automation CLI for AI agents with CDP, reusable sessions and human-in-the-loop handoffs."
     }
   ],
   "stars": {
+    "webkubor/webkubor": 2,
     "webkubor/kyvault": 4,
     "webkubor/skillhub": 0,
     "webkubor/free-imgbed": 1,
@@ -74,11 +75,9 @@
     "webkubor/wallpaper-generator": 1,
     "webkubor/dev-skills": 0,
     "webkubor/ai-sse-kit": 2,
-    "webkubor/webkubor": 2,
     "webkubor/writing-standard-skills": 75,
     "webkubor/ui-craft": 1,
     "webkubor/typora-Bloom-theme": 110,
-    "webkubor/core-api": 0,
     "webkubor/dsh-bloom-theme": 325,
     "webkubor/ai-orb": 2,
     "webkubor/vite-plugin-agent-eyes": 42,

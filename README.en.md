@@ -22,9 +22,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Projects-30-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
+  <img src="https://img.shields.io/badge/Projects-29-4a525d?style=flat-square&labelColor=2a2427" alt="项目数" height="20" />
   <img src="https://img.shields.io/badge/Stars-659-b4536b?style=flat-square&labelColor=2a2427" alt="总 star" height="20" />
-  <img src="https://img.shields.io/badge/30d%20commits-12-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
+  <img src="https://img.shields.io/badge/30d%20commits-13-4a525d?style=flat-square&labelColor=2a2427" alt="近 30 天提交" height="20" />
   <img src="https://img.shields.io/github/last-commit/webkubor/webkubor?style=flat-square&label=last%20commit&color=4a525d&labelColor=2a2427" alt="最近提交" height="20" />
 </p>
 <p align="center">
